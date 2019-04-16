@@ -1,0 +1,60 @@
+<br>
+<b class="titoletti"> introduzione e concetto </b>
+<br>
+<br> 
+
+<i>Invisible through #Bach</i> è un'opera immersiva composta tra il 2018 e il 2019, per lastre risonanti/riflettenti, violoncello, live electronics e live visual art, suddivisa in 5 movimenti:<br> <br>
+1. preludio - il respiro sospeso del sistema <br>
+2. allemanda - accesso remoto al sistema <br>
+3. corrente - tensioni interne al sistema <br>
+4. sarabanda in solo - dove si è <br>
+5. finale - ascesa anti-giga 
+
+<br>
+<br>
+
+In <i>invisible through #Bach</i> un sistema di lastre di alluminio, attuatori e servo motori elettrici si erge come il solo e unico medium (through) per l'accesso all'ascolto - e alla vista - di un violoncellista posizionato al di fuori della sala (invisible), i cui gesti sonori, modellati su alcuni movimenti della Suite n.1 per violoncello di J.S. Bach e integrati in un ricco microcosmo di sintesi elettronica e automazioni meccaniche, danno vita ad un ambiente immersivo totalizzante. 
+Il pubblico è seduto nel centro di questo sistema, uno strumento insieme sonoro e ottico che richiama involontariamente una nave stellare - così come la potrebbe immaginare un bambino. In esso i suoni, tanto estranei quanto familiari nella loro essenza, sembrano arrivare da ogni dove, quei “dove” genetici che hanno contribuito alla loro modellazione. Una modellazione che è un vero processo personale di scultura real-time del suono, che combina la sintesi digitale con la sintesi analogica, la spazializzazione fisica con quella virtuale, l’elaborazione digitale del segnale acustico con l’ascolto diretto della “voce” della macchina (motori e lastre). 
+
+
+
+1. preludio - il respiro sospeso del sistema
+2. alemanda - accesso remoto al sistema
+3. corrente - tensioni interne al sistema
+4. sarabanda in solo - dove si è
+5. finale - ascesa anti-giga
+
+un progetto di Alberto Barberis (musica, live electronics, design) 
+con la partecipazione di Giacomo Cardelli (violoncello)
+e Rajan Craveri (visual art)
+
+
+
+
+Radiografia di un sistema
+di Giovanni Cestino
+
+Nel cammino artistico di Alberto Barberis, invisible through #Bach vi si inserisce in modo perfettamente organico – quest’opera non fa eccezione, né tradisce deviazioni. Vi si riconoscono i tratti e i temi ricorrenti della sua poetica, tra cui l’esplorazione delle ‘periferie dell’ascolto’ – di ciò che è sia inudibile che in-audito – e l’attenzione cogente verso le possibilità tecnologiche del nostro tempo. Allo stesso tempo, però, è con questo lavoro che un ulteriore elemento si staglia nell’orizzonte della sua ricerca: l’urgenza di costruire un sistema, un organismo sonoro. Questo non è una semplice ‘premessa’ dell’opera, non ne crea solo i presupposti tecnici. Al contrario, è parte integrante e determinante di un oggetto estetico complesso, aperto per di più al dialogo con altre forme artistiche.
+Questo sistema si fonda innanzitutto sull’incontro tra alcune dicotomie, prima tra tutte quella tra il visibile e l’invisibile. La performance si svolge in due ambienti distinti: uno spazio in cui il pubblico, circondato da sedici lastre metalliche, vive un’esperienza audio-visiva fortemente immersiva; e un’altra sala in cui suona un violoncellista, nascosto agli ascoltatori. Lastre e violoncello, oltre a rappresentare tradizioni musicali tra loro distanti, incarnano un dualismo anche sul piano delle modalità esecutive – le une controllate dal computer, sollecitate da trasduttori e mosse da motori elettrici DIY; l’altro affidato ad un esecutore umano e suonato in modo consueto. Ciononostante, le lastre fungono (peraltro quasi iconicamente) da ‘diaframmi’ tra il suono umano, analogico del violoncello, e la forte componente digitale del live electronics. Vi si innesca un circuito di notevole complessità: il live electronics non solo modella in tempo reale il suono analogico delle lastre e del violoncello, ma ‘dà accesso al sistema’ a quest’ultimo, e diventa udibile e presente attraverso le lastre.
+Ne scaturisce una vera e propria «scultura del suono in tempo reale», in cui gli opposti trovano una loro convivenza dialettica. Si armonizzano così sintesi analogica e digitale, spazializzazione fisica e virtuale, suono elaborato e non. E il suono della ‘macchina’ – potremmo quasi dire il suo ‘respiro’: il suono dei motori che piegano e muovono le lastre, per nulla nascosto, anzi accolto come elemento coesivo.
+Questa coincidentia oppositorum si risolve da un lato, dal punto di vista del risultato sonoro, in modi sorprendenti. Da un lato crea vere e proprie situazioni distopiche: suoni analogici che diremmo suoni di sintesi, oppure veri e propri trompe-l'œil uditivi che dilatano la profondità dello spazio d’ascolto. Dall’altro questa opposizione costituisce una molla dialettica per la macro-forma dell’opera. Ed è qui che entra in gioco la musica di Johann Sebastian Bach, «compositore sistemico per eccellenza».
+Alcuni dei materiali armonici della parte del violoncello provengono infatti dall’analisi spettrale di un’incisione della Suite BWV 1007. (Ancora una volta ciò che è lontano e invisibile all’orecchio viene portato in superficie grazie agli strumenti tecnologici.) Non solo, ma preme alle soglie del ‘mondo della macchina’ per entrare a farne parte. Basta uno sguardo ai sottotitoli dei vari movimenti – non a caso, gli stessi di una Suite – per carpire quasi un programma simbolico.
+Sugli esiti di questo contrasto il giudizio del compositore è chiaro. Al violoncello «sembra essere affidato l’unico solitario ruolo di memoria dell’umanità nuda»; la trasfigurazione, la metamorfosi della musica di Bach attraversa «una storia sonora delle rivoluzioni industriali, simboleggiate dalle lamiere di fabbrica, dai motori e dai codici informatici». Non ne scaturisce, tuttavia, un esito apocalittico, ma anzi un finale aperto che mostra possibili forme di coesistenza tra questi due ‘mondi’. Accettata la «distanza temporale e culturale» del materiale ‘classico’, è proprio l’apparato tecnologico a garantire l’efficacia della sua decontestualizzazione. Alla musica di Bach, letteralmente «tele-trasportata», portata altrove e ri-situata, viene così assicurato un senso originale ed una nuova vitalità.
+Nei margini di questo «micromondo elettro-meccanico» si insinua – talvolta irrompe – la composizione luminosa di Rajan Craveri, che opera un’ulteriore mediazione tecnologica tra il suono e i gesti del violoncellista. Grazie ad una luce evolvente proiettata sulle lastre e nello spazio scenico, il suo intervento stabilisce un ulteriore livello percettivo cha dialoga con il resto del sistema. La percezione del movimento umano acquista un peso del tutto rinnovato: assume i tratti di un’«interferenza all'interno della vita della macchina», sebbene fatta di luci e resa effimera alla stregua del suono stesso.
+Un’opera come invisible through #Bach, nonostante la molteplicità dei suoi livelli di lettura, non offre risposte concettuali alla risoluzione delle sue antinomie. Non predica una retta via, non esibisce formule, né offre moniti. Al contrario, si offre al pubblico con il suo impatto emotivo e rivela, con esso, tutto il suo valore tecnico. Così facendo, offre in realtà una lezione ben più fondamentale: come la musica sia un versore (in matematica, un vettore che indica una specifica direzione). Come essa, per dirsi tale, debba essere in perenne ricerca di una direzione. Più ancora che di una méta, prima ancora di «aver definito una forma» o una «storia del percorso» essa deve essere in ricerca. E cercare e trovare, nel suono e coi suoni.
+
+«se hace camino al andar»
+(A. Machado)
+
+L’opera rientra nel progetto di ricerca portato avanti da Alberto Barberis e finanziato dalla fondazione Christoph Delz di Basilea con la Werkjahr 2017.
+
+Il risultato è un’esperienza audio-visiva vagamente distopica, a tratti rituale, in cui al patrimonio strumentale classico, decontestualizzato e letteralmente tele-trasportato, sembra essere affidato l’unico solitario ruolo di memoria dell’umanità nuda. Il resto è artificio, attraverso una storia sonora delle rivoluzioni industriali, simboleggiate dalle lamiere di fabbrica, dai motori e dai codici informatici che controllano l’intera performance alla ricerca di un’originale musicalità del presente.
+
+
+Bio
+
+Alberto Barberis è attivo come compositore, performer elettroacustico, sound artist, regista del suono e programmatore. Ottenuti il diploma e il biennio in chitarra classica (Conservatori di Torino e Brescia), studia composizione, laurandosi al Master of Arts in Composition and Theory (Conservatorio della Svizzera Italiana di Lugano), e ingegneria (Politecnico di Torino), stimolato dall’interesse per la musica elettronica e la computer music. Vincitore della Werkjahr 2017 (fondazione Christoph Delz), è attualmente assistente del Direttore Artistco di highSCORE Festival, è parte del collettivo ed etichetta Floating Forest, è membro dell’associazione OGGIMUSICA, ed è docente di musica elettronica presso il Conservatorio della Svizzera Italiana. Nelle sue creazioni combina gli strumenti acustici, l’elettronica, l’arte digitale e la programmazione con una personale tensione biologica.
+				
+Giacomo Cardelli si è diplomato in violoncello presso il Conservatorio di Rovigo e ha ottenuto il Diploma in Master of Arts in Music Performance presso il Conservatorio della Svizzera Italiana sotto la guida del M° Enrico Dindo. È vincitore di una delle Borse di studio d’Eccellenza della Confederazione Svizzera ESKAS. È vincitore del 1° premio assoluto in diversi Concorsi Nazionali e Internazionali - Concorso L. Agostini (2007), Premio Crescendo (2011), Concorso Città di Riccione (2012 e 2013), Premio Salieri (2012). Da anni svolge un’intensa attività concertistica come solista o in formazione cameristica in Italia e all’estero. Collabora stabilmente con orchestre italiane quali l’Orchestra Filarmonica di Torino, il Colibrì Enslembe di Pescara e l’Orchestra del Teatro Regio di Torino. 
+
+Rajan Craveri, docente e artista nell'ambito della visual art, specializzato nei sistemi interattivi per l'arte, lavora nel campo delle installazioni multimediali dal 2006, anno in cui fonda Micron (www.spaziomicron.it) insieme a Serena Zanconato. Con Micron ha prodotto e realizzato numerose performance e spettacoli di danza interattiva, ha collaborato con diversi artisti nazionali ed internazionali e con musei e gallerie di grande rilievo. 

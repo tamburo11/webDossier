@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>
+
+  <script>
+    $(document).ready(function() {
+
+      let myFirstImage= $(".firstImage");
+
+
+// carico il testo
+      $("#work6_text1").load("work6_text1.txt");
+       
+// se esiste la prima immagine riposiziono il testo giusto
+      if(myFirstImage){
+          if(myFirstImage.height()!=0){ // se l'immagine è già stata caricata precedentemente
+            myFirstImage.parent().next().css("padding-top", (myFirstImage.height()+20)+"px");
+          } else { // se è la prima volta che l'immagine viene caricata nella cache
+            myFirstImage.on( "load", function() {
+              myFirstImage.parent().next().css("padding-top", (myFirstImage.height()+20)+"px");
+            });
+          }
+      }
+
+    //   $('#iframe_id').load(function () {
+    //     console.log("dentro");
+    //     $(this).height($(this).contents().height());
+    //     $(this).width($(this).contents().width());
+        
+    // });
+
+    });
+
+</script>
+
+</head>
+
+<body>
+
+ 
+  <div class="jumbotron myjumbotron" id="jumbo">
+ 
+    <h1>bestiary for a microcosm </h1>
+ 
+             <p class="lead subtitle">
+ 
+              Alberto Barberis | live algorithmic music  <br>
+              Stefano Giorgi | aleatoric painting <br>
+              2018
+ 
+             </p>
+ 
+             <div class="myimageDiv">
+                 <img src="bestiary1.jpg"  class="firstImage nImage">
+             </div>
+ 
+             <p class="lead " id="work6_text1">
+              
+             </p>
+             
+               <div class="iframe-container">;
+              <iframe id="iframe_id" class ="firstVideo nVideo" src="https://player.vimeo.com/video/312074323" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+              </iframe>
+              </div>
+          
+           </div>
+
+</body>
+
+

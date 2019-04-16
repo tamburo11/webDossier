@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<head>
+
+  <script>
+    $(document).ready(function() {
+
+      let myFirstImage= $(".firstImage");
+      let mySecondImage= $(".secondImage");
+      let myThirdImage= $(".thirdImage");
+      let myFourthImage= $(".fourthImage");
+
+// carico il testo
+      $("#work1_text1").load("work1_text1.txt");
+      $("#work1_text2").load("work1_text2.txt");
+      $("#work1_text3").load("work1_text3.txt");
+      $("#work1_text4").load("work1_text4.txt");
+    
+// se esiste la prima immagine riposiziono il testo giusto
+      if(myFirstImage){
+          if(myFirstImage.height()!=0){ // se l'immagine è già stata caricata precedentemente
+            myFirstImage.parent().next().css("padding-top", (myFirstImage.height()+20)+"px");
+          } else { // se è la prima volta che l'immagine viene caricata nella cache
+            myFirstImage.on( "load", function() {
+              myFirstImage.parent().next().css("padding-top", (myFirstImage.height()+20)+"px");
+            });
+          }
+      }
+
+      if(mySecondImage){
+          if(mySecondImage.height()!=0){ // se l'immagine è già stata caricata precedentemente
+          mySecondImage.parent().next().css("padding-top", (mySecondImage.height()+20)+"px");
+          } else { // se è la prima volta che l'immagine viene caricata nella cache
+          mySecondImage.on( "load", function() {
+            mySecondImage.parent().next().css("padding-top", (mySecondImage.height()+20)+"px");
+            });
+          }
+      }
+
+      if(myThirdImage){
+          if(myThirdImage.height()!=0){ // se l'immagine è già stata caricata precedentemente
+          myThirdImage.parent().next().css("padding-top", (myThirdImage.height()+20)+"px");
+          } else { // se è la prima volta che l'immagine viene caricata nella cache
+          myThirdImage.on( "load", function() {
+            myThirdImage.parent().next().css("padding-top", (myThirdImage.height()+20)+"px");
+            });
+          }
+      }
+      if(myFourthImage){
+          if(myFourthImage.height()!=0){ // se l'immagine è già stata caricata precedentemente
+          myFourthImage.parent().next().css("padding-top", (myFourthImage.height()+20)+"px");
+          } else { // se è la prima volta che l'immagine viene caricata nella cache
+          myFourthImage.on( "load", function() {
+            myFourthImage.parent().next().css("padding-top", (myFourthImage.height()+20)+"px");
+            });
+          }
+      }
+
+    });
+
+</script>
+
+</head>
+
+
+<body>
+
+ 
+  <div class="jumbotron myjumbotron" id="jumbo">
+ 
+    <h1>l'orizzonte materico di un canto</h1>
+ 
+             <p class="lead subtitle">
+ 
+
+              alberto barberis / acusmatica <br>
+
+              paul klooren / video art<br>
+              2017 
+             </p>
+
+             <div class="myimageDiv">
+                <img src="lorizzonte1.png"  class="firstImage nImage">
+            </div>
+<!-- div vuoto per far funzionare il giochino del padding dinamico -->
+            <div></div> 
+
+             <p class="lead myline">
+              <b class="titoletti"> introduzione e concetto </b>
+            </p>
+ 
+             
+ 
+             <p class="lead " id="work1_text1">
+              
+             </p>
+
+             <p class="lead myline">
+              <b class="titoletti"> l'opera </b>
+            </p>
+
+             <div class="iframe-container">;
+              <iframe id="iframe_id" class ="firstVideo nVideo" src="https://www.youtube.com/embed/oxJ-Fp1JlG4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+              </iframe>
+              <br>
+            </div>
+
+            <p class="lead myline">
+               
+                <b class="titoletti"> dettagli tecnico-compositivi </b>
+                
+              </p>
+
+            <p class="lead " id="work1_text2">
+              
+            </p>
+
+            <div class="myimageDiv">
+                <img src="lorizzonte2.jpg"  class="secondImage nImage">
+            </div>
+            <div></div>
+            <div class="myimageDiv">
+                <img src="lorizzonte3.jpg"  class="thirdImage nImage">
+            </div>
+
+            <p class="lead " id="work1_text3">
+              
+              </p>
+
+              <div class="myimageDiv">
+                  <img src="lorizzonte4.jpg"  class="fourthImage nImage">
+              </div>
+
+
+              <p class="lead " id="work1_text4">
+              
+                </p>
+
+            <p class="lead subtitle myline">
+ 
+
+              esecuzioni <br><br>
+              - 16 dicembre 2017, L'orizzonte materico di un canto, per Elettronica 2017, Kantiere, Verbania (IT)<br>
+              - 28 ottobre 2017, L'orizzonte materico di un canto, per il festival internazionale AFEKT, Tallin (ET)<br> 
+              - 27 ottobre 2017, L'orizzonte materico di un canto, per il festival internazionale AFEKT, Tartu (ET)<br> 
+              - 13 maggio 2017, L'orizzonte materico di un canto, per Io Suono qui, presso i Giardini di Plastica, Genova (IT)<br>
+              - 23 settembre 2016, L'orizzonte materico di un canto, per EAR, LAC, Lugano (CH)<br>
+             </p>
+
+           </div>
+
+         </body>
+
+
+
+<body>
+
