@@ -1,28 +1,42 @@
-
+<br>
 Nelle pagine che compongono questo sito web vengono presentati alcuni dei lavori compositivi e creativi che hanno caratterizzato la mia personale attività musicale e ricerca artistica, nel periodo che va dalla fine del 2016 al 2019 inoltrato. 
 
-Durante questi anni ho avuto modo di approfondire alcune delle inclinazioni estetiche e delle tematiche compositive che avevano già caratterizzato la mia ricerca artistica durante il Master of Arts in Composition and Theory, conseguito con il massimo dei voti nell'estate del 2016, presso il Conservatorio della Svizzera Italiana di Lugano. 
+Durante questi anni ho avuto modo di approfondire alcune delle inclinazioni estetiche e delle tematiche compositive che avevano già caratterizzato la mia ricerca artistica durante il Master of Arts in Composition and Theory, conseguito con il massimo dei voti nell'estate del 2016, presso il <a href="https://www.conservatorio.ch/it/scuola-universitaria" target="_blank">Conservatorio della Svizzera Italiana</a> di Lugano, sotto la guida di Nadir Vassena, Giovanni Verrando e Sylviane Sapir.  
 <br>
 
 <br>
 
-I lavori qui presentati sono alcune tappe del mio percorso, costantemente in evoluzione tanto a livello estetico-espressivo, quanto a livello tecnico-scientifico. I miei studi ed approfondimenti si sono infatti sviluppati contemporaneamente su due piani interconnessi: un piano strettamente artistico-musicale e compositivo-performativo, stimolato dall'iscrizione al MAS (Master of Advanced Studies) presso il Conservatorio della Svizzera Italiana e animato da un'intensa attività artistica; e un piano più squisitamente teorico-scientifico e tecnico-ingegneristico, grazie anche al proseguimento dei miei studi in ingegneria presso il Politecnico di Torino.
+I lavori qui presentati sono alcune tappe del mio percorso, costantemente in evoluzione, tanto a livello estetico-espressivo, quanto a livello tecnico-scientifico. In questi anni, i miei studi ed approfondimenti si sono infatti sviluppati contemporaneamente su due piani interconnessi: un piano strettamente artistico-musicale e compositivo-performativo, stimolato dall'iscrizione al MAS (Master of Advanced Studies) presso il Conservatorio della Svizzera Italiana e animato da un'intensa attività artistica; e un piano più squisitamente teorico-scientifico e tecnico-ingegneristico, grazie anche al proseguimento dei miei studi in ingegneria presso il <a href="https://www.polito.it/" target="_blank">Politecnico di Torino</a>.
 
-<br>
 
-<br>
-
-Il titolo che raccoglie programmaticamente i lavori del presente dossier, <b><< <i> per una tensione biologica del codice e della macchina </i> >></b>, vuole essere una suggestione al mio più profondo interesse estetico, cioè la ricerca costante di modalità compositivo-sonico-espressive capaci di integrare in un sistema musicale, il più onnicomprensivo possibile, la modularità algoritmica offerta dalla programmazione informatica e dalla digitalizzazione, con la specificità timbrica della costruzione di 'macchine sonore' acustico-elettroniche auto-costruite, a volte automi, altre strumenti per l'azione sonora dell'Uomo, altre ancora tanto gli uni quanto gli altri, contemporaneamente.
-
-Il tutto sostenuto da una costante 'tensione biologica', intesa come pulsione verso la creazione di 'organismi-tecnologici' diversamente-viventi, 'entità soniche' pseudo-naturali, in cui le dialettiche Uomo-Macchina e Uomo-Codice dell'era della quarta rivoluzione industriale non acquistino i contorni della dicotomia, ma piuttosto quelli della fusione sinergica. Una sinergia, utopica o dispotica che sia, che si concretizzi essenzialmente sul piano sonoro grazie a processi e tentativi diversi di 'naturalizzazione' dei codici e 'umanizzazione' delle macchine. 
 
 <br>
 
 <br>
 
-Questo processo non è una dichiarazione di sottomissione al fascino del potere del calcolo e della tensione elettrica, così come non è un tentativo artistico di stampo tecno-utopista di giustificare la onnipresenza del digitale.
+Il titolo che raccoglie programmaticamente i lavori del presente dossier, <i> // per una tensione biologica del codice e della macchina</i>, vuole essere una suggestione al mio più profondo interesse estetico: la ricerca costante di modalità compositivo-sonico-espressive capaci di integrare in un sistema musicale, il più onnicomprensivo possibile, la modularità algoritmica offerta dalla programmazione informatica e dalla digitalizzazione (applicate alla sintesi e all'elaborazione del suono, così come al controllo dei processi creativo-performativi), con la specificità timbrica della costruzione di 'macchine sonore' acustico-elettroniche auto-costruite (a volte automi, altre strumenti per l'azione sonora dell'Uomo, altre ancora entrambi).
 
- E in esso il mio interesse non è quello di dimostrare quali modalità sonico-espressive inesplorate le nuove tecnologie possano offrire, o quali risultati musicali inauditi i codici e le macchine possano raggiungere. Questo percorso è invece la mia personale modalità d'accesso ai 'residui' e alle 'periferie' del suono, quei luoghi in cui raccolgo facilmente i brandelli di una narrativa musicale che racconta, distillata, la complessità delle aporìe del mondo contemporaneo.   
+Il tutto sostenuto da una costante 'tensione biologica', intesa come pulsione verso la creazione di 'organismi-tecnologici' diversamente-viventi, 'entità soniche' pseudo-naturali, in cui le dialettiche Uomo-Macchina e Uomo-Codice dell'era della quarta rivoluzione industriale non acquistino i contorni della dicotomia, ma piuttosto quelli di una fusione sinergica. Una sinergia, talvolta luminosa ed utopica, talaltra cupa e dispotica, che si concretizzi essenzialmente sul piano sonoro grazie a processi e tentativi diversi di 'naturalizzazione' dei codici e 'umanizzazione' delle macchine. 
+
+<br>
+
+<br>
+
+Questo processo non è una dichiarazione di sottomissione al fascino del potere della tensione elettrica e del calcolo numerico, così come non è un tentativo artistico di stampo tecno-utopista di giustificare, sostenendola, la onnipresenza del digitale e la digitalizzazione della cultura, compresa la musica. E in esso il mio interesse non è quello di dimostrare quali modalità sonico-espressive inesplorate le nuove tecnologie possano offrire, o quali risultati musicali inauditi i codici e le macchine possano raggiungere, o ancora quale fascino ieratico-spirituale l'informatizzazione di massa possa suscitare sulle generazioni del post-postmodernismo, compresa la mia.   
+<br>
+
+<br>
+   
+<small><i>«The antihuman approach to computation is one of the most baseless ideas in human history. A computer isn't even there unless a person experiences it. There will be a warm mass of patterned silicon with electricity coursing through it, but the bits don't mean anything without a cultured person to interpret them. [...] You can believe that your mind makes up the world, but a bullet will still kill you. A virtual bullet, however, doesn't even exist unless there is a person to recognize it as a representation of a bullet. Guns are real in a way that computers are not.»</i> (You are not a gadget, Jeron Lanier, 2010)</small>
+
+<br>
+
+<br>
+Il percorso, che ho definito di 'naturalizzazione' dei codici e 'umanizzazione' delle macchine e che accomuna i lavori qui presentati, è dunque la mia personale modalità d'accesso al suono, o meglio ai 'residui' e alle 'periferie' del suono, cioè quei luoghi in cui mi sembra di riuscire a raccogliere più facilmente i brandelli di una narrativa musicale che racconti, distillata, la complessità delle aporìe umane del mondo contemporaneo. Il mondo dell'eccesso dei segnali e delle connessioni, delle vicinanze virtuali, dei possibilismi e delle auto-celebrazioni, dei totalitarismi digitali e dell'indifferenza di massa, delle nuove divisioni e dei nuovi dimenticati. Un mondo di rumori di fondo inascoltati dei fondi nostalgici delle nostre coscienze. Un percorso che con le macchine e i codici applicati alla musica vuole raccontare la Natura e l'Uomo. 
+
+<br><br>
+<small><i>«Le tecnologie non sono semplici aiuti esterni, ma comportano trasformazioni delle strutture mentali [...]. Le tecnologie sono artificiali, ma [...] l'artificialità è naturale per gli esseri umani. La tecnologia, se propriamente interiorizzata, non degrada la vita umana, ma al contrario la migliora.»</i>(Oralità e scrittura, la tecnologizzazione del mondo, Walter J. Ong, 1982) </small> 
+   
 
 
 
