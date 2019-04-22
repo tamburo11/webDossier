@@ -23,7 +23,8 @@ function myFunction() {
 let myFirstImage;
 let mySecondImage;
 let myThirdImage;
-let myForthImage;
+let myFourthImage;
+let myFifthImage;
 
 // inserisco i dati della introduzione
 $(document).ready(function() {
@@ -31,13 +32,17 @@ $(document).ready(function() {
     $("#introduction").load("introduction.txt");    
 });
 
+
+
 // aggiusto il padding-topo del jambotron a ogni resizing
 // aggiusto la posizione del primo elemento dopo l'immagine a ogni resizing della finestra
 $(window).resize(function(){
+
     myFirstImage= $(".firstImage");
     mySecondImage= $(".secondImage");
     myThirdImage= $(".thirdImage");
-    myForthImage= $(".fourthImage");
+    myFourthImage= $(".fourthImage");
+    myFifthImage= $(".fifthImage");
 
     if(myFirstImage){
         myFirstImage.parent().next().css("padding-top", (myFirstImage.height()+20)+"px");
@@ -48,8 +53,11 @@ $(window).resize(function(){
     if(myThirdImage){
         myThirdImage.parent().next().css("padding-top", (myThirdImage.height()+20)+"px");
     }
-    if(myForthImage){
-        myForthImage.parent().next().css("padding-top", (myForthImage.height()+20)+"px");
+    if(myFourthImage){
+        myFourthImage.parent().next().css("padding-top", (myFourthImage.height()+20)+"px");
+    }
+    if(myFifthImage){
+        myFifthImage.parent().next().css("padding-top", (myFifthImage.height()+20)+"px");
     }
 });
 

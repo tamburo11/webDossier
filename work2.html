@@ -7,6 +7,7 @@
           let myFirstImage= $(".firstImage");
           let mysecondImage= $(".secondImage");
           let mythirdImage= $(".thirdImage");
+          let myFourthImage= $(".fourthImage");
 // carico il testo
           $("#work2_text1").load("work2_text1.txt");
           $("#work2_text2").load("work2_text2.txt");
@@ -39,6 +40,16 @@
               } else { // se è la prima volta che l'immagine viene caricata nella cache
               mythirdImage.on( "load", function() {
                 mythirdImage.parent().next().css("padding-top", (mythirdImage.height()+20)+"px");
+                });
+              }
+          }
+
+          if(myFourthImage){
+              if(myFourthImage.height()!=0){ // se l'immagine è già stata caricata precedentemente
+              myFourthImage.parent().next().css("padding-top", (myFourthImage.height()+20)+"px");
+              } else { // se è la prima volta che l'immagine viene caricata nella cache
+              myFourthImage.on( "load", function() {
+                myFourthImage.parent().next().css("padding-top", (myFourthImage.height()+20)+"px");
                 });
               }
           }
@@ -89,6 +100,10 @@
             <p class="lead " id="work2_text3">
              
             </p>
+
+            <div class="myimageDiv">
+              <img src="naturallyArtificial4.png" class="fourthImage nImage">
+            </div>
            
           </div>
 

@@ -1,21 +1,12 @@
-<br>
-<b class="titoletti"> introduzione e concetto </b>
-<br>
-<br> 
 
-BESTIARY FOR A MICROCOSM 
-per Art Site Fest
-06.10.2018
+<i>Bestiary for a microcosm</i> è un ambiente esecutivo per l'improvvisazione elettroacustica spazializzata e il live painting, ideato e sviluppato insieme a <a href="https://www.stefanogiorgi.net/" target="_blank">Stefano Giorgi </a> (artista visivo, architetto e pittore) per <a href="http://www.artsitefest.it/" target="_blank">Art Site Fest</a>, nel 2018. Dal programma di sala della premiére presso la <a href="http://www.ordinemauriziano.it/palazzina-di-caccia-stupinigi
+" target="_blank">Palazzina di Caccia di Stupinigi </a>  (TO) il 6 ottobre del 2018: <br> <br>
 
-Stefano Giorgi - aleatoric painting
-Alberto Barberis - live electronic music
 
-Bestiary for a microcosm è una interazione estemporanea tra soggetti materici tangibili e algoritmi generativi. Investiga il concetto fisico di campo di forze attraverso il confronto tra mondo digitale e mondo analogico, tra passato e presente. Mentre Giorgi, grazie al suo speciale sistema di proiezione, sfrutta la tensione superficiale dell’acqua per creare figure liquide in dialogo con i dipinti settecenteschi, Barberis intreccia ruvide armonie usando uno specifico sistema algoritmico particellare 3D da lui sviluppato per la composizione musicale, la sintesi e la spazializzazione multicanale. I suoni dell’azione stessa del pittore, campionati e processati, conducono in  uno spazio  immersivo  che evoca microcosmi immaginari, luoghi ancora inesistenti ed entità nascoste, nel tentativo di “amplificare” la  polvere, il vuoto.
 
-Stefano Giorgi, pittore e performer, si laurea in architettura, studiando anche disegno e pittura con diversi Maestri. Nel proprio atelier elabora la sua personale definizione di "pittura aleatoria” e nel 2005 realizza uno speciale sistema di proiezione che unisce colori liquidi e videoproiezioni. Con esso si esibisce in personali live painting, muovendosi in vari contesti del contemporaneo, dalla danza all'arte visiva, dalla musica  al teatro. Ha collaborato con Subsonica, Nicola Campogrande, e numerosi altri artisti. Dipinge, in periodi di isolamento e meditazione in montagna, opere in cui fonde tecniche orientali ed occidentali, casualità e controllo.
 
-Alberto Barberis è attivo in Europa come compositore, performer elettroacustico, sound artist, regista e programmatore del suono. Dopo il diploma e il biennio in chitarra classica, studia composizione, ottenendo il Master of Arts in Composition and Theory, e ingegneria, stimolato dall’interesse per la computer music. Attualmente è assistente del Direttore Artistco di highSCORE Festival, è membro dell’etichetta Floating Forest ed è docente di Musica Elettronica presso il Conservatorio della Svizzera Italiana di Lugano (CH). Nelle sue creazioni combina l’arte digitale con una personale tensione biologica, costruendo sistemi particellari per la creazione.
+<i>«Una interazione estemporanea tra soggetti materici tangibili e algoritmi generativi, </i>Bestiary for a microcosm<i> investiga il concetto fisico di campo di forze attraverso il confronto tra mondo digitale e mondo analogico, tra passato e presente. Mentre Giorgi, grazie al suo <a href="https://www.stefanogiorgi.net/copia-di-trailer-aleatoric-ita" target="_blank">speciale sistema di proiezione</a>, sfrutta la tensione superficiale dell’acqua per creare figure liquide in dialogo con i dipinti settecenteschi della magnifica Palazzina di Caccia di Stupinigi (TO), Barberis intreccia ruvide armonie usando uno specifico sistema algoritmico particellare 3D da lui sviluppato per la composizione musicale, la sintesi, l'elaborazione del suono, e la spazializzazione multicanale. I suoni e i rumori dell’azione stessa del pittore, campionati e processati, conducono in  uno spazio  immersivo  che evoca microcosmi immaginari, luoghi ancora inesistenti ed entità nascoste, nel tentativo di 'amplificare' la  polvere, il vuoto.»</i>
 
-www.stefanogiorgi.net
-www.albertobarberis.it
+
+
  
