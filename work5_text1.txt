@@ -1,0 +1,40 @@
+
+<br>
+In questa sezione presento due studi di composizione algoritmico-procedurale sul web. Essi devono essere intesi come momenti preparatori per opere future che sfruttino il browser direttamente per il processamento e la sintesi audio. Queste due operazioni sono possibili da meno di una decina di anni, cioè da quanto nel 2010 è stata introdotta per la prima volta la <a href="https://www.w3.org/TR/webaudio/" target="_blank"> Web Audio API</a>, cioè la <i>Application User Interface</i> rilasciata dal <i>World Wide Web Consortium</i> (W3C) dedicata all'audio sul web. Si potrebbe affermare che tutta la tecnologia del web audio sia infatti ancora agli albori.
+<br><br>
+<small><a>«Web-based music software is not free from its fair share of skepticism. The web platform is still fighting an uphill battle to compete with native alternatives and in a large way we are pouring considerable effort into solving problems that are already solved: lower latency, less glitches, multithreaded rendering, and so on. We should be willing to accept the fact that the web platform was not designed for the computer music but be optimistic in our belief that we can change the landscape through gradual progress.»</a><br>
+[AudioWorklet: The future of web audio, Hongchan Choi]</small>
+<br><br>
+Le ragioni principali che mi hanno avvicinato al mondo del web audio, nonostante le sue limitazioni, si possono riassumere nelle seguenti: <br><br>
+<ol>
+<li>
+la possibilità di creare composizioni elettroniche (non live) di tipo 'not fixed media music', cioè opere 'senza supporto fisso';
+</li><br>
+<li>
+la prospettiva della composizione generativa legata al caricamento della pagina web, che lascia quindi al fruitore la possibilità di rigenerare infinite variazione dello stesso brano;
+</li><br>
+<li>
+il potenziale della facile diffusione globale, e della possibilità di accedere alla composizione da tutti i device connessi a una rete;
+</li><br>
+<li>
+l'opportunità dell'interazione con l'ascoltatore-utente e/o dell'interazione multipla.
+</li><br>
+</ol>
+
+   
+
+Tra queste ragioni trovo che la più originale, specificatamente al contesto musicale, sia la prima: l'idea della 'not fixed media music', riferita alla musica elettronica non generata live. Quest'idea è ancora forse solo una suggestione privata, non priva di visionarietà, ma in essa è possibile riscontrare, embrionale ma pulsante, quella mia personale tendenza alla 'naturalizzazione' del codice di cui si parlava nell'introduzione del presente dossier - anch'esso, non a caso, un 'not fixed media'.  
+<br><br>
+<small><a>«Nature is not fixed but fluid; [...] to a pure spirit, nature is everything.»</a><br>
+[Nature, Ralph Waldo Emerson]</small>
+<br><br>
+I due studi qui presentati sono due applicazioni generative web dall'output sia grafico che sonoro, prive di una vera interazione con l'utente (che si limita a caricare la pagina e azionare o spegnere il rendering audio). Il loro cuore, la loro partitura operativa, è un codice javascript interpretato dal browser stesso sul device che lo ospita. L'interazione tra elementi audio ed elementi grafici non è secondaria, tantomeno fortuita. Essi sono infatti due trame dello stesso tessuto costitutivo dell'architettura del codice, dunque della composizione, che ne è la manifestazione sensibile, sempre diversa, sempre affine.
+<br><br>
+In entrambi gli studi vengono usati, anche se in modi diversi, il concetto di randomness, quello di direzionalità, quello di ciclicità e una costante riflessione sul fluire del tempo. La Web Audio API non è stata usata nella sua forma nativa, ma sono state sfruttate le funzioni di una specifica libreria: la <a href="https://p5js.org/reference/#/libraries/p5.sound" target="_blank">p5.sound library<a>, che a sua volta è un'estensione della libreria <a href="https://p5js.org/" target="_blank">p5.js<a> di javascript.
+<br><br>
+<small><a>«p5.js is a javascript library that starts with the original goal of Processing, to make coding accessible for artists, designers, educators, and reinterprets this for today's web.»</a><br>
+[https://p5js.org/]</small>
+    
+
+  
+ 

@@ -1,0 +1,5 @@
+
+<br>
+
+
+<b>Synth2</b>: questo sintetizzatore è a base sottrattiva. Le sorgenti sono un oscillatore a dente di sega e un generatore di rumore bianco. L'uscita dell'oscillatore viene modulata in ampiezza da un ADSR, per poi entrare in un delay e contemporaneamente in un filtro risonante passa basso, al quale arriva anche il segnale in uscita dal generatore di rumore. I parametri dell'ADSR, del delay e del filtro sono definibili direttamente in partitura. L'algoritmo è visibile nell'immagine che segue.  

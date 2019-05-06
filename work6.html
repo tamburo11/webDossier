@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<head>
+<!-- script per il "pretty-print" del codice javascript 
+  fonte : https://github.com/google/code-prettify
+-->
+  <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+  <script>
+
+    $(document).ready(function() {
+
+      let myFirstImage= $(".firstImage");
+      let mySecondImage= $(".secondImage"); // è il video
+      let myThirdImage= $(".thirdImage");
+      let myFourthImage= $(".fourthImage");
+      let myFifthImage= $(".fifthImage");
+      
+
+// carico il testo
+      $("#work6_text1").load("work6_text1.txt");
+      $("#work6_text2").load("work6_text2.txt");
+      $("#work6_text3").load("work6_text3.txt");
+      $("#work6_text4").load("work6_text4.txt");
+      $("#work6_text5").load("work6_text5.txt");
+      $("#work6_text6").load("work6_text6.txt");
+      $("#work6_text7").load("work6_text7.txt");
+      $("#work6_text8").load("work6_text8.txt");
+       
+// se esiste la prima immagine riposiziono il testo giusto
+      if(myFirstImage){
+          if(myFirstImage.height()!=0){ // se l'immagine è già stata caricata precedentemente
+            myFirstImage.parent().next().css("padding-top", (myFirstImage.height()+20)+"px");
+          } else { // se è la prima volta che l'immagine viene caricata nella cache
+            myFirstImage.on( "load", function() {
+              myFirstImage.parent().next().css("padding-top", (myFirstImage.height()+20)+"px");
+            });
+          }
+      }
+      if(mySecondImage){ // variante quando ho un video al posto di una immagine
+          if(mySecondImage.height()!=0){ // se l'immagine è già stata caricata precedentemente
+          mySecondImage.parent().next().css("padding-top", (mySecondImage.height()+70)+"px");
+          } else { // se è la prima volta che l'immagine viene caricata nella cache
+          mySecondImage.on( "load", function() {
+            mySecondImage.parent().next().css("padding-top", (mySecondImage.height()+70)+"px");
+            });
+          }
+      }
+      if(myThirdImage){
+          if(myThirdImage.height()!=0){ // se l'immagine è già stata caricata precedentemente
+          myThirdImage.parent().next().css("padding-top", (myThirdImage.height()+20)+"px");
+          } else { // se è la prima volta che l'immagine viene caricata nella cache
+          myThirdImage.on( "load", function() {
+            myThirdImage.parent().next().css("padding-top", (myThirdImage.height()+20)+"px");
+            });
+          }
+      }
+      if(myFourthImage){
+          if(myFourthImage.height()!=0){ // se l'immagine è già stata caricata precedentemente
+          myFourthImage.parent().next().css("padding-top", (myFourthImage.height()+20)+"px");
+          } else { // se è la prima volta che l'immagine viene caricata nella cache
+          myFourthImage.on( "load", function() {
+            myFourthImage.parent().next().css("padding-top", (myFourthImage.height()+20)+"px");
+            });
+          }
+      }
+      if(myFifthImage){
+          if(myFifthImage.height()!=0){ // se l'immagine è già stata caricata precedentemente
+          myFifthImage.parent().next().css("padding-top", (myFifthImage.height()+20)+"px");
+          } else { // se è la prima volta che l'immagine viene caricata nella cache
+          myFifthImage.on( "load", function() {
+            myFifthImage.parent().next().css("padding-top", (myFifthImage.height()+20)+"px");
+            });
+          }
+      }
+
+    });
+
+
+   
+
+</script>
+
+</head>
+
+<body>
+
+ 
+  <div class="jumbotron myjumbotron" id="jumbo">
+ 
+    <h1>bestiary for a microcosm </h1>
+ 
+             <p class="lead subtitle">
+ 
+              Alberto Barberis / live algorithmic music  <br>
+              Stefano Giorgi / aleatoric painting <br>
+              2018
+ 
+             </p>
+ 
+             <div class="myimageDiv">
+                 <img src="bestiary1.jpg"  class="firstImage nImage">
+             </div>
+
+             <p class="lead myline">
+              <b class="titoletti"> introduzione e concetto </b>
+            </p>
+ 
+ 
+             <p class="lead " id="work6_text1">
+              
+             </p>
+
+             <p class="lead myline">
+              <b class="titoletti"> teaser dell'opera </b>
+            </p>
+             
+               <div class="iframe-container">
+              <iframe id="iframe_id" class ="firstVideo nVideo" src="https://player.vimeo.com/video/312074323" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+              </iframe>
+              </div>
+
+              <p class="lead myline">
+                  <b class="titoletti"> una possibile esecuzione dell'opera </b>
+                </p>
+                 
+                   <div class="iframe-container">
+                  <iframe id="iframe_id" class ="firstVideo nVideo" src="https://www.youtube.com/embed/S06k_-I5ZtA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+                  </iframe>
+                  </div>
+
+              <p class="lead myline">
+                <b class="titoletti"> dettagli tecnico-compositivi </b>
+              </p>
+
+              <p class="lead " id="work6_text2">
+              
+              </p>
+
+              <div></div>
+
+              <!-- <div class="iframe-container"> -->
+                  <div class="myimageDiv">
+                    <video class ="secondImage nImage" autoplay loop>
+                      <source src="bestiaryvideo.mp4" type="video/mp4">
+                    </video>
+                </div>
+              <!-- </div> -->
+
+              <p class="lead " id="work6_text3">
+              
+              </p>
+              
+               <!-- esempio di codice js -->
+                <pre class="prettyprint lang-js">
+  /**
+  ========================================================================
+  CLASSE Dot
+  ========================================================================
+  La classe Dot rappresenta una entità sonora
+  Ad essa sono associati: 
+      - una sfera bianca (nucleo); 
+      - una circonferenza rossa e una	sfera rossa (sequencer);
+      - un array di Grain (oggretti di tipo Grain);
+  */ 
+                    
+  function Dot(i){  
+    this.pos = new Vector(random(-1, 1),random(-1, 1),random(-1, 1)); // vettore posizione
+    this.vel = new Vector(0,0,0); // vettore velocità
+    this.acc = new Vector(0,0,0); // vettore accelerazione
+    
+    this.mass = 1; // massa unitaria associata all'entità
+    
+    this.bufferIndex = findIndexForBuffer(); // setto l'indice del buffer
+      
+    this.speedSequencer = 3; // velocità del sequencer, sfera rossa che ruota attorno al nucleo
+    this.angSequencer = 0; // angolo in gradi della sfera rossa (sequencer)
+    this.successiveRad = [-1,-1]; // vettore per il check del passaggio dallo zero del sequencer
+
+    this.grains = []; // array di oggetti di tipo Grain
+
+    this.minSizeGrains=10; // numero minimo di grani
+    this.maxSizeGrains=100; // numero massimo di grani
+    this.minDurationGrains=10; // minima durata dei grani
+    this.maxDurationGrains=100; // massima durata dei grani
+      
+    this.pitchAssociated = 0; // altezza associata all'entità sonora
+    this.distanceFromCenter=0; // distanza dal centro
+  }
+
+  // metodo della classe Dot per disegnare l'entità sonora
+  Dot.prototype.show = function(){
+
+    var rad = this.angSequencer * Math.PI / 180; // da gradi a radianti
+    this.distanceFromCenter = this.pos.distance(centerVect); // calcolo la distanza dal centro
+    var actualAlpha=map(this.distanceFromCenter,0.0, 1.4, 1.0, 0.4); // calcolo l'alpha in base alla distanza dal centro
+    
+    // sfera bianca del nucleo
+    mySketch1.moveto(this.pos.x, this.pos.y, this.pos.z); // sposto la particella nella posizione corrispondente all'istante i-esimo
+    mySketch1.glcolor(1,1,1,actualAlpha); // colore della sfera del nucleo
+    mySketch1.sphere(0.03); // disegno la sfera
+
+    // sfera rossa del sequencer
+    mySketch3.glcolor(1,0,0,actualAlpha);
+    mySketch3.moveto(this.pos.x, this.pos.y, this.pos.z);
+    mySketch3.framecircle(0.1); // disegno la circonferenza del sequencer
+    mySketch3.moveto(this.pos.x+0.1*Math.cos(rad), this.pos.y+0.1*Math.sin(rad), this.pos.z); // sposto la particella rossa nella posizione al punto i-esimo
+    mySketch3.sphere(0.02);
+
+    // sfera verde che contiene i grani
+    mySketch4.moveto(this.pos.x, this.pos.y, this.pos.z);
+    mySketch4.glcolor(0,1,0,actualAlpha/10); // scalamento dell'alpha di un fattore 10
+    mySketch4.sphere(0.2);
+
+    // sferette verdi dei grani
+    if(this.grains.length!=0){
+      for(var g=0; g< this.grains.length; g++){
+        this.grains[g].updatePosition(); // modifico la posizione dei grani
+        mySketch4.moveto(this.grains[g].pos.x, this.grains[g].pos.y, this.grains[g].pos.z);
+        mySketch4.glcolor(0,1,0,actualAlpha);
+        mySketch4.sphere(0.005);
+      }
+    }
+  };
+
+  // metodo della classe Dot per generare i grani
+  Dot.prototype.nGrains = function(j,i){ 
+    // j = indice nell'array grains
+    // i = indice del Dot associato
+      var newGrain= new Grain(j,i); // creo l'ogggetto di tipo Grain
+      newGrain.setAngoli(); // genero randomicamente l'angolo fi e langolo teta per definire la posizione sulla sfera
+      newGrain.setSizeDuration(randomIntFromInterval(this.minSizeGrains,this.maxSizeGrains),
+                    randomIntFromInterval(this.minDurationGrains,this.maxDurationGrains)); // definisco randomicamente la durata del grano
+      this.grains[j]=newGrain; // inserisco l'oggetto creato nell'array
+      newGrain.playGrain(); // richiamo il metodo playGrain() della classe Grain
+  };
+
+  // metodo della classe Dot per definire la velocità del sequencer associato al Dot
+  Dot.prototype.speedSequencer = function(s){
+    this.speedSequencer = s;
+  };
+
+  // metodo della classe Dot per aggiornare la velocità e la posizione di ogni singolo Dot
+  Dot.prototype.update = function(){
+      this.vel.add(this.acc);
+      this.vel.mult(generalSpeed);
+      this.pos.add(this.vel);
+    
+    // controllo sui bordi; se una particella esce da un cubo ideale di lato 2 cambia direzione (rimbalzo)
+    if(this.pos.x<-1 || this.pos.x>1){ this.vel.x*=-1; }
+    if(this.pos.y<-1 || this.pos.y>1){ this.vel.y*=-1; }
+    if(this.pos.z<-1 || this.pos.z>1){ this.vel.z*=-1; }
+
+    this.angSequencer+=this.speedSequencer; // modifico l'angolo del sequencer in base alla velocità
+  };
+
+  // metodo della classe Dot per applicare una forza non costante
+  // una somma vettoriale del vettore forza sul vettore accelerazione
+  Dot.prototype.applyForce = function(f){
+      this.acc.add(f);
+  };
+
+  // metodo della classe Dot per applicare una forza costante
+  // una forza costante è una accelerazione
+  Dot.prototype.applyConstForce = function(f){
+      this.acc.x = f.x;
+      this.acc.y = f.y;
+      this.acc.z = f.z;
+  };
+
+
+</pre>
+
+                    <p class="lead " id="work6_text4">
+              
+                      </p>
+
+<!-- esempio di codice js -->
+<pre class="prettyprint lang-js">
+ 
+  /**
+  ========================================================================
+  FUNZIONE draw
+  ========================================================================
+    Funzione di rendering visivo e di conseguenza musicale
+  */ 
+    
+  function draw() {
+
+    // per ogni 'entità sonora' 
+    for(var i = 0; i < arrDots.length; i++) {   
+      var point = arrDots[i]; // punto i-esimo considerato
+      var center = new Vector(0,0,0); // vettore del centro del sistema
+      var dist = point.pos.distance(center); // calcolo la distanza del punto dal centro
+      var fCentro; // forza di attrazione verso il centro
+
+      if(arrDots.length!=0){
+        var segno;
+        var sommaVelocita;
+
+        // calcolo il segno e la somma delle velocità, che controllerà la velocità di lettura
+        // del file audio associato a questa 'entità sonora' (segno negativo=reverse)
+        if((point.vel.x+point.vel.y+point.vel.z)>0){
+          segno=1;
+        } else {
+          segno=-1;
+        }
+        sommaVelocita=(Math.abs(point.vel.x)+Math.abs(point.vel.y)+Math.abs(point.vel.z));
+
+        // mando in output all'outlet 0 i dati formattati per l'ambisonics 
+        outlet(0, "xyz " + (i+1) + " " + point.pos.x+ " " + point.pos.y+ " " + point.pos.z);
+
+        // mando in output all'outlet 2 i dati per utilizzare la velocità nell'oggetto poly~ particleSound
+        outlet(2, (i+1) + " " + (sommaVelocita*segno));
+      }
+
+      // solo se non sono troppo vicino al centro, 
+      // calcolo i vettori della forza di attrazione verso il centro e della forza di attrito
+      if(dist>0.05){
+        fCentro = point.pos.divNew(-dist);
+        fAttr = point.vel.divNew(-dist);
+      } 
+      
+      // applico la FORZA COSTANTE DI ATTRAZIONE VERSO IL CENTRO
+      if(fCentro){ 
+        fCentro.mult(scalAttrCentro); // scalo la forza
+        point.applyConstForce(fCentro);  
+      }
+
+      // applico FORZA DI ATTRITO
+        var fAttr;
+        if(fAttr){ 
+            fAttr.mult(scalAttrito);
+            point.applyForce(fAttr);  
+        }
+
+      // calcolo e applico la FORZA DI REPULSIONE l'indice i è la mia particella
+      // l'indice j è la particella da cui calcolare la distanza e la direzione di della particella i
+      
+      for(var j=0; j< arrDots.length; j++){ 
+        if(i!=j){
+          var dxij = point.pos.x-arrDots[j].pos.x;
+          var dyij = point.pos.y-arrDots[j].pos.y;
+          var dzij = point.pos.z-arrDots[j].pos.z;
+          var distij = point.pos.distance(arrDots[j].pos);
+          var dxNormij;
+          var dyNormij;
+          var dzNormij;
+          
+          if(distij!=0){
+              dxNormij=dxij/(distij);
+              dyNormij=dyij/(distij);
+              dzNormij=dzij/(distij);
+          }
+          if(dxNormij&&dyNormij&&dzNormij&&numDots!=0){
+              var fAttraction = new Vector(dxNormij*scalRepParticles/numDots,dyNormij*scalRepParticles/numDots,dzNormij*scalRepParticles/numDots);
+              point.applyForce(fAttraction);
+          }
+        }
+      }
+
+      // aggiorno tutte le posizioni UPDATE AND SHOW
+      point.update();
+      point.show(); // e lo mostro
+
+      // disegno una linea tra le particelle
+      if(i>0){
+        if(line){
+          var pointPrec = arrDots[i-1];
+          mySketch1.linesegment(point.pos.x,point.pos.y,point.pos.z,pointPrec.pos.x,pointPrec.pos.y,pointPrec.pos.z);
+        }
+      }
+      
+      if(i===arrDots.length-1){
+        var pointFirst = arrDots[0];
+        if(line){
+          mySketch1.linesegment(point.pos.x,point.pos.y,point.pos.z,pointFirst.pos.x,pointFirst.pos.y,pointFirst.pos.z);
+        }
+      }
+
+      // check sul passaggio dallo zero della particella del sequencer (rossa)
+      var radAttuale=(point.angSequencer * Math.PI/180)%((Math.PI)*2);
+      var radPrecedente = point.successiveRad[1];
+      point.successiveRad[0]=radPrecedente;
+      point.successiveRad[1]=radAttuale;
+
+      // se è avvenuto il passaggio dallo zero suono il synth
+      if(radAttuale< radPrecedente){
+        playSynth(i);
+      }
+    }
+
+    // resetto i vari jit.gl.sketch
+      myRender.drawswap();
+      mySketch1.reset(); // resetto
+      mySketch2.reset(); // resetto
+      mySketch3.reset(); // resetto
+      mySketch4.reset(); // resetto
+      myRender.erase();
+  }
+
+
+
+</pre>
+
+<p class="lead " id="work6_text5">
+              
+  </p>
+
+  <div class="myimageDiv">
+      <img src="bestiarySynth2.jpg"  class="thirdImage nImage">
+  </div>
+
+  <p class="lead " id="work6_text6">
+              
+    </p>
+
+    <div class="myimageDiv">
+        <img src="bestiarySample.jpg"  class="fourthImage nImage">
+    </div>
+
+    <div></div>
+
+    <p class="lead " id="work6_text7">
+              
+      </p>
+
+      <div class="myimageDiv">
+          <img src="bestiaryIPAD.png"  class="fifthImage nImage">
+      </div>
+
+      <p class="lead " id="work6_text8">
+              
+        </p>
+
+              <p class="lead subtitle myline">
+ 
+
+                esecuzioni <br><br>
+                - 06 ottobre 2018, Bestiary for a microcosm, Palazzina di Caccia di Stupinigi, Stupinigi, Torino (IT)<br>
+                - 26 ottobre 2018, Bestiary for a microcosm, per EAR, LAC, Lugano (CH)<br>
+               </p>
+          
+           </div>
+
+</body>
+
+

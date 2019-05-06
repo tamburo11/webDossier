@@ -1,0 +1,10 @@
+
+<a href="https://tamburo11.github.io/thetricliniumdesireWeb/" target="_blank"><I>t h e t r i c l i n i u m d e s i r e </i></a>  tratteggia un profilo. Il profilo sinuoso dei cuscini di un triclinio vuoto, abitato dalla polvere, per quanto costantemente desiderato. Caricando la pagina dell'applicazione è come se si passassero metaforicamente tre dita su questi oggetti, facendo vibrare e luccicare la loro stessa polvere. Il rendering audio può essere attivato o disattivato con un semplice click sulla finestra del browser. La musica che si genera da questa azione è sempre diversa; personalizzata e ciclica sembra non avere fine. 
+
+<br><br>
+
+Tecnicamente questo è stato ottenuto pre-componendo una traccia elettroacustica e poi lavorando in tempo reale su di essa per mezzo delle possibilità di DSP offerte dalla libreria p5.js di javascript e mappando alcuni parametri delle funzioni di DSP utilizzate, con i 'parametri vitali' di tre semplici linee grafiche, che si muovono sinuosamente in uno spazio 2D che, come un rullo eterno, non può far altro che avanzare.
+
+<br><br>
+
+La traccia elettronica è stata creata usando diversi strumenti (sintetizzatori analogici, una chitarra classica preparata con microfoni e trasduttori, ecc.) e alcune semplici tecniche di elaborazione del segnale (sia analogiche che digitali). Ulteriori dettagli sulla genesi di questa traccia vengono tralasciati in favore di una più attenta analisi dell'algoritmo procedurale che gestisce tanto il playback sul browser, quanto l'elaborazione elettronica in tempo reale e le relazioni con gli elementi grafici e la loro vita interna. Di seguito il codice (la partitura operativa).<br><br>

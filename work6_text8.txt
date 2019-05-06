@@ -1,0 +1,37 @@
+<br>
+Una lista dei possibili campi di azione del musicista durante la performance improvvisativa, è la seguente:
+<br><br>
+<ol>
+<li>
+Scegliere quante 'entità sonore' attivare (da 0 a 8).
+</li> <br>
+<li>
+Definire il campo armonico per le note suonate dal sintetizzatore. I campi armonici possibili vanno definiti precedentemente dentro il codice javascript. 
+</li> <br>
+<li>
+Controllare il bacino di campioni per la selezione randomica, agendo sulla media e la varianza della funzione randomica gaussiana.
+</li> <br>
+<li>
+Agire sul distorsore applicato alla quarta forma d'onda parziale del sintetizzatore.
+
+</li> <br>
+<li>
+Definire per ogni entità presente la velocità del 'satellite' con funzione di sequencer/trigger delle note MIDI e del campione. 
+</li> <br>
+<li>
+Definire la quantità di grani da associare ad ogni entità. 
+</li> <br>
+<li>
+Controllare per ogni grano la size e la duration.
+</li> <br>
+<li>
+Agire sul mixer per controllare in modo indipendente i guadagni del sub (che diffonde tutte le basse frequenze generate dal sistema), del sintetizzatore, del campionatore, del'campione di arpa e del granulatore.
+</li> <br>
+<li>
+Agire sulle tre forze del campo: attrazione verso il centro, repulsione, attrito. 
+</li> <br>
+<li>
+Agire sul guadagno degli output di ogni singola 'entità sonora'.
+</li>
+
+</ol> 

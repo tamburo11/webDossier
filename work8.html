@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<head>
+    <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+
+  <script>
+    $(document).ready(function() {
+
+      let myFirstImage= $(".firstImage");
+      let mySecondImage= $(".secondImage");
+      let myThirdImage= $(".thirdImage");
+      let myFourthImage= $(".fourthImage");
+      let myFifthImage= $(".fifthImage");
+      let mySixthImage= $(".sixthImage");
+      let mySeventhImage= $(".seventhImage");
+      let myEighthImage= $(".eighthImage");
+      let myNinethImage= $(".ninethImage");
+      let myTenthImage= $(".tenthImage");
+
+// carico il testo
+      $("#work8_text1").load("work8_text1.txt");
+      $("#work8_text2").load("work8_text2.txt");
+      $("#work8_text3").load("work8_text3.txt");
+      $("#work8_text4").load("work8_text4.txt");
+      $("#work8_text5").load("work8_text5.txt");
+      $("#work8_text6").load("work8_text6.txt");
+      $("#work8_text7").load("work8_text7.txt");
+      $("#work8_text8").load("work8_text8.txt");
+      $("#work8_text9").load("work8_text9.txt");
+      $("#work8_text10").load("work8_text10.txt");
+      $("#work8_text11").load("work8_text11.txt");
+      $("#work8_text12").load("work8_text12.txt");
+      $("#work8_text13").load("work8_text13.txt");
+       
+// se esiste la prima immagine riposiziono il testo giusto
+      if(myFirstImage){
+          if(myFirstImage.height()!=0){ // se l'immagine è già stata caricata precedentemente
+            myFirstImage.parent().next().css("padding-top", (myFirstImage.height()+20)+"px");
+          } else { // se è la prima volta che l'immagine viene caricata nella cache
+            myFirstImage.on( "load", function() {
+              myFirstImage.parent().next().css("padding-top", (myFirstImage.height()+20)+"px");
+            });
+          }
+      }
+      if(mySecondImage){
+          if(mySecondImage.height()!=0){ // se l'immagine è già stata caricata precedentemente
+          mySecondImage.parent().next().css("padding-top", (mySecondImage.height()+90)+"px");
+          } else { // se è la prima volta che l'immagine viene caricata nella cache
+          mySecondImage.on( "load", function() {
+            mySecondImage.parent().next().css("padding-top", (mySecondImage.height()+90)+"px");
+            });
+          }
+      }
+      if(myThirdImage){
+          if(myThirdImage.height()!=0){ // se l'immagine è già stata caricata precedentemente
+          myThirdImage.parent().next().css("padding-top", (myThirdImage.height()+20)+"px");
+          } else { // se è la prima volta che l'immagine viene caricata nella cache
+          myThirdImage.on( "load", function() {
+            myThirdImage.parent().next().css("padding-top", (myThirdImage.height()+20)+"px");
+            });
+          }
+      }
+      if(myFourthImage){
+          if(myFourthImage.height()!=0){ // se l'immagine è già stata caricata precedentemente
+          myFourthImage.parent().next().css("padding-top", (myFourthImage.height()+20)+"px");
+          } else { // se è la prima volta che l'immagine viene caricata nella cache
+          myFourthImage.on( "load", function() {
+            myFourthImage.parent().next().css("padding-top", (myFourthImage.height()+20)+"px");
+            });
+          }
+      }
+      if(myFifthImage){
+          if(myFifthImage.height()!=0){ // se l'immagine è già stata caricata precedentemente
+          myFifthImage.parent().next().css("padding-top", (myFifthImage.height()+20)+"px");
+          } else { // se è la prima volta che l'immagine viene caricata nella cache
+          myFifthImage.on( "load", function() {
+            myFifthImage.parent().next().css("padding-top", (myFifthImage.height()+20)+"px");
+            });
+          }
+      }
+      if(mySixthImage){
+              if(mySixthImage.height()!=0){ // se l'immagine è già stata caricata precedentemente
+              mySixthImage.parent().next().css("padding-top", (mySixthImage.height()+20)+"px");
+              } else { // se è la prima volta che l'immagine viene caricata nella cache
+              mySixthImage.on( "load", function() {
+                mySixthImage.parent().next().css("padding-top", (mySixthImage.height()+20)+"px");
+                });
+              }
+          }
+          if(mySeventhImage){
+              if(mySeventhImage.height()!=0){ // se l'immagine è già stata caricata precedentemente
+              mySeventhImage.parent().next().css("padding-top", (mySeventhImage.height()+20)+"px");
+              } else { // se è la prima volta che l'immagine viene caricata nella cache
+              mySeventhImage.on( "load", function() {
+                mySeventhImage.parent().next().css("padding-top", (mySeventhImage.height()+20)+"px");
+                });
+              }
+          }
+          if(myEighthImage){
+              if(myEighthImage.height()!=0){ // se l'immagine è già stata caricata precedentemente
+              myEighthImage.parent().next().css("padding-top", (myEighthImage.height()+20)+"px");
+              } else { // se è la prima volta che l'immagine viene caricata nella cache
+              myEighthImage.on( "load", function() {
+                myEighthImage.parent().next().css("padding-top", (myEighthImage.height()+20)+"px");
+                });
+              }
+          }
+          if(myNinethImage){
+              if(myNinethImage.height()!=0){ // se l'immagine è già stata caricata precedentemente
+              myNinethImage.parent().next().css("padding-top", (myNinethImage.height()+20)+"px");
+              } else { // se è la prima volta che l'immagine viene caricata nella cache
+              myNinethImage.on( "load", function() {
+                myNinethImage.parent().next().css("padding-top", (myNinethImage.height()+20)+"px");
+                });
+              }
+          }
+          if(myTenthImage){
+              if(myTenthImage.height()!=0){ // se l'immagine è già stata caricata precedentemente
+              myTenthImage.parent().next().css("padding-top", (myTenthImage.height()+20)+"px");
+              } else { // se è la prima volta che l'immagine viene caricata nella cache
+              myTenthImage.on( "load", function() {
+                myTenthImage.parent().next().css("padding-top", (myTenthImage.height()+20)+"px");
+                });
+              }
+          }
+    });
+
+</script>
+
+</head>
+
+<body>
+
+  <div class="jumbotron myjumbotron" id="jumbo">
+ 
+    <h1>invisible through #Bach</h1>
+ 
+             <p class="lead subtitle">
+                <b>per lastre risonanti/riflettenti, violoncello e live electronics</b> <br><br>
+                Alberto Barberis / musica, live electronics, design <br>
+                Giacomo Cardelli / violoncello <br>
+                Rajan Craveri / visual art <br>
+                2019
+      
+ 
+             </p>
+ 
+             <div class="myimageDiv">
+                 <img src="invisible.png"  class="firstImage nImage">
+             </div>
+
+             <div></div>
+             <p class="lead myline">
+              <b class="titoletti"> introduzione e concetto </b>
+            </p>
+ 
+             <p class="lead " id="work8_text1">
+              
+             </p>
+
+             <p class="lead myline">
+              <b class="titoletti"> trailer dell'opera </b>
+            </p>
+
+
+            <div class="iframe-container">
+                <iframe id="iframe_id" class ="firstVideo nVideo" src="https://www.youtube.com/embed/qoaW0W2z1vI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+                </iframe>
+                </div>
+
+          <div></div>
+          <p class="lead myline">
+            <b class="titoletti"> programma di sala </b>
+          </p>
+           
+          <p class="lead " id="work8_text2">
+              
+          </p>
+
+          <div></div>
+          <p class="lead myline">
+           <b class="titoletti"> l'opera </b>
+         </p>
+
+         
+         <div class="iframe-container">
+          <iframe id="iframe_id" class ="firstVideo nVideo" src="https://www.youtube.com/embed/7xDK6WecvWc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+          </iframe>
+          </div>
+          
+            <div></div>
+            <p class="lead myline">
+             <b class="titoletti"> dettagli tecnico-compositivi </b>
+           </p>
+                      
+          <p class="lead " id="work8_text3">
+              
+          </p>
+
+          <div class="myimageDiv">
+              <img src="invisible6.jpg"  class="eighthImage nImage">
+          </div>
+
+          <p class="lead " id="work8_text10">
+              
+            </p>
+
+              <!-- <div class="iframe-container"> -->
+                <div class="iframe-container">
+                  <iframe id="iframe_id" class ="firstVideo nVideo" src="https://www.youtube.com/embed/8HXDpefZSWo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+                  </iframe>
+                  </div>
+
+            
+                  <img src="partitura1.jpg"  class=" nImage">
+           
+
+              
+                  <img src="partitura2.jpg"  class=" nImage">
+          
+
+              
+                  <img src="partitura3.jpg"  class=" nImage">
+              
+            <!-- </div> -->
+            <div></div>
+          <p class="lead " id="work8_text4">
+              
+          </p>
+
+          <div class="myimageDiv">
+            <img src="invisible1.png"  class="thirdImage nImage">
+        </div>
+
+        <p class="lead " id="work8_text5">
+              
+        </p>
+
+        <div class="myimageDiv">
+          <img src="invisible2.png"  class="fourthImage nImage">
+      </div>
+
+      <p class="lead " id="work8_text6">
+              
+      </p>
+
+      <div class="myimageDiv">
+        <img src="invisible3.png"  class="fifthImage nImage">
+    </div>
+
+    <p class="lead " id="work8_text7">
+              
+    </p>
+
+    <div class="myimageDiv">
+      <img src="invisible4.png"  class="sixthImage nImage">
+  </div>
+
+  <p class="lead " id="work8_text8">
+              
+  </p>
+
+              <!-- esempio di codice js -->
+              <pre class="prettyprint lang-js">
+
+  #include <Servo.h>
+
+      Servo myservo1;  // create servo object to control a servo
+      Servo myservo2;
+      Servo myservo3;
+      Servo myservo4;
+      Servo myservo5;
+      Servo myservo6;
+      Servo myservo7;
+      Servo myservo8;
+      
+      int stringFromMax;
+      int numberServo;
+      
+      void setup() {
+        Serial.begin(9600); // set up Serial library at 9600 bps
+        delay(400);
+          
+        myservo1.attach(5);  // attaches the servo on pin 9 to the servo object
+        myservo2.attach(6);
+        myservo3.attach(7);
+        myservo4.attach(8);
+        myservo5.attach(9);
+        myservo6.attach(10);  
+        myservo7.attach(11);
+        myservo8.attach(12);
+      
+        myservo1.write(0);
+        myservo2.write(0);
+        myservo3.write(0);
+        myservo4.write(0);
+        myservo5.write(0);
+        myservo6.write(0);
+        myservo7.write(0);
+        myservo8.write(0);
+      }
+      
+      void loop() {
+        
+          if(Serial.available()){
+      
+            stringFromMax = Serial.read();
+            if(stringFromMax==181){ // primoò servo
+              numberServo=1;
+            } else if(stringFromMax==182){
+              numberServo=2;
+            } else if(stringFromMax==183){
+              numberServo=3;
+            } else if(stringFromMax==184){
+              numberServo=4;
+            } else if(stringFromMax==185){
+              numberServo=5;
+            } else if(stringFromMax==186){
+              numberServo=6;
+            } else if(stringFromMax==187){
+              numberServo=7;
+            } else if(stringFromMax==188){
+              numberServo=8;
+            }
+      
+            if(stringFromMax!=181 
+                && stringFromMax!=182 
+                && stringFromMax!=183 
+                && stringFromMax!=184
+                && stringFromMax!=185
+                && stringFromMax!=186
+                && stringFromMax!=187
+                && stringFromMax!=188
+                ){
+              if(numberServo==1){
+                myservo1.write(stringFromMax);   
+              } else if(numberServo==2){
+                myservo2.write(stringFromMax);         
+              } else if(numberServo==3){
+                myservo3.write(stringFromMax);       
+              } else if(numberServo==4){
+                myservo4.write(stringFromMax);
+              } else if(numberServo==5){
+                myservo5.write(stringFromMax);
+              } else if(numberServo==6){
+                myservo6.write(stringFromMax);
+              } else if(numberServo==7){
+                myservo7.write(stringFromMax);
+              } else if(numberServo==8){
+                myservo8.write(stringFromMax);
+              }
+        }
+      }
+    }
+              </pre>
+
+              <p class="lead " id="work8_text9">
+              
+                </p>
+
+                <div class="myimageDiv">
+                  <img src="invisible5.png"  class="seventhImage nImage">
+              </div>
+
+              <div></div>
+
+              <p class="lead " id="work8_text13">
+              
+                </p>
+
+                <div class="myimageDiv">
+                    <img src="invisible8.png"  class="tenthImage nImage">
+                </div>
+
+
+
+              <p class="lead " id="work8_text11">
+              
+                </p>
+
+                <div class="myimageDiv">
+                    <img src="invisible7.jpg"  class="ninethImage nImage">
+                </div>
+
+
+                <p class="lead " id="work8_text12">
+              
+                  </p>
+              
+
+
+          <div></div>
+
+              <p class="lead subtitle myline">
+                esecuzioni <br><br>
+                - 19 marzo 2019 ore 19.00, Invisible through #Bach, LAC, Lugano (CH)<br>
+                - 19 marzo 2019 ore 20.15, Invisible through #Bach, LAC, Lugano (CH)<br>
+               </p>
+           </div>
+
+         </body>
+
+

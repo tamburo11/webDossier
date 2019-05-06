@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<head>
+
+  <script>
+    $(document).ready(function() {
+
+      let myFirstImage= $(".firstImage");
+      let mySecondImage= $(".secondImage");
+      let myThirdImage= $(".thirdImage");
+      let myFourthImage= $(".fourthImage");
+
+
+// carico il testo
+      $("#work4_text1").load("work4_text1.txt");
+      $("#work4_text2").load("work4_text2.txt");
+      $("#work4_text3").load("work4_text3.txt");
+      $("#work4_text4").load("work4_text4.txt");
+      $("#work4_text5").load("work4_text5.txt");
+       
+// se esiste la prima immagine riposiziono il testo giusto
+      if(myFirstImage){
+          if(myFirstImage.height()!=0){ // se l'immagine è già stata caricata precedentemente
+            myFirstImage.parent().next().css("padding-top", (myFirstImage.height()+20)+"px");
+          } else { // se è la prima volta che l'immagine viene caricata nella cache
+            myFirstImage.on( "load", function() {
+              myFirstImage.parent().next().css("padding-top", (myFirstImage.height()+20)+"px");
+            });
+          }
+      }
+      if(mySecondImage){
+          if(mySecondImage.height()!=0){ // se l'immagine è già stata caricata precedentemente
+          mySecondImage.parent().next().css("padding-top", (mySecondImage.height()+20)+"px");
+          } else { // se è la prima volta che l'immagine viene caricata nella cache
+          mySecondImage.on( "load", function() {
+            mySecondImage.parent().next().css("padding-top", (mySecondImage.height()+20)+"px");
+            });
+          }
+      }
+      if(myThirdImage){
+          if(myThirdImage.height()!=0){ // se l'immagine è già stata caricata precedentemente
+          myThirdImage.parent().next().css("padding-top", (myThirdImage.height()+20)+"px");
+          } else { // se è la prima volta che l'immagine viene caricata nella cache
+          myThirdImage.on( "load", function() {
+            myThirdImage.parent().next().css("padding-top", (myThirdImage.height()+20)+"px");
+            });
+          }
+      }
+      if(myFourthImage){
+              if(myFourthImage.height()!=0){ // se l'immagine è già stata caricata precedentemente
+              myFourthImage.parent().next().css("padding-top", (myFourthImage.height()+20)+"px");
+              } else { // se è la prima volta che l'immagine viene caricata nella cache
+              myFourthImage.on( "load", function() {
+                myFourthImage.parent().next().css("padding-top", (myFourthImage.height()+20)+"px");
+                });
+              }
+          }
+
+    });
+
+</script>
+
+</head>
+
+<body>
+
+ 
+  <div class="jumbotron myjumbotron" id="jumbo">
+ 
+    <h1>una improvvisazione elettroacustica degli Alberi </h1>
+ 
+             <p class="lead subtitle">
+                <b>live in Aosta </b><br>
+                <br>
+ 
+              Alberto Barberis / live electronics, chitarra classica e preparata  <br>
+              Alberto Ricca / live electronics <br>
+              2017
+ 
+             </p>
+ 
+             <div class="myimageDiv">
+                 <img src="alberi1.jpg"  class="firstImage nImage">
+             </div>
+
+             <div></div>
+             <p class="lead myline">
+              <b class="titoletti"> introduzione e concetto </b>
+            </p>
+ 
+             <p class="lead " id="work4_text1">
+              
+             </p>
+
+
+             <p class="lead myline">
+              <b class="titoletti"> Alberi, live in Aosta </b>
+            </p>
+
+             <div class="iframe-container">;
+                <iframe id="iframe_id" class ="firstVideo nVideo" src="https://www.youtube.com/embed/xKniTIDXj_A" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+                </iframe>
+                </div>
+                <p class="lead myline">
+                  <b class="titoletti"> dettagli tecnico-compositivi </b>
+                </p>
+
+                <p class="lead " id="work4_text2">
+              
+                </p>
+
+                <div class="myimageDiv">
+                  <img src="alberi2.jpg"  class="secondImage nImage">
+              </div>
+
+              <p class="lead " id="work4_text3">
+              
+              </p>
+
+              <div class="myimageDiv">
+                <img src="alberi3.jpg"  class="thirdImage nImage">
+            </div>
+
+            <p class="lead " id="work4_text4">
+              
+            </p>
+
+            <div class="myimageDiv">
+              <img src="alberi4.png"  class="fourthImage nImage">
+          </div>
+
+          <p class="lead " id="work4_text5">
+              
+          </p>
+    
+ 
+
+                    <p class="lead subtitle myline">
+
+                      esecuzione <br><br>
+                      - 20 gennaio del 2018, presso la Cittadella per Electronic Music Night, Aosta (IT)
+                                 </p>
+            
+           </div>
+
+         </body>
+
+

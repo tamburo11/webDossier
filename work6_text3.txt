@@ -1,0 +1,48 @@
+<br><b>LE ENTITA' SONORE</b>
+
+<br><br>
+
+Ogni 'entità sonora' che è possibile generare all'interno dello spazio virtuale tridimensionale è costituita da:<br><br>
+
+<ol>
+  <li>Un 'nucleo' (particella di colore bianco). La quantità di nuclei presenti può variare, a discrezione del performer, da 1 a 8. Ogni nucleo è caratterizzato da un vettore posizione (x,y,z), un vettore velocità (vx, vy, vz) e un vettore accelerazione (ax, ay, az).</li><br>
+
+  <li>Un 'satellite', che si muove lungo una circonferenza (a velocità variabile) attorno al nucleo (particella di colore rosso). La velocità del satellite può essere definita in tempo reale dal performer.</li><br>
+
+  <li>Una 'nube di particelle' a concentrazione variabile che abita una superficie sferica (punti e alone di colore verde). La quantità di particelle di questa nube può essere definita dal performer, così come la loro durata in una stessa posizione.</li>
+</ol> 
+
+<br>
+Ad ogni elemento sopra elencato, che compone una singola 'entità sonora', sono associate alcune funzioni musicali (sintesi, playback di campioni, elaborazione digitale, spazializzazione multicanale, ecc.). Alcuni dei parametri che definiscono queste varie funzioni sono strettamente connessi con i parametri spaziali e dinamici che in ogni istante discreto (di 80ms) caratterizzano una 'entità sonora' (velocità, posizione nello spazio 3D, posizione del 'satellite', concentrazione della 'nube'. ecc.). E' grazie a questa mappatura che la fisica dello spazio virtuale assume tutto il suo senso: essa permette di far trasmigrare il dinamismo pseudo-naturale presente nello spazio virtuale, al livello sonico della composizione musicale, che assume così una vita interna, un'esistenza quasi biologica.   
+
+<br><br>
+<b>IL CAMPO DI FORZE FISICHE</b>
+
+<br><br>
+
+Le 'entità sonore' descritte sono soggette ad un campo di forze, che agendo sul vettore accelerazione dell'entità stessa (vale infatti la relazione: F=m*A, dove F e A sono vettori che indicano rispettivamente la forza e l'accelerazione e m è la massa), agisce sul vettore posizione (vale infatti la relazione F=m*A=m*V/T=(m*S)/(T)^2, dove F, A, V, S sono vettori che indicano: forza, accelerazione, velocità, e posizione spaziale). Questo campo di forze prevede l'interazione tra le seguenti forze fisiche:<br><br>
+
+<ol>
+<li>Una forza di attrazione verso il centro: tutti i nuclei delle 'entità sonore' presenti nel campo vengono attratti verso il centro del campo (forza centripeta). Questa forza è una forza costante. Se si considerano tutte le particelle come se avessero una massa virtuale unitaria, questa forza si risolve in un vettore accelerazione che punta verso il centro. Questa forza si risolve dunque nell'applicare alla posizione del nucleo un vettore accelerazione che ha come direzione quella del centro.</li>
+<br>
+
+<li>
+Una forza di attrito (frizione): tutti i nuclei sono soggetti ad una forza dissipativa (l'energia totale del sistema decresce quando l'oggetto è in movimento) esprimibile come un vettore Fr=-&mu;NV, dove &mu; indica il coefficiente di attrito, N la normale, e V la velocità. Una buona approssimazione della formula è quella che prevede N=1. In questo caso si tratta di una forza non costante, che si risolve in una somma vettoriale tra il vettore forza e il vettore accelerazione in ogni istante discreto. 
+
+</li><br>
+
+<li>
+Una forza di repulsione tra le particelle: ogni singola 'entità sonora' viene respinta e respinge reciprocamente le altre presenti in ogni istante discreto nel campo di forze. Questa forza simula l'attrazione gravitazionale, secondo la quale ogni oggetto con massa esercita una forza su tutti gli altri oggetti (F=G*m1*m2*R/r^2, dove G è la costante gravitazionale universale, m1 e m2 sono le due masse, R è il vettore unitario che punta dall'oggetto 1 all'oggetto 2, e r è la distanza tra i due oggetti). Considerando oggetti di massa unitaria, e semplificando con G=1, per calcolare questa forza è necessario in ogni istante discreto calcolare la distanza di ogni 'entità sonora' da tutte le altre. La forza di repulsione è inversamente proporzionale al quadrato della distanza tra le due particelle in gioco. 
+
+</li>
+</ol>
+
+<br>
+
+<b>IL CODICE JAVASCRIPT</b><br><br>
+
+L'intera gestione della generazione delle 'entità sonore' e del campo di forze che ne determina il movimento nello spazio virtuale 3D avviene per mezzo di un file javascript che interagisce con l'ambiente max/MSP, in cui vengono trattate invece la sintesi audio, l'elaborazione dei campioni, il rendering dell'immagine 3D e tutta l'interazione con il performer. <br><br>
+
+Il codice è composto da due classi principali, la classe Dot (visibile sotto, come esempio) e la classe Grain. La prima modella gli oggetti javascript che rappresentano le 'entità sonore' sopra descritte, mentre la seconda modella gli oggetti che rappresentano le particelle della 'nube' associata ad ogni singola 'entità sonora'. Come verrà spiegato in seguito ognuna di queste particelle rappresenta un grano di una sintesi granulare sui campioni suonati dalla 'entità sonora' a cui la 'nube' appartiene. 
+
+<br> 

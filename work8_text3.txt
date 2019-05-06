@@ -1,0 +1,69 @@
+<b>GLI ELEMENTI COSTITUTIVI DEL SISTEMA</b><br><br>
+
+<i>Invisible through #Bach</i> è un organismo, uno spazio pluri-percettivo, un sistema di fitte e continue interconnessioni multi-livello. Per questo motivo esso andrebbe osservato solo nella sua totalità. D'altronde, per agevolarne l'analisi, mi trovo costretto a suddividerlo nei suoi elementi costitutivi, di seguito elencati.
+
+<br><br>
+<ol>
+<li>
+UN'ARCHITETTURA DI LASTRE DI ALLUMINIO: <i>Invisible through #Bach</i> è innanzitutto un'architettura, uno spazio circoscritto in cui gli spettatori co-esistono, partecipando del suo respiro e della sua vita organica, quasi-biologica. Il design di questo spazio prevede la disposizione di un totale di 16 lastre di alluminio, 6 delle quali di forma quadrata (1x1m) e sorrette da appositi stativi, mentre le restanti di forma rettangolare (1x0.5m), appese tutt'intorno e al di sopra degli spettatori. Questi oggetti, nudi simboli, si ergono seguendo i lati di un ambiente quasi-cubico ideale (6x6m), formando una scenografia di metallo che evoca lo scheletro di paesaggi industriali, l'anatomia grezza di abitazioni virtuali. All'interno di questa architettura si posiziona il pubblico, abitandola.       
+</li><br>
+
+<li>
+L'ASSENZA DEL VIOLONCELLISTA: in contrapposizione all'architettura di lastre, luogo percettivo e di condivisione, vi è un altro luogo, quello 'invisibile' e solitario abitato dal violoncellista. Quest'ultimo, connesso solamente per mezzo di una traccia di click (in cuffia) al sistema algoritmico, si trova, quasi inconsapevole, ad assumere il ruolo di regista della performance, operativo da remoto. Un'operatività senza feedback però, che trasforma il ruolo del violoncellista da quello di 'semplice' musicista a quello di performer vero e proprio, che vive realmente l'alienazione della sua condizione, quasi di esilio. L'esilio dal palco, dal pubblico. Una condizione percepita 'in reverse' anche dal pubblico stesso: la mancanza della presenza del violoncellista, della sua performatività musicale e gestualità espressiva, talvolta così essenziale nel rito tradizionale dell'ascolto, da sopraffarlo.   
+
+<br><br>Tra questi due luoghi (l'architettura di lastre e lo spazio di azione del violoncellista) prende vita quell'attraversamento continuo (through) e quello scambio - a velocità prossime a quella della luce - di dati informazionali che il titolo dell'opera suggerisce in modo programmatico: lo spazio della Macchina condivisa e quello dell'Uomo solo. Il suono diretto del violoncello non è infatti mai udito dal pubblico della sala. I segnali che egli produce passano sempre dalla Macchina, che li influenza e dai quali ne è influenzata. Solo una videocamera svela, in alcuni precisi momenti e comunque sempre velatamente, la presenza vicina di questo spazio altro, in 'sync' con tutto il sistema.     
+</li><br>
+
+<li>
+LA RELAZIONE CON LA SUITE BWV 1007 DI J.S. BACH: Bach rientra in quest'opera in modo quasi assolutamente invisibile. Al di fuori dei titoli programmatici dei 5 movimenti di <i>Invisible through #Bach</i>, che ricalcano la struttura di una Suite, nessuna delle relazioni interne che ho creato tra la mia opera e l'Opera bachiana è stata posta al livello primo della fruizione consapevole. La mia opera trae ispirazione da Bach innanzi tutto in quel desiderio di creare un sistema, un organismo autosufficiente di continue inter-relazioni e influenze costanti. Anche se il fulcro del mio sistema non è l'intervallo o la nota, ma il timbro e la relazione Uomo-Macchina. Inoltre, la musica di Bach, insieme al simbolico violoncello, funge da rappresentante sonoro del mondo pre-industriale, oggi troppo lontano per essere anche solo concepibile.
+<br><br>
+Dei 5 movimenti sono i primi 2 ed il quarto ad avere maggiori relazioni con la Suite BWV 1007 di Bach. Nel primo sono stati utilizzati dei campi armonici microtonali derivati dall'analisi spettrale di alcune righe del Preludio della Suite. La microtonalità e l'analisi delle parziali dilatano lo spazio frequenziale bachiano, spostando l'attenzione al timbro. Solamente un sol maggiore distorto e microtonale irrompe nel mio Preludio come per imporne la tonalità, o la sua dissoluzione.
+<br><br>   
+Il secondo movimento sfrutta invece alcune figurazioni epurate e ripetute dell'Allemanda bachiana, suonate dal violoncello. Queste figurazioni vengono però sfruttate dalla Macchina come fonte e sorgente di movimento. La forma di danza dall'andamento moderato si trasforma così in una 'danza delle lastre', accompagnata dal ritmo incessante dei motori.   
+
+<br><br>
+Il quarto movimento sfrutta, similmente al primo, una analisi microtonale delle parziali della Sarabanda bachiana per la creazione dei campi armonici. Il Finale e la Corrente di <i>Invisible through #Bach</i> non hanno invece stretti legami con la Suite bachiana, se non il carattere piuttosto rapido e poli-ritmico della sezione centrale della mia Corrente. La forma della giga, mi ha invece offerto il pretesto per creare un finale 'anti-giga', in netta contrapposizione con l'andamento molto veloce tipico di questa forma di danza.  
+</li><br>
+
+
+<li>
+L'ARCHITETTURA DI LASTRE COME MEDIUM PER IL SUONO: le semplici geometrie che costituiscono l'architettura di <i>Invisible through #Bach</i> svolgono la funzione primaria di risonatori. Ad ognuna di esse è infatti applicato, nel suo centro esatto, un trasduttore (sound exciter) che diffonde dentro il materiale onde di deformazione meccanica, che a contatto con il mezzo aria, e dopo essere state modificate dalla risposta all'impulso del sistema stesso (la coppia trasduttore/lastra), diventano onde di pressione sonora. Il medium per l'accesso all'ascolto non è dunque per nulla 'trasparente'. Ed è questa non-trasparenza che, essendo il carattere timbrico portante dell'intero lavoro, tramuta lo spazio in vero e proprio strumento sonoro, musicale. Fatta eccezione di 2 sub (usati per un necessario rinforzo delle basse frequenze), le lastre di alluminio sono gli unici mezzi di diffusione e, conseguentemente, di modulazione meccanico-analogica del suono. 
+</li><br>
+
+<li>
+L'ARCHITETTURA DI LASTRE COME MEDIUM VISIVO: oltre che unico strumento di diffusione sonora, le lastre diventano anche il luogo per le proiezioni di immagini evolventi. Similmente a quanto accade con il suono esse non sono neutre, come sarebbe un normale schermo. La luce viene riflessa dall'intera architettura, trasformando le riflessioni in espressioni sensibili delle peculiarità materiche del sistema stesso e del suo dinamismo, della sua vita quasi-biologica. Le immagini proiettate, a volte sistemi particellari che raccontano - sulle geometrie - le geometrie stesse, altre lo specchio della presenza velata del violoncellista, sembrano dunque non avere un centro, ma provenire dai movimenti genetici di questo stesso organismo.  
+</li><br>
+
+<li>
+IL DINAMISMO MECCANICO DELL'ARCHITETTURA DI LASTRE: oltre al movimento vibrazionale ottenuto per mezzo della sollecitazione con i trasduttori (espressione visiva della diffusione sonora), le lastre rettangolari possono anche effettuare un movimento di curvatura. Questo movimento viene prodotto dalla rotazione semi-circolare di 8 servo-motori (uno per ogni lastra motorizzata), pilotati da un microprocessore Arduino, connesso con il sistema algoritmico che gestisce l'intera performance. Questo movimento ha due scopi principali: permettere, grazie al controllo sulla curvatura, di modificare la risposta all'impulso di ogni singolo sistema (coppia trasduttore/lastra) in modo indipendente e dunque di agire dinamicamente sul timbro dei suoni diffusi e spazializzati; dall'altro animare questi oggetti industriali, innegabilmente freddi, di una geometria impeccabile, inanimati, per mezzo di un movimento automatizzato, oppure 'in analogia' con il movimento vitale del performer 'fuori sala'.  
+</li><br>
+
+
+<li>
+LA SPAZIALIZZAZIONE COME MODIFICA TIMBRICA: i suoni percorrono costantemente tragitti virtuali all'interno di questo sistema. E la spazializzazione acquista un ruolo centrale nel lavoro. Essa permette infatti non solo di ottenere un forte impatto immersivo e di gestire percorsi di drammaturgia sonora, ma diventa parametro compositivo, strumento di scultura e modellazione timbrica. I suoni, spostandosi da una una lastra all'altra, subiscono infatti costantemente filtraggi ed equalizzazioni diversi, dovuti alle differenti risposte all'impulso dei sistemi (coppia trasduttore/lastra) in cui vengono diffusi. Un esempio questo di ricerca di organicità e inter-dipendenza tra gli tutti elementi costitutivi dell'opera.   
+</li><br>
+
+<li>
+LA SINTESI ELETTRONICA: i primi 2 movimenti dei 5 che suddividono formalmente <i>Invisible through #Bach</i> sono basati essenzialmente su processi di sintesi elettronica digitale in real-time. Nello specifico, tutta la generazione sintetica di suoni elettronici è gestita da 2 complessi sintetizzatori digitali, controllabili dinamicamente e progettati per l'occasione in max/MSP. Il digitale non si presenta però mai agli ascoltatori nella sua vera veste. La diffusione all'interno del sistema di lastre, arricchisce infatti costantemente le informazioni spettrali della sintesi creata dagli algoritmi digitali. L'organismo impone sempre la sua presenza anche sui suoni generati via software, 'sporcandone' e colorandone lo spettro. 
+</li><br>
+
+<li>
+L'ELABORAZIONE DEI CAMPIONI: nei primi 3 movimenti, un ampio spazio viene dato all'elaborazione di una ventina di campioni precostituiti, creati per mezzo di processi di sintesi analogica modulare, oppure frutto di registrazioni di suoni acustici, successivamente processati. Durante l'esecuzione, i campioni vengono ulteriormente elaborati in real-time, aiutando a creare un 'ponte timbrico' tra il suono del violoncellista, anche esso elaborato e diffuso nel sistema, e la sintesi digitale.  
+</li><br>
+
+<li>
+L'ELABORAZIONE IN TEMPO REALE DEL SUONO DEL VIOLONCELLO: come già sottolineato, il suono diretto del violoncello non viene mai udito dal pubblico, vivendo in uno spazio altro. Questa scelta, oltre a sorreggere l'impianto estetico e concettuale sulla condizione di esilio biunivoco di cui sopra, e a offrire svariate possibilità creative attorno a questi due spazzi connessi telematicamente, è stata fatta per evitare la presenza del suono diretto in sala del violoncello, che sarebbe stato percepito come una presenza extra-sistemica. Il suono di quest'ultimo viene invece utilizzato come sorgente di segnale da elaborare, immagazzinare, analizzare e successivamente diffondere, spazializzandolo, nel sistema. Inoltre, ad esso viene affidato, in molte sezioni, il compito di 'muovere' la Macchina, 'naturalizzarla' (in tutto il secondo movimento i servo-motori che controllano la curvatura delle lastre, vengono infatti controllati dall'inviluppo di ampiezza del segnale prodotto dal violoncello). 
+</li><br>
+
+<li>
+LO SFRUTTAMENTO DEI SUONI 'REALI' DELLA MACCHINA: la presenza della Macchina, la non-trasparenza dell'architettura, a cui già si faceva cenno, non è evidente solo dallo sfruttamento delle risposte all'impulso delle varie coppie trasduttore/lastra. I suoni stessi dei motori e quelli prodotti dalla sollecitazione e curvatura delle lastre entrano infatti a far parte della composizione, in più di un movimento, come elementi dialettici essenziali.  
+</li><br>
+
+<li>
+L'ELABORAZIONE IN TEMPO REALE DELL'IMMAGINE DEL VIOLONCELLISTA: oltre alle inter-connessioni tra i due spazi della performance, create dai segnali audio e precedentemente esposte, ne esiste una ulteriore, ottenuta captando e trasmettendo in real-time un segnale video, il segnale che registra i gesti sonori del violoncellista sul suo strumento. Questo livello ottico di comunicazione tra i due spazi viene gestito in tempo reale dal lavoro dell'artista visivo Rajan Craveri, il cui algoritmi di processamento sono strettamente interconnessi con i processi di elaborazione, sintesi elettronica e genesi del suono. Il lavoro creativo e di programmazione dei visual in real-time è stato portato avanti in stretta sinergia; ne è risultato un apparato di calcolo fortemente interconnesso, costituito da 4 computer connessi in rete.
+</li>
+
+</ol>
+
+
+

@@ -1,0 +1,17 @@
+
+Le improvvisazioni degli Alberi non usano mai lo stesso ambiente esecutivo, anche se in qualche modo sono sempre presenti i seguenti elementi: algoritmi, processi di elaborazione digitale del segnale, due chitarre, altoparlanti e/o trasduttori, microfoni di vario tipo, oggetti, ecc.. Questi elementi non sono mai trattati in modo identico e le connessioni create tra di essi sono sempre uniche per ogni performance. A rimanere costante è invece l'interesse per i due fulcri essenziali del processo di design tecnologico dell'ambiente esecutivo: <br><br>
+<ol>
+
+<li>
+La progettazione indipendente e sempre differente dei due sistemi elettroacustici di genesi ed elaborazione dei segnali (quello di Alberto Ricca e il mio); questa fase di progettazione viene portata avanti in modo autonomo dai due performer e raramente c'è uno scambio dettagliato sul funzionamento del proprio sistema (una scelta cosciente, detta dal desiderio di mantenere un certo grado di tensione e favorire momenti di reciproco stupore).
+</li><br>
+
+<li>
+Il routing tra i due sistemi in gioco; questa fase viene invece progettata in sinergia e ad essa viene dedicata particolare attenzione; potrei affermare che il processo di pre-produzione, o meglio di composizione, delle performance degli Alberi si risolve essenzialmente in una operazione di 'routing design'. E' infatti l'analisi e la progettazione dettagliata del routing interno del sistema di ognuno dei due performer, e di quello reciproco tra i due sistemi in gioco, a permettere l'altro grado di stratificazione dei materiali, il continuo scambio di influenze sonore, l'addizione continua di livelli di elaborazione, il graduale distacco dalle sorgenti iniziali di suono e la conseguente genesi di mondi sonori inaspettati: tutti elementi essenziali che costituiscono la cifra stilistica del progetto Alberi.
+</li>
+
+</ol>
+
+<br>
+Alberi è inoltre quel 'luogo' in cui ho avuto modo, in questi anni, di sperimentare maggiormente le possibilità espressive offerte dai trasduttori applicati agli strumenti acustici. 
+

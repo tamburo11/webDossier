@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<head>
+
+  <script>
+    $(document).ready(function() {
+
+      let myFirstImage= $(".firstImage");
+      let mySecondImage= $(".secondImage");
+      let myThirdImage= $(".thirdImage");
+      let myFourthImage= $(".fourthImage");
+      let myFifthImage= $(".fifthImage");
+
+
+// carico il testo
+      $("#work3_text1").load("work3_text1.txt");
+      $("#work3_text2").load("work3_text2.txt");
+      $("#work3_text3").load("work3_text3.txt");
+      $("#work3_text4").load("work3_text4.txt");
+      $("#work3_text5").load("work3_text5.txt");
+      $("#work3_text6").load("work3_text6.txt");
+      $("#work3_text7").load("work3_text7.txt");
+      $("#work3_text8").load("work3_text8.txt");
+       
+// se esiste la prima immagine riposiziono il testo giusto
+      if(myFirstImage){
+          if(myFirstImage.height()!=0){ // se l'immagine è già stata caricata precedentemente
+            myFirstImage.parent().next().css("padding-top", (myFirstImage.height()+20)+"px");
+          } else { // se è la prima volta che l'immagine viene caricata nella cache
+            myFirstImage.on( "load", function() {
+              myFirstImage.parent().next().css("padding-top", (myFirstImage.height()+20)+"px");
+            });
+          }
+      }
+      if(mySecondImage){
+          if(mySecondImage.height()!=0){ // se l'immagine è già stata caricata precedentemente
+          mySecondImage.parent().next().css("padding-top", (mySecondImage.height()+20)+"px");
+          } else { // se è la prima volta che l'immagine viene caricata nella cache
+          mySecondImage.on( "load", function() {
+            mySecondImage.parent().next().css("padding-top", (mySecondImage.height()+20)+"px");
+            });
+          }
+      }
+      if(myThirdImage){
+          if(myThirdImage.height()!=0){ // se l'immagine è già stata caricata precedentemente
+          myThirdImage.parent().next().css("padding-top", (myThirdImage.height()+20)+"px");
+          } else { // se è la prima volta che l'immagine viene caricata nella cache
+          myThirdImage.on( "load", function() {
+            myThirdImage.parent().next().css("padding-top", (myThirdImage.height()+20)+"px");
+            });
+          }
+      }
+      if(myFourthImage){
+          if(myFourthImage.height()!=0){ // se l'immagine è già stata caricata precedentemente
+          myFourthImage.parent().next().css("padding-top", (myFourthImage.height()+20)+"px");
+          } else { // se è la prima volta che l'immagine viene caricata nella cache
+          myFourthImage.on( "load", function() {
+            myFourthImage.parent().next().css("padding-top", (myFourthImage.height()+20)+"px");
+            });
+          }
+      }
+      if(myFifthImage){
+          if(myFifthImage.height()!=0){ // se l'immagine è già stata caricata precedentemente
+          myFifthImage.parent().next().css("padding-top", (myFifthImage.height()+20)+"px");
+          } else { // se è la prima volta che l'immagine viene caricata nella cache
+          myFifthImage.on( "load", function() {
+            myFifthImage.parent().next().css("padding-top", (myFifthImage.height()+20)+"px");
+            });
+          }
+      }
+
+    });
+
+</script>
+
+</head>
+
+<body>
+
+ 
+  <div class="jumbotron myjumbotron" id="jumbo">
+ 
+    <h1>performance interattiva per Art Test Fest</h1>
+ 
+             <p class="lead subtitle">
+ 
+              Alberto Barberis / concetto, live electronics, chitarre  <br>
+              Timos Zechas / body art, danza <br>
+              2016
+ 
+             </p>
+ 
+             <div class="myimageDiv">
+                 <img src="ATF_1.jpg"  class="firstImage nImage">
+             </div>
+<div></div>
+             <p class="lead myline">
+              <b class="titoletti"> introduzione e concetto </b>
+            </p>
+ 
+             <p class="lead " id="work3_text1">
+              
+             </p>
+
+             <p class="lead myline">
+              <b class="titoletti"> la performance </b>
+            </p>
+
+             <div class="iframe-container">;
+              <iframe id="iframe_id" class ="firstVideo nVideo" src="https://www.youtube.com/embed/mXTuWTfvhyc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+              </iframe>
+              <br>
+            </div>
+
+            <p class="lead myline">
+              <b class="titoletti"> dettagli tecnico-compositivi </b>
+            </p>
+
+            <p class="lead " id="work3_text2">
+              
+            </p>
+
+            <div class="myimageDiv2">
+              <img src="ATF_3.jpg" class="nImage">
+            </div>
+
+            <p class="lead " id="work3_text3">
+              
+            </p>
+
+            <div class="myimageDiv2">
+              <img src="ATF_4.jpg"  class=" nImage">
+          </div>
+
+
+          <p class="lead " id="work3_text4">
+              
+          </p>
+
+          <div class="myimageDiv">
+            <img src="ATF_5.png"  class="secondImage nImage">
+        </div>
+
+        <p class="lead " id="work3_text5">
+              
+        </p>
+
+        <div class="myimageDiv">
+          <img src="ATF_6.png"  class="thirdImage nImage">
+      </div>
+
+      <p class="lead " id="work3_text6">
+              
+      </p>
+
+      <div class="myimageDiv">
+        <img src="ATF_7.png"  class="fourthImage nImage">
+    </div>
+
+    <p class="lead " id="work3_text7">
+            
+    </p>
+
+    <div class="myimageDiv2">
+      <img src="ATF_8.png"  class=" nImage">
+  </div>
+  <p class="lead " id="work3_text8">
+          
+  </p>
+
+  <div class="myimageDiv">
+    <img src="ATF_9.png"  class="fifthImage nImage">
+</div>
+
+<div></div>
+
+
+
+             <p class="lead subtitle myline">
+
+              esecuzione <br><br>
+              - 3 novembre 2016, presso il Teatro Altrove, Genova (IT).
+                         </p>
+ 
+            
+           </div>
+
+         </body>
+
+

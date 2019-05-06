@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<head>
+
+    <script>
+        $(document).ready(function() {
+
+          let myFirstImage= $(".firstImage");
+          let mysecondImage= $(".secondImage");
+          let mythirdImage= $(".thirdImage");
+          let myFourthImage= $(".fourthImage");
+          let myFifthImage= $(".fifthImage");
+          let mySixthImage= $(".sixthImage");
+          let mySeventhImage= $(".seventhImage");
+          let myEighthImage= $(".eighthImage");
+// carico il testo
+          $("#work2_text1").load("work2_text1.txt");
+          $("#work2_text2").load("work2_text2.txt");
+          $("#work2_text3").load("work2_text3.txt");
+          $("#work2_text4").load("work2_text4.txt");
+          $("#work2_text5").load("work2_text5.txt");
+          $("#work2_text6").load("work2_text6.txt");
+          $("#work2_text7").load("work2_text7.txt");
+          $("#work2_text8").load("work2_text8.txt");
+          $("#work2_text9").load("work2_text9.txt");
+          
+// se esiste la prima immagine riposiziono il testo giusto
+          if(myFirstImage){
+              if(myFirstImage.height()!=0){ // se l'immagine è già stata caricata precedentemente
+                myFirstImage.parent().next().css("padding-top", (myFirstImage.height()+20)+"px");
+              } else { // se è la prima volta che l'immagine viene caricata nella cache
+                myFirstImage.on( "load", function() {
+                  myFirstImage.parent().next().css("padding-top", (myFirstImage.height()+20)+"px");
+                });
+              }
+          }
+
+           if(mysecondImage){
+              if(mysecondImage.height()!=0){ // se l'immagine è già stata caricata precedentemente
+              mysecondImage.parent().next().css("padding-top", (mysecondImage.height()+20)+"px");
+              } else { // se è la prima volta che l'immagine viene caricata nella cache
+              mysecondImage.on( "load", function() {
+                mysecondImage.parent().next().css("padding-top", (mysecondImage.height()+20)+"px");
+                });
+              }
+          }
+
+            if(mythirdImage){
+              if(mythirdImage.height()!=0){ // se l'immagine è già stata caricata precedentemente
+              mythirdImage.parent().next().css("padding-top", (mythirdImage.height()+20)+"px");
+              } else { // se è la prima volta che l'immagine viene caricata nella cache
+              mythirdImage.on( "load", function() {
+                mythirdImage.parent().next().css("padding-top", (mythirdImage.height()+20)+"px");
+                });
+              }
+          }
+
+          if(myFourthImage){
+              if(myFourthImage.height()!=0){ // se l'immagine è già stata caricata precedentemente
+              myFourthImage.parent().next().css("padding-top", (myFourthImage.height()+20)+"px");
+              } else { // se è la prima volta che l'immagine viene caricata nella cache
+              myFourthImage.on( "load", function() {
+                myFourthImage.parent().next().css("padding-top", (myFourthImage.height()+20)+"px");
+                });
+              }
+          }
+
+          if(myFifthImage){
+              if(myFifthImage.height()!=0){ // se l'immagine è già stata caricata precedentemente
+              myFifthImage.parent().next().css("padding-top", (myFifthImage.height()+20)+"px");
+              } else { // se è la prima volta che l'immagine viene caricata nella cache
+              myFifthImage.on( "load", function() {
+                myFifthImage.parent().next().css("padding-top", (myFifthImage.height()+20)+"px");
+                });
+              }
+          }
+
+          if(mySixthImage){
+              if(mySixthImage.height()!=0){ // se l'immagine è già stata caricata precedentemente
+              mySixthImage.parent().next().css("padding-top", (mySixthImage.height()+20)+"px");
+              } else { // se è la prima volta che l'immagine viene caricata nella cache
+              mySixthImage.on( "load", function() {
+                mySixthImage.parent().next().css("padding-top", (mySixthImage.height()+20)+"px");
+                });
+              }
+          }
+          if(mySeventhImage){
+              if(mySeventhImage.height()!=0){ // se l'immagine è già stata caricata precedentemente
+              mySeventhImage.parent().next().css("padding-top", (mySeventhImage.height()+20)+"px");
+              } else { // se è la prima volta che l'immagine viene caricata nella cache
+              mySeventhImage.on( "load", function() {
+                mySeventhImage.parent().next().css("padding-top", (mySeventhImage.height()+20)+"px");
+                });
+              }
+          }
+          if(myEighthImage){
+              if(myEighthImage.height()!=0){ // se l'immagine è già stata caricata precedentemente
+              myEighthImage.parent().next().css("padding-top", (myEighthImage.height()+20)+"px");
+              } else { // se è la prima volta che l'immagine viene caricata nella cache
+              myEighthImage.on( "load", function() {
+                myEighthImage.parent().next().css("padding-top", (myEighthImage.height()+20)+"px");
+                });
+              }
+          }
+        });
+
+    </script>
+
+    
+
+</head>
+<body>
+
+
+ 
+ <div class="jumbotron myjumbotron" id="jumbo">
+
+            <h1>naturally artificial</h1>
+
+            <p class="lead subtitle">
+
+              Anto. Milotta e Zlatolin Donchev / installazione<br>
+              Alberto Barberis / sound design<br>
+              2017
+            </p>
+
+            <div class="myimageDiv">
+                <img src="naturallyArtificial1.jpg"  class="firstImage nImage">
+            </div>
+            <div></div>
+            <p class="lead myline">
+              <b class="titoletti"> introduzione e concetto </b>
+            </p>
+
+            <p class="lead " id="work2_text1">
+             
+            </p>
+
+            <div class="myimageDiv">
+              <img src="naturallyArtificial2.jpg"  class="secondImage nImage">
+            </div>
+
+            <p class="lead " id="work2_text2">
+             
+            </p>
+
+            <div class="myimageDiv">
+              <img src="naturallyArtificial3.jpg" class="thirdImage nImage">
+            </div>
+
+            <p class="lead " id="work2_text3">
+             
+            </p>
+
+            <p class="lead myline">
+              <b class="titoletti"> porzioni delle tracce audio</b>
+            </p>
+
+            <p class="lead " id="work2_text4">
+             
+            </p>
+
+            <div class="myimageDiv">
+              <img src="NA_3.jpg" class="fourthImage nImage">
+            </div>
+
+            <p class="lead " id="work2_text5">
+             
+            </p>
+
+
+            <p class="lead audioText">
+              <b>PORZIONE DELLA TRACCIA AUDIO ASSOCIATA ALL'ASSE X - da 00:00 a 03:00 min</b>
+            </p>
+            <audio controls>
+              <source src="NA_x.ogg" type="audio/ogg">
+            Your browser does not support the audio element.
+            </audio>
+            <div class="myimageDiv2">
+              <img src="NA_x.png" class="nImage">
+            </div>
+
+
+            <p class="lead audioText">
+              <b>PORZIONE DELLA TRACCIA AUDIO ASSOCIATA ALL'ASSE Y - da 00:00 a 03:00 min</b>
+             </p>
+             <audio controls>
+              <source src="NA_y.ogg" type="audio/ogg">
+            Your browser does not support the audio element.
+            </audio>
+            <div class="myimageDiv2">
+              <img src="NA_y.png" class="nImage">
+            </div>
+            
+            <p class="lead audioText">
+            <b> PORZIONE DELLA TRACCIA AUDIO ASSOCIATA ALL'ASSE Z - da 00:00 a 03:00 min</b>
+             </p>
+             <audio controls>
+              <source src="NA_z.ogg" type="audio/ogg">
+            Your browser does not support the audio element.
+            </audio>
+            <div class="myimageDiv2">
+              <img src="NA_z.png" class="nImage">
+            </div>
+           
+
+            <p class="lead myline">
+              <b class="titoletti"> dettagli tecnico-compositivi </b>
+            </p>
+
+            <p class="lead " id="work2_text6">
+             
+            </p>
+
+            <div class="myimageDiv">
+              <img src="FFT_record.png" class="fifthImage nImage">
+            </div>
+
+            <p class="lead " id="work2_text7">
+             
+            </p>
+
+
+            <div class="myimageDiv">
+              <img src="maschera.png" class="sixthImage nImage">
+            </div>
+
+            <p class="lead " id="work2_text8">
+             
+            </p>
+
+
+            <div class="myimageDiv">
+              <img src="peek.png" class="seventhImage nImage">
+            </div>
+
+            <p class="lead " id="work2_text9">
+             
+            </p>
+
+            <div class="myimageDiv">
+              <img src="naturallyArtificial4.png" class="eighthImage nImage">
+            </div>
+<div></div>
+            <p class="lead subtitle myline">
+
+              esposizione <br><br>
+              - dal 28 aprile 2017 al 18 giugno 2017, presso il Museo d'Arte Contemporanea Villa Croce di Genova (IT).<br>
+             </p>
+           
+          </div>
+
+        </body>

@@ -1,0 +1,19 @@
+<br>
+<b>SINTESI ED ELABORAZIONE</b>
+
+<br><br>
+
+L'algoritmo che gestisce il campo di forze e gli oggetti al suo interno ha come scopo principale quello di dar vita a diversi processi di sintesi audio, elaborazione digitale del suono e spazializzazione multicanale. 
+
+L'intento dell'opera è infatti quello di creare un microcosmo di entità vitali in uno spazio virtuale 3D, che possa offrire il proprio dinamismo pseudo-naturale (ottenuto grazie alla simulazione delle forze fisiche che governano il mondo reale) ai processi di creazione e composizione elettronica, di gestione della forma musicale e di fruizione artistica (ascolto immersivo). Questo obiettivo è ottenuto per mezzo di una stretta interconnessione tra alcuni dei parametri che caratterizzano lo spazio 3D e alcuni parametri di sintesi ed elaborazione del suono: una mappatura tra i parametri spazio-dinamici del sistema e i parametri delle funzioni musicali. 
+
+<br><br>
+
+L'output musicale del sistema è costituito, contemporaneamente, da un sintetizzatore e da un campionatore con granulatore (progettati tutti ad hoc e realizzati completamente in max/MSP). I campioni utilizzati fanno parte di una libreria creata, anch'essa appositamente, registrando i suoni generati dalle azioni di Stefano Giorgi sul proprio strumento di live painting: una cappelliera DIY modificata con un vetrino, una luce e una videocamera, nella quale dà vita ad oggetti e fluidi per generare immagini in tempo reale.
+
+<br><br>
+
+Il sintetizzatore combina diverse tecniche di sintesi, come la sintesi additiva, la sintesi per modulazione (di frequenza e di ampiezza - quest'ultima anche influenzata dal campionatore), la sintesi sottrattivo-risonante (filtri a pettine), con elaborazioni del segnale sintetizzato (pitchshifting, delaying, distorsione). Di seguito è possibile osservare una porzione dell'algoritmo centrale del sintetizzatore: diverse forme d'onda complesse vengono create a partire da una frequenza fondamentale per mezzo di varie forme di modulazione, per poi essere sommate in uscita (con controllo sui guadagni parziali). Le diverse forme d'onda vengano modulate, attraverso processi multipli e concatenati, da segnali di controllo di vario tipo (forme d'onda a loro volta modulate, segnali generati da envelope follower, adsr, ecc.) ed inoltre elaborate in vari modi.
+
+
+ 

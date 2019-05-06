@@ -1,0 +1,8 @@
+<br>
+
+Nella immagine seguente è invece possibile osservare la porzione di algoritmo che si occupa della mascheratura spettrale. Questa operazione avviene per mezzo di un semplice confronto fra i pixel di due matrici: la matrice creata precedentemente (spectrum 1_2) e la matrice dell'immagine della maschera (maschera1_2, ridimensionata poi nella matrice mascherridim1_2), opportunamente trasformata in una immagine nera. 
+<br><br>
+
+L'operazione che viene fatta dentro l'oggetto jit.gen (visibile nel riquadro a destra dell'immagine) viene effettuata pixel per pixel. Se il pixel della immagine della maschera è uguale a 0 (cioè se mi trovo dentro la maschera, di colore nero) allora si lascia passare inalterato il pixel dell'immagine dello spettrogramma, altrimenti lo si sostituisce con un vettore nullo. L'output di questa operazione viene salvato in una nuova matrice (newspectrum_mascherato1_2).
+
+<br>

@@ -1,0 +1,11 @@
+
+
+Tutte le combinazioni possibili e immaginabili all’interno della matrice possono essere utilizzate durante la performance per creare varietà. Ogni combinazione infatti porterà ad un determinato output sonoro che dipenderà non solo dalla configurazione stessa dei processi nella matrice, ma anche dai materiali audio in gioco in quel determinato momento. La selezione dei processi rientra dunque pienamente all’interno del percorso improvvisativo della performance, che prevede momenti in cui la selezione viene effettuata esclusivamente in base a specifiche scelte estetiche, e momenti in cui la selezione viene effettuata in risposta a determinate modificazioni dell’output audio del sistema stesso dovute proprio all’interazione con i performer. Selezione come creazione, da un lato, e selezione come controllo del sistema, dall’altro.
+
+<br><br>
+
+<b>SISTEMA DI CONTROLLO E DSP</b>
+
+<br><br>
+
+Oltre alla matrice sopra descritta è stata ideata un'altra interfaccia che permette di controllare i parametri dell’intero sistema. Oltre ai moduli di trattamento del segnale di cui sopra, descritti in quanto maggiormente specifici del progetto, ne vengono infatti usati molti altri (riverberi, armonizzatori, frequency shifter, equalizzatori, ecc.). Nell’immagine sottostante è possibile osservare l’interfaccia di controllo generica per mezzo della quale è possibile controllare molti dei parametri di queste elaborazioni parametri durante la performance (i volumi in ingresso e in uscita da ogni modulo di trattamento del segnale, i parametri di riverbero, dei frequency shifter, degli armonizzatori, ecc.).

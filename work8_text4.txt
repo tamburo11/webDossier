@@ -1,0 +1,34 @@
+<br>
+
+La partitura operativa mostrata nel video è stata creata con l'oggetto bach.roll della libreria, che permette di creare e gestire una notazione proporzionale. Ad ogni nota è associata un'altezza in MIDIcents (MIDI*100), una velocity e una durata in millisecondi. La suddivisione del tono è all'ottavo di tono. Segue una descrizione delle funzionalità dei vari righi presenti in partitura, dal basso verso l'alto. <br><br>
+
+<b>IL SAMPLER</b><br><br>
+
+Il sampler viene utilizzato per suonare dei campioni audio. Ad ogni nota sul pentagramma è associato uno di questi campioni. I processi che è possibile effettuare su ogni singolo campione sono i seguenti:<br><br>
+<ol>
+
+<li>
+Frequency Shifting: l'altezza della nota sul pentagramma definisce la frequenza di shifting. Il do centrale (C4) indica no-shifting. Il campione può essere letto sia con il frequency shifting attivo che disattivo, che entrambi contemporaneamente. 
+</li><br>
+<li>
+Loop: ad ogni nota è associata una durata (notazione proporzionale). Il campione viene letto in loop per la durata indicata.
+</li><br>
+<li>
+Inviluppo di ampiezza: è possibile modificare dinamicamente l'ampiezza del segnale audio per mezzo di un inviluppo di automazione (funzione 2D).
+</li><br>
+<li>
+Velocità di lettura del file: è possibile leggere il campione a velocità diverse, in un range che va da -50 a 50 volte la velocità nominale. Il meno indica la lettura in reverse. 
+</li><br>
+<li>
+Assegnazione fissa alle lastre: è possibile definire attraverso quale lastra viene diffuso il campione. Questa assegnazione è fissa per l'intera durata della lettura del file e va eventualmente a sommarsi con una spazializzazione dinamica. 
+</li><br>
+<li>
+Spazializzazione dianamica nelle lastre: è possibile definire un percorso di spazializzazione dinamico per mezzo di un inviluppo di automazione (funzione 2D). La funzione che definisce questo inviluppo permette di far spostare il suono tra una lastra e l'altra del sistema. 
+</li><br>
+<li>
+Envelope Follower per elaborazione video: ogni singolo campione può essere utilizzato per creare un segnale di controllo, ottenuto per mezzo di un envelope follower, da utilizzare per la generazione e l'elaborazione di particelle grafiche, oppure per la modifica di alcuni parametri di elaborazione real-time sull'immagine del violoncellista.
+</li>
+</ol>
+<br>
+
+Segue un'immagine dell'istanza della poly~ che gestisce tutte queste operazioni. 

@@ -1,0 +1,24 @@
+<br>
+
+<b>ROUTING DI SEGNALI</b>
+
+<br><br>
+
+Segue un elenco delle interconnessioni di segnale. Il mio sistema verrà chiamato sistema1, quello di Alberto Ricca sistema2.<br><br>
+
+<ol>
+<li>
+Una uscita del sistema1 manda al sistema2 il mix di due microfoni a contatto (dalle caratteristiche differenti), posizionati sulla superficie della chitarra.
+</li><br>
+<li>
+Una uscita del sistema1 manda al sistema2 un mix delle due elaborazioni di fresa spettrale.
+</li><br>
+<li>
+Una uscita del sistema1 manda al sistema2 il segnale registrato dal microfono a condensatore sulla chitarra classica.
+</li><br>
+<li>
+Il sistema2 manda ad un ingresso del sistema1 un segnale (a sua discrezione) da utilizzare per l'analisi delle parziali in tempo reale.
+</li><br>
+<li>
+Il sistema2 manda ad un ingresso del sistema1 un segnale da spazializzare all'interno dei 4 trasduttori applicati alla chitarra preparata. </li><br>
+</ol>

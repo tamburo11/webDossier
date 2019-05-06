@@ -1,0 +1,32 @@
+Di seguito verranno brevemente prese in esame le diverse caratteristiche che compongono il sistema sviluppato per la performance di Art Test Fest, un sistema analogico-digitale in cui gli hardware, gli algoritmi e i due performer coinvolti sono posti sullo stesso livello. Ogni elemento fa parte infatti di un complesso ingranaggio sistemico, in cui ogni azione compiuta da uno di questi elementi comporta sempre una forma di reazione degli altri, sia essa il frutto di un calcolo o la risposta umana ad uno stimolo percettivo (sonoro, tattile o visivo).
+
+<br><br>
+<b>MOTION TRACKING</b>
+
+<br><br>
+
+Una delle caratteristiche principali del sistema è il motion tracking (1), effettuato per mezzo di una Kinect Xbox 360° interfacciata con Max/MSP per mezzo dell’applicazione open source Synapse con cui è gestito il protocollo OSC. Nel sistema il motion tracking viene utilizzato principalmente per tre scopi: 
+<br><br>
+<ol>
+<li>
+controllare il volume di alcune delle tracce audio suonate dal sistema (in particolare quelle attivate dallo stesso performer-danzatore), per mezzo del calcolo in tempo reale della distanza tra le due mani del performer;
+</li><br>
+<li>
+
+controllare l’attivazione (trigger) o la disattivazione di alcune tracce audio per mezzo del tracciamento del posizionamento, nello spazio tridimensionale sovrastante la pedana, delle mani e dei piedi del performer;
+
+</li><br>
+<li>
+controllare alcuni parametri del processo di multi-freezing audio ottenuto con una tecnica di analisi e ri-sintesi FFT sviluppata appositamente.
+
+</li>
+</ol>
+<br>
+
+<b>TECNICA DI BUFFERING 3D</b>
+
+<br><br>
+
+Una delle tecniche principali di interazione suono-danza che caratterizza il sistema è stata chiamata buffering 3D. Con questa espressione si intende un processo di campionamento audio e triggering nello spazio tridimensionale di azione del danzatore. Questa tecnica prevede il campionamento continuativo, in diversi buffer di memoria, di brevi frammenti sonori (di qualche secondo), provenienti dai diversi microfoni presenti nel sistema, e in particolare da quelli selezionati dal musicista-conduttore per mezzo di una matrice di selezione. Ogni buffer di memoria viene associato ad uno dei 60 parallelepipedi con cui viene idealmente suddiviso il volume di spazio delimitato dal perimetro della piattaforma e dalla massima altezza raggiunta dal performer con le mani alzate (cioè lo spazio totale di movimento del danzatore).<br><br> 
+
+

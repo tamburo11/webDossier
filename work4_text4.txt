@@ -1,0 +1,56 @@
+
+<br>
+Segue una lista delle principali operazioni di sintesi ed elaborazione del suono che sono state implementate per la performance in esame:
+
+<br><br>
+
+<ol>
+<li>
+Analisi delle prime 6 parziali di un segnale proveniente dal sistema di Alberto Ricca. Questa analisi viene utilizzata per la creazione di un campo armonico di sintesi e per definire un banco di filtri risonanti centrati sulle parziali restituite dall'analisi. L'analisi non è continua, ma è il performer a decidere quando effettuarla. Questa operazione permette di 'fotografare' lo spettro proveniente da un segnale di Alberto Ricca in un momento preciso, come per cogliere al volo l'essenza armonica (talvolta molto nascosta alla percezione) di un istante. Le parziali restituite dall'analisi vengono visualizzate con una notazione simbolica tradizionale nell'interfaccia. Il performer può, in tempo reale, modificare l'ottava di ognuna di queste parziali: sarà questa l'altezza finale che influenzerà il processo di sintesi e quello di filtraggio. 
+
+</li><br>
+<li>
+Sintesi di un campo armonico basato sulle frequenze restituite dall'analisi di cui al punto 1. Il sintetizzatore utilizzato è a base sinusoidale con modulazioni di ampiezza controllate dallo stesso segnale analizzato (un envelope follower con parametri definibili indipendentemente per ogni parziale). Ogni sinusoide è mandata a uno specifico trasduttore applicato alla chitarra orizzontale; il guadagno in uscita di ognuna di esse può essere controllato manualmente da un potenziometro.
+</li><br>
+
+<li>
+Banco di filtri risonanti basato sulle frequenze restituite dall'analisi di cui al punto 1. I segnali a cui si applicano questi filtri sono quelli provenienti dai 4 microfoni a contatto applicati alla chitarra. Le frequenze centrali di risonanza di ogni singolo filtro del banco sono le frequenze restituite dall'analisi spettrale. Per ogni singolo filtro è possibile stabilirne, in modo del tutto indipendente, il guadagno e il fattore di risonanza, così come controllarne il volume in uscita via fader. I segnali in uscita da questi filtri sono assegnati ai trasduttori applicati alla chitarra, con tutte le possibilità di generare feedback loop e di controllarli musicalmente. 
+
+
+</li><br>
+<li>
+Registratore che permette di registrare, fino a 8 buffer di memoria indipendenti, un segnale audio ricevuto dal sistema di Alberto Ricca. I buffer possono essere letti a velocità differenti e suonati live per mezzo di 8 pad. Il playback di questi segnali è nuovamente assegnato ai trasduttori applicati alla chitarra. 
+</li><br>
+
+<li>
+Due freeze spettrali differenti. Il primo che permette di fare un freeze del segnale ricevuto da tutti i microfoni a contatto applicati alla chitarra e di applicare ai segnali così ottenuti un filtro (definibile al volo) prima di mandarlo al sistema di Alberto Ricca. Il secondo che presenta in più rispetto al primo la possibilità di effettuare una modulazione di ampiezza sul segnale 'freezed' per mezzo di 4 LFO definibili dal performer in tempo reale (funzione sinusoidale, a dente di sega, triangolare o rettangolare).
+</li><br>
+
+<li>
+Utilizzo del segnale registrato dai microfoni a contatto sia come sorgente diretta che come sorgente per le elaborazioni precedentemente esposte. E' il performer a poter scegliere, per ogni microfono a contatto, il tipo di utilizzo desiderato. 
+</li><br>
+
+
+<li>
+Utilizzo dei trasduttori come 'strumenti musicali'. Oltre alle possibilità di generare (e 'suonare') i feedback loop (che è possibile generare tra i trasduttori e i microfoni a contatto) già evidenziate, i 4 eccitatori applicati alla superficie della chitarra sono usati principalmente per: <br><br>
+<ul>
+<li>
+creare un ciclo (tra trasduttori e microfoni a contatto) di elaborazione analogica del segnale che sfrutta la chitarra come risonatore, e le cui caratteristiche di risonanza sono inoltre modificabili grazie all'interazione del performer;
+</li><br>
+<li>
+Usare le vibrazioni dei trasduttori come <i>sound exciter</i> tanto del corpo della chitarra quanto delle corde ad essa applicate (2 dei 4 trasduttori vengono infatti posizionati direttamente sotto alcune corde, trasmettendo le vibrazioni direttamente ad esse). Questo permette all'esecutore di ottenere particolari effetti sullo strumento: una sorta di 'tremolo' continuo sulle corde, oppure un continuo 'rimbalzare' di oggetti sulla superficie, o ancora particolari interazioni tra gesti chitarristi 'tradizionali' sulle corde e la risposta delle corde alle vibrazioni.
+</li>
+</li>
+</ol>
+<br>
+L'immagine che segue mostra l'interfaccia grafica usata durante la performance. La visualizzazione del campo armonico presente (che influenza 'armonicamente' tutto il sistema computer/chitarra-preparata) è utile, durante la performance, per conoscere il contesto armonico sul quale, eventualmente, suonare la chitarra classica. 
+<br>
+
+
+
+
+
+
+
+
+

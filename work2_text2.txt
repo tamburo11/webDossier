@@ -1,0 +1,36 @@
+
+<br>
+Il mio contributo all'opera può essere definito un'operazione di 'scultura sonora digitale'. Con essa ho voluto riprendere il percorso creativo degli autori, ideando e sviluppando algoritmicamente un processo di analisi e ri-sintesi del suono che ricalcasse, su un livello parallelo, le due operazioni effettuate dagli autori stessi per la creazione delle 7 sculture plastiche, cioè: <br><br>
+<ol>
+<li>
+lo studio (analisi) delle 7 strutture cristalline naturali;
+</li><br>
+<li>
+la genesi (ri-sintesti) digitale di 7 pseudo-minerali plastici per mezzo della tecnologia di stampa 3D. 
+</li>
+</ol>
+<br>
+
+Allo scopo di raggiungere questo obiettivo, ho creato, per l'installazione, 3 tracce audio sviluppando una tecnica di analisi e ri-sintesi spettrale, che sfrutta un processo di elaborazione digitale delle immagini per effettuare dei filtraggi nel dominio trasformato (dominio delle frequenze): l'<i>image masking</i>. Questo processo permette di cancellare alcune porzioni di un'immagine, utilizzando un'altra immagine come 'maschera'. Le immagini da me utilizzate sono state:<br><br>
+<ol>
+<li>
+lo spettrogramma (l'immagine spettrale 2D del suono) di un'unica registrazione audio di più di 3 ore del processo produttivo (per mezzo di una stampante 3D) di uno dei 7 minerali creati dagli autori;
+</li><br>
+<li>
+5 sezioni 2D per ognuna delle 3 direzioni (x,y,z) del render 3D di uno dei minerali plastici.
+</li>
+</ol><br>
+
+
+Questa scelta operativa delinea una prima analogia strutturale tra la dimensione plastica (i 7 pseudo-minerali) e quella sonora (le 3 tracce audio). L'analogia si compie contemporaneamente su due livelli: il primo è il livello della forma e del volume, ottenuto sfruttando come filtri spettrali le immagini bidimensionali di 5 sezioni per ognuno degli assi dello spazio tridimensionale di uno dei 7 pseudo-minerali; il secondo è invece il livello del suono e dell'azione, ottenuto applicando questi filtri spettrali, in modo concatenato e continuo, all'intero spettrogramma del suono registrato del processo di produzione delle sculture. La creazione dello spettrogramma, e la successiva elaborazione per mezzo del filtraggio a maschera con le immagini delle sezioni del minerale, è stata effettuata nell'ambiente di visual programming max/MSP.
+
+<br>
+<br>
+
+Nel mio lavoro ogni sezione 2D è diventata così non solo la caratterizzazione visiva della proiezione del minerale lungo i 3 diversi assi che ne hanno permesso la progettazione via software e poi la fabbricazione con la stampante 3D, ma anche lo 'strumento' di elaborazione digitale (sintesi sottrattiva nel dominio delle frequenze) con cui la traccia audio è stata metaforicamente 'intonata', di volta in volta, su ogni asse. 
+
+<br>
+<br>
+
+Le 3 tracce sono state ideate per essere diffuse nello spazio espositivo della mostra (che prevedeva l'applicazione delle 7 sculture plastiche sulle pareti di una sala medio-piccola) per mezzo di 3 altoparlanti a parabola direzionati 'a doccia' sulle teste dei visitatori. Ogni altoparlante rappresenta un'asse del piano a 3 dimensioni, lo stesso sul quale si muovono i bracci di una stampante 3D in funzione. Ogni altoparlante è dunque associato a uno degli assi (x,y,z), diffondendo unicamente la traccia ottenuta con le 5 'maschere spettrali' 2D ricavate dalla sezione lungo quello stesso asse. In questo modo ho voluto tracciare una seconda analogia strutturale, che si compie tra i due strumenti hardware in gioco: la stampante, che ha dato vita alle opere; e gli altoparlanti parabolici, che diffondendo il suono di quello stesso processo genetico tridimensionale, ne rievocano l'essenza.
+<br>

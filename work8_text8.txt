@@ -1,0 +1,35 @@
+<br>Una lista completa dei possibili parametri (dinamici e non) associati a ogni nota e definibili direttamente nella partitura operativa è la seguente:
+<br><br>
+<ol>
+<li>
+Definire la tipologia di synth: ogni nota può essere suonata da ognuno dei synth sopra descritti (anche contemporaneamente).
+</li><br>
+<li>
+Inviluppo di ampiezza: è possibile modificare dinamicamente l'ampiezza del segnale sintetizzato per mezzo di un inviluppo di automazione (funzione 2D).
+</li><br>
+<li>
+Filtraggio del synth3: è possibile utilizzare una speciale interfaccia della libreria bach (uno slot di tipo dynfiler) per modificare dinamicamente i parametri e la tipologia del filtro del synth3. 
+</li><br>
+<li>
+Parametri del synth2: per ogni istanza che sfrutta il synth2 è possibile definire i seguenti parametri: velocity, lunghezza della nota, attacco, rilascio, tempo di delay, percentuale di feedback del delay. 
+</li><br>
+<li>
+Tipologia di inviluppo di ampiezza per il Synth3: è possibile decidere per ogni istanza che sfrutta il synth3 se utilizzare l'inviluppo di ampiezza della funzione 2D ad essa associata, oppure l'envelope follower sui campioni del sampler. 
+</li><br>
+<li>
+Assegnazione fissa alle lastre: è possibile definire attraverso quale lastra viene diffuso il campione. Questa assegnazione è fissa per l'intera durata della lettura del file e va eventualmente a sommarsi con una spazializzazione dinamica. 
+</li><br>
+<li>
+Spazializzazione dianamica nelle lastre: è possibile definire un percorso di spazializzazione dinamico per mezzo di un inviluppo di automazione (funzione 2D). La funzione che definisce questo inviluppo permette di far spostare il suono tra una lastra e l'altra del sistema. 
+</li><br>
+<li>
+Envelope Follower per elaborazione video: ogni singolo campione può essere utilizzato per creare un segnale di controllo, ottenuto per mezzo di un envelope follower, da utilizzare per la generazione e l'elaborazione di particelle grafiche, oppure per la modifica di alcuni parametri di elaborazione real-time sull'immagine del violoncellista.
+</li>
+</ol>
+
+<br><b>I SERVO MOTORI</b><br><br>
+
+Il movimento dei servo motori viene gestito da un microprocessore Arduino, alimentato da un alimentatore costruito ad hoc. Ogni servo motore è direttamente applicato all'estremità in alto di ogni lastra motorizzata, ed costituito da una leva che può effettuare una rotazione di 180°. A questa leva è collegato un filo trasparente legato direttamente all'estremità bassa della lastra. La rotazione della leva permette così la curvatura della lastra. Segue il codice che controlla il microprocessore. 
+
+<br>
+<br>

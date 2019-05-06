@@ -1,0 +1,22 @@
+<br>
+
+<b>LA COSTRUZIONE DELL'ARCHITETTURA DI LASTRE</b><br><br>
+
+La progettazione dell'architettura di lastre è il frutto di diversi anni di esperimenti con i trasduttori applicati a strumenti ed oggetti. Il materiale che è stato scelto è l'alluminio, poiché, insieme all'acciaio, è uno dei materiali con la maggiore capacità di propagazione delle onde sonore. Dopo una serie di studi effettuati sulle caratteristiche di risonanza di ogni lastra, ho deciso di non trattare l'argomento scientificamente e di non sfruttare questa caratteristica in modo strutturato nella composizione. La coppia trasduttore/lastra, sempre leggermente diversa, non mi avrebbe infatti permesso di ottenere un grado di controllo sufficiente. E inoltre, sono stato attratto maggiormente e fin da subito dal comportamento incontrollato, rumoroso, impreciso e sempre diverso delle coppie lastra/trasduttore, nonché dalla importante equalizzazione ottenibile per mezzo della curvatura delle superfici delle lastre rettangolari. In <i>Invisible through #Bach</i> sono stati utilizzati 3 tipi di lastre diverse:<br><br>
+
+<ol>
+<li>
+8 lastre rettangolari appese verticalmente e motorizzate (1000x500x0.5mm). Al centro di ognuna di queste lastre viene applicato un trasduttore di 40W e 4ohm. Alla sommità viene fissato un servo motore, centrato nello stesso punto in cui viene collegato il cavo d'acciaio per l'apprendimento. Ad una leva di qualche centimetro collegata al servo motore, è poi applicato un cavo di nylon trasparente, posto in tensione e legato all'estremità opposta della lastra. Sia il segnale audio che il segnale di controllo per il servo motore sono trasmessi per mezzo di cavi XLR. 
+</li><br>
+<li>
+2 lastre rettangolari poste orizzontalmente sulle teste degli ascoltatori, non motorizzate (1000x500x0.7mm). A queste lastre viene applicato solamente il trasduttore di 40W e 4ohm; esse sono prive di motori.
+</li><br>
+<li>
+6 lastre quadrate poste su stativo attorno agli ascoltatori, non motorizzate (1000x1000x2mm). Queste lastre presentano un trasduttore di 50W ottimizzato per una buona risposta in frequenza alle basse frequenze. Queste lastre sono prive di motori e vengono utilizzate essenzialmente per la diffusione dei bassi. 
+</li>
+</ol>
+<br>
+
+<b>LA PARTITURA OPERATIVA</b><br><br>
+La performance di <i>Invisible through #Bach</i> viene gestita per mezzo di una partitura operativa, creata con la libreria <i>bach, automated composer helper</i> per max/MSP. La partitura gestisce tutti i processi coinvolti, assumendo piuttosto le funzionalità di un DAW e di un sequencer di eventi nel tempo, piuttosto che la funzione classica di partitura notazionale. In aggiunta a questa partitura operativa è stata scritta una parte per il violoncellista. Di seguito viene presentata la partitura sotto forma di video, che riproduce, a velocità maggiorata, l'interfaccia visibile della partitura operativa. A seguire invece la parte del violoncello del terzo movimento (a titolo di esempio). 
+<br>

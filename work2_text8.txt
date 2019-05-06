@@ -1,0 +1,5 @@
+<br>
+
+L'ultimo passaggio prevede la lettura dei dati dell'ultima matrice creata e la ri-sintesi audio. Questa operazione viene effettuata con l'oggetto jit.peek~. L'algoritmo di ri-sintesi è visibile nella immagine che segue. 
+
+<br>

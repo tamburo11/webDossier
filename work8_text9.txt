@@ -1,0 +1,71 @@
+<br>
+
+La curvatura può essere controllata in due modi: per mezzo di un inviluppo di automazione (funzione 2D), oppure per mezzo di un segnale di controllo, ottenuto con un envelope follower sull'ampiezza del segnale audio generato dal violoncellista. Il rigo ad 8 linee associato ai servo-motori permette di modificare la curvatura in modo automatico e indipendente di ogni lastra. 
+
+<br><br>
+
+<b>CAMPIONAMENTO ED ELABORAZIONE IN REAL-TIME DEL VIOLONCELLO</b>
+
+<br><br>
+ 
+Il rigo associato a questa funzionalità è composto da 8 linee. Ad ognuna di esse è associato un buffer di memoria. In questo buffer è possibile registrare dei frammenti di suono prodotto dal violoncello. La durata dei frammenti è proporzionale alla lunghezza della linea associata ad ogni nota. La registrazione viene azionata da un messaggio di 'rec'. Il playback del segnale registrato nel buffer viene invece gestito da un messaggio di tipo 'play'. Ogni singolo buffer viene letto a loop per la durata associata alla nota che contiene un messaggio di tipo 'play'. Di ogni singolo buffer possono essere definiti i seguenti parametri per la fase di playback:
+
+<br><br>
+
+<ol>
+<li>
+Velocità dei lettura del campione: essa è definita per mezzo di un float number nel range che va da -50 a 50 (il meno significa lettura 'in reverse').
+</li><br>
+<li>
+La porzione di loop: essa è definita per mezzo di una funzione 2D; è dunque possibile modificare questo tempo dinamicamente e per tutta la durata della nota di playback. 
+</li><br>
+<li>
+Assegnazione fissa alle lastre: è possibile definire attraverso quale lastra viene diffuso il buffer. Questa assegnazione è fissa per l'intera durata della lettura del file e va eventualmente a sommarsi con una spazializzazione dinamica. 
+</li><br>
+<li>
+Spazializzazione dianamica nelle lastre: è possibile definire un percorso di spazializzazione dinamico per mezzo di un inviluppo di automazione (funzione 2D). La funzione che definisce questo inviluppo permette di far spostare il suono tra una lastra e l'altra del sistema. 
+</li><br>
+</ol>
+
+<b>GESTIONE DEL SEGNALE DEL VIOLONCELLO</b>
+
+<br><br>
+
+Un rigo di una sola linea è utilizzato per l'apertura e la chiusura del microfono (condensatore) sul violoncello e per altre importanti funzionalità sul segnale captato da questo microfono. L'operazione di gestione del microfono viene trattata per mezzo di un inviluppo di automazione (una funzione 2D) che controlla l'ampiezza del segnale registrato. Questa funzionalità permette di avere costantemente il controllo sull'inviluppo di ampiezza del suono del violoncellista.
+<br><br>
+Alle note presenti in questo rigo sono associate anche le seguenti funzioni:<br><br>
+<ol>
+<li>
+Routing del segnale del violoncello: per mezzo di una matrice è possibile definire quali processi attivare per il segnale del violoncello. Sono possibili i seguenti: suono diretto; envelope follower sul suono diretto, per muovere i servo motori; frequency shifterei sul suono diretto; freeze spettrale del suono del violoncello; noiser spettrale sul suono del violoncello.
+</li><br>
+<li>
+Controllo di un Frequency Shifter dinamico sul violoncello: per mezzo di un inviluppo di automazione (funzione 2D) è possibile controllare la frequenza di shifting.
+</li><br>
+<li>
+Assegnazione fissa alle lastre: è possibile definire attraverso quale lastra viene diffuso il suono del violoncello (sia quello diretto che quello eventualmente shiftato). Questa assegnazione è fissa per l'intera durata della lettura del file e va eventualmente a sommarsi con una spazializzazione dinamica. 
+</li><br>
+<li>
+Spazializzazione dianamica nelle lastre: è possibile definire un percorso di spazializzazione dinamico per mezzo di un inviluppo di automazione (funzione 2D). La funzione che definisce questo inviluppo permette di far spostare il suono tra una lastra e l'altra del sistema. 
+</li><br>
+</ol>
+
+
+<b>ELABORAZIONE IN TEMPO REALE DEL SUONO DEL VIOLONCELLO</b>
+
+<br><br>
+
+Un ulteriore rigo della partitura viene usato per gestire due operazioni di elaborazione in real-time: un freeze spettrale e un noiser spettrale. E' possibile gestire fino a 4 istanze contemporaneamente del freeze spettrale. I due processi possono essere attivati per mezzo dei seguenti messaggi associati a una nota: 'noiser' o 'freeze'. Il freeze viene effettuato sul suono diretto del violoncello proprio nell'istante che definisce l'onset della nota con messaggio 'freeze' e dura per la durata della nota stessa. Le seguenti funzionalità sono definibili per questo rigo:<br><br>
+<ol>
+<li>
+Inviluppo di ampiezza: è possibile modificare dinamicamente l'ampiezza del segnale, a cui è applicata una delle due elaborazioni di cui sopra, per mezzo di un inviluppo di automazione (funzione 2D).
+</li><br>
+<li>
+Assegnazione fissa alle lastre: è possibile definire attraverso quale lastra viene diffuso il suono. Questa assegnazione è fissa per l'intera durata della nota e va eventualmente a sommarsi con una spazializzazione dinamica. 
+</li><br>
+<li>
+Spazializzazione dianamica nelle lastre: è possibile definire un percorso di spazializzazione dinamico per mezzo di un inviluppo di automazione (funzione 2D). La funzione che definisce questo inviluppo permette di far spostare il suono tra una lastra e l'altra del sistema. 
+</li>
+</ol>
+<br>
+Di seguito è possibile avere una visione d'insieme dell'algoritmo che si occupa della gestione di tutti i processi descritti riguardanti il segnale del violoncello. 
+
