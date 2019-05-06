@@ -1,16 +1,0 @@
-<br>
-Il cuore esecutivo del codice è invece la funzione draw(), che si occupa di renderizzare il sistema 3D, cioè di aggiornare i dati di posizione, velocità ed accelerazione associati a ogni singola 'entità sonora' presente, dopo aver calcolato e applicato le forze del campo. Essendo questi dati strettamente connessi con l'output sonoro (a causa della mappatura tra i parametri spazio-dinamici e le funzioni musicali), draw() si occupa in sostanza anche del rendering audio. Essa viene richiamata dall'ambiente max/MSP per mezzo di un messaggio draw, pilotato da un qmetro con argomento 80ms (tempo discreto di aggiornamento del sistema). 
-<br><br>
-E' all'interno di questa funzione che vengono costruiti alcuni dei messaggi che permettono il passaggio all'ambiente di max/MSP, che si occuperà di interpretarli e renderli operativi. Due esempi:
-<br><br>
-<ul>
-<li>
-Qui viene chiamata la funzione playSynth(i) che a sua volta manderà in output dall'outlet 3 un messaggio indicante l'altezza della nota che l'istanza i-esima del synth (presente in un oggetto poly~) dovrà occuparsi di sintetizzare. 
-</li><br>
-<li>
-La funzione draw() si occupa di calcolare e mandare in output (outlet 2), in ogni istante discreto, anche la somma delle velocità lungo le tre direzioni di ogni 'entità sonora', che determinerà la velocità di lettura (e il verso) di un campione associato ad essa. 
-</li>
-
-
-</ul>
- 
