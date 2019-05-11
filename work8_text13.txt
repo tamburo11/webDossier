@@ -2,6 +2,6 @@
 <br>
 <b>GESTIONE DEL LIVE ELECTRONICS</b><br><br>
 
-Sebbene la partitura operativa sopra descritta sia in grado di gestire l'intera performance in modo totalmente automatizzato, è stata comunque predisposta un'interfaccia utente che permettesse di mantenere un controllo su tutti i processi attivi durante l'esecuzione. Essenzialmente essa consente di controllare e modificare i guadagni in ingresso e uscita da tutti i blocchi presenti degli algoritmi. <br><br>
+Sebbene la partitura operativa sopra descritta sia in grado di gestire l'intera performance in modo totalmente automatizzato, è stata comunque predisposta un'interfaccia utente che permettesse di mantenere sotto controllo tutti i processi attivi durante l'esecuzione. Essenzialmente essa consente di controllare e modificare i guadagni in ingresso e in uscita da tutti i blocchi presenti degli algoritmi di elaborazione. <br><br>
 
-L'interfaccia è utile principalmente per il controllo del segnale del violoncello (mai esattamente sempre lo stesso), sia quello diretto, che quello elaborato in real-time, che quello campionato e processato in tempo differito. Di seguito è possibile osservare come si presenta l'interfaccia utente. Ad essa è stato associato un iPad come touch-controller. 
+L'interfaccia è utile principalmente per il controllo del segnale del violoncello (mai esattamente sempre lo stesso), sia quello diretto, che quello elaborato in tempo reale, che quello campionato e processato in tempo differito. Di seguito è possibile osservare come si presenta l'interfaccia utente. Ad essa è stato associato un iPad come <i>touch-controller</i>. 

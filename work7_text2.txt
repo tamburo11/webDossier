@@ -1,6 +1,6 @@
 
 <small><i>
-«As I mentioned before, during the music composing process, the composer and I structured the music. As a result, the piece starts with a duet that then becomes a unison dance followed by another duet connected, at the end, with the solo dance. The beginning presents a time when the 'premature person or thing' was introduced to the society and the public for the first time. Duet dancers would present 1920s’ society and public’s reactions to the subject as confused and not acknowledged. [...] Generally, the duet dance has a totally different sense than the solo and unison dance. Hence, I wanted to have different quality of movements. Solo dance represents the 'premature person or thing', and this solo is at the end of the piece. For this reason, I wanted the solo dance to be the most technical part of the piece. This makes the solo dance a perfect ending of this piece. Secondly, the music has strong refined melody and some very strong beats that nurtures the idea of the solo.»
+«As I mentioned before, during the music composing process, the composer and I structured the music. As a result, the piece starts with a duet that then becomes a unison dance followed by another duet connected, at the end, with the solo dance. The beginning presents a time when the 'premature person or thing' was introduced to the society and the public for the first time. Duet dancers would represent 1920s’ society and public’s reactions to the subject. [...] Generally, the duet dance has a totally different sense than the solo and unison dance. Hence, I wanted to have different quality of movements. Solo dance represents the 'premature person or thing', and it is at the end of the piece. For this reason, I wanted the solo dance to be the most technical part of the piece. [...] Secondly, the music has strong refined melody and some very strong beats that nurtures the idea of the solo.»
 
 </i>
 <br>[da 'Premature, conception' di Odbayar Batsuuri] </small>
@@ -12,11 +12,11 @@ Formalmente, la coreografia consiste in una introduzione, a cui seguono sezioni 
 <br><br>
 
 <small><i>
-«Each section has an individual focus that influences the movements. In the introduction section, I used a fixed material. I decided to keep the fixed material as the original form on the male dancer and ask the female dancers to do variations of it, using tools to change directions and levels. The introduction section’s music has various sound details such as sudden noises, quietness and forward and reverse sound. With this intention I focused on using sound details properly. [...]
+«Each section has an individual focus that influences the movements. In the introduction section, I used a fixed material. I decided to keep the fixed material as the original form on the male dancer and ask the female dancer to do variations of it, using tools to change directions and levels. The introduction section’s music has various sound details such as sudden noises, quietness, forward and reverse sounds. With this intention I focused on using sound details properly. [...]
 
-The duet section has one fundamental idea. In order to create that lack of understanding and confusion state, I asked the duet dancers to find six different gestures that could express a confusion state. Then we integrated the gestures with other floor traveling movements. [...]
+The duet section has one fundamental idea. In order to create that lack of understanding and confusion state, I asked the duet dancers to find six different gestures that could express a confusion state. Then we integrated the gestures with other floor travelling movements. [...]
 
-In the solo section, I was very focused on to creating the solo dance that has technique, energy and dynamic at the same time in order to express the sadness of being rejected and the suffering of being emerged at the wrong time. The idea here was to draw geometric shapes of the chair by hand or other parts of the body.
+In the solo section, I was very focused on creating the solo dance that has technique, energy and dynamic at the same time in order to express the sadness of being rejected and the suffering of being emerged at the wrong time. The idea here was to draw geometric shapes of the chair by hand or other parts of the body.
 »
 
 </i>
@@ -26,25 +26,26 @@ Le tre categorie di materiali sonori generati per la composizione possono essere
 <br><br>
 <ol>
 <li>
-un loop melodico ottenuto da un campione di coro del mio brano <i>Syrus, per recorder, coro e orchestra di chitarre (2015)</i>; 
+un <i>loop</i> melodico ottenuto da un campione di coro del mio brano <i>Syrus, per recorder, coro e orchestra di chitarre (2015)</i>; 
 </li><br>
 <li>
 materiali di sintesi elettronica, ottenuti con un sintetizzatore digitale che emula, con la modellazione fisica, un sintetizzatore analogico vintage (l'Analog di Ableton Live);
 </li><br>
 
 <li>
-pattern ritmici ottenuti con una speciale tecnica di multi-sampling con DSP che sfrutta uno strumento auto-costruito: un multi-fader capacitivo (3 fader) che legge ed elabora i campioni di una libreria di 80 suoni in base alla posizione del fader lungo la sua corsa e al valore di capacità che il dito aggiunge alla alla barra di metallo quando tocca il fader.
+<i>pattern</i> ritmici e inarmonici ottenuti con una speciale tecnica di <i>multi-sampling</i> con DSP che sfrutta uno strumento auto-costruito: un <i>multi-fader</i> capacitivo (a 3 <i>fader</i>) che legge ed elabora i campioni di una libreria di 80 suoni in base alla posizione del <i>fader</i> lungo la sua corsa e al valore di capacità che il dito aggiunge alla barra di metallo quando tocca il <i>fader</i>.
 </li>
 </ol>
 <br>
-Il loop melodico sembra acquisire, fin da subito, la funzione del suono-mainstream: un elemento musicale chiaro, umano, riconoscibile, apprezzabile da chiunque. Nel corso del brano gli altri elementi, dal carattere invece sintetico, artificiale, e tendenti alla saturazione o ad un'iperbole ritmica, si innestano su di esso come per smuoverlo, tramutarlo. Ed è proprio da questa frizione che scaturiscono tutti gli archi formali della composizione. Il brano stesso però, come accennato precedentemente, vorrebbe offrire anche un'interpretazione opposta, che scambia i ruoli: il loop onnipresente è il suono più intimo della costanza dell'entità sola e 'prematura' della sua sofferenza; mentre i suoni artificiali appaiono come un ribollire di umanoidi ignoranti, i figli di una generazione troppo informatizzata. 
+Il <i>loop</i> melodico sembra acquisire, fin da subito, la funzione del suono-mainstream: un elemento musicale chiaro, umano, riconoscibile, apprezzabile da chiunque. Nel corso del brano gli altri elementi, dal carattere invece sintetico, artificiale, e tendenti alla saturazione o ad un'iperbole ritmica, si innestano su di esso come per smuoverlo, tramutarlo. Ed è proprio da questa frizione che scaturiscono tutti gli archi formali della composizione. Il brano stesso però, come accennato precedentemente, vorrebbe offrire anche un'interpretazione opposta, che scambia i ruoli: il <i>loop</i> onnipresente è il suono più intimo della costanza e fortezza d'animo dell'entità sola e 'prematura', della sua sofferenza; mentre i suoni artificiali appaiono come un ribollire di umanoidi ignoranti, i figli di una generazione troppo informatizzata. 
 
 <br><br>
 <b>MULTIFADER CAPACITIVO</b>
 
 <br><br>
 
-Il video che segue mostra il comportamento del prototipo di uno dei fader che compongono lo strumento utilizzato per la genesi della maggior parte dei suoni appartenenti alla terza categoria sopra discussa. Lo strumento utilizza le seguenti tecnologie hardware-software: un micro-controllore (Arduino con motor shield), fader motorizzati, max/MSP. 
+Il video che segue mostra il comportamento del prototipo di uno dei <i>fader</i> che compongono lo strumento utilizzato per la genesi della maggior parte dei suoni appartenenti alla terza categoria sopra discussa. Lo strumento utilizza le seguenti tecnologie hardware-software: un micro-controllore (Arduino con <i>motor shield</i>), <i>fader</i> motorizzati, max/MSP. 
+<br><br>
 
 
 

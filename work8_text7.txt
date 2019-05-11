@@ -1,4 +1,4 @@
 
 <br>
 
-<b>Synth3:</b> questo sintetizzatore è nuovamente a base sottrattiva. In esso viene utilizzato un generatore di rumore bianco, che viene filtrato da un filtro del secondo ordine che può assumere diverse caratteristiche (passa basso, passa alto, passa banda, taglia banda, ecc.). L'ampiezza del segnale di rumore bianco può essere inoltre modificata tanto da un inviluppo definibile per mezzo di una funzione 2D che da un envelope follower sull'ampiezza dei segnali del campionatore precedentemente esposto. Segue un'immagine del semplicissimo di questo sintetizzatore. 
+<b>Synth3:</b> questo sintetizzatore è nuovamente a base sottrattiva. In esso viene utilizzato un generatore di rumore bianco, che viene filtrato da un filtro del secondo ordine che può assumere diverse caratteristiche (passa basso, passa alto, passa banda, taglia banda, ecc.). L'ampiezza del segnale di rumore bianco può essere inoltre modificata tanto da un inviluppo definibile per mezzo di una funzione 2D che da un <i>envelope follower</i> sull'ampiezza dei segnali del campionatore precedentemente esposto. Segue un'immagine dell'algoritmo di questo sintetizzatore. 

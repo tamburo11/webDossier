@@ -1,19 +1,21 @@
 
-La composizione è il risultato dell'atto di espansione della sua specifica tecnologia. Il suo dispiegarsi nel tempo, il suo farsi presenza. Il focus di questa tecnologia, che informa l'intero brano, è la modifica dell'energia spettrale di alcuni campioni audio attenuta per mezzo di due semplici strumenti elettronici (un microfono a contatto e un trasduttore vibrotattile) e alcuni materiali grezzi (legno, plastica, metallo, polistirolo, pelli). La genesi della maggior parte dei materiali sonori utilizzati in <i>l'orizzonte materico di un canto</i> ha infatti seguito il medesimo processo tecnologico, composto da diverse fasi: <br><br>
+La composizione è il risultato dell'atto di espansione della sua specifica tecnologia. Il suo dispiegarsi nel tempo, il suo farsi presenza. Il focus di questa tecnologia, che informa l'intero brano, è la modifica dell'energia spettrale di alcuni campioni audio ottenuta per mezzo di due semplici strumenti elettronici (un microfono a contatto e un trasduttore vibrotattile) e alcuni materiali grezzi (legno, plastica, metallo, polistirolo, pelli). La genesi della maggior parte dei materiali sonori utilizzati in <i>L'orizzonte materico di un canto</i> ha infatti seguito il medesimo processo tecnologico, composto da diverse fasi: <br><br>
 
 <ol>
 <li>
-un frammento di suono viene diffuso attraverso un determinato materiale (sospeso da terra e libero di vibrare), per mezzo di un trasduttore vibrotattile che propaga l'onda di deformazione meccanica in tutto il suo volume;
+un frammento di suono viene diffuso attraverso un determinato oggetto (sospeso da terra e libero di vibrare), per mezzo di un trasduttore vibrotattile che propaga l'onda di deformazione meccanica in tutto il volume del materiale;
 
 </li><br>
 <li>
-ad una certa distanza dal trasduttore, viene posizionato un microfono a contatto, che registra le onde meccaniche in quel punto;
+ad una certa distanza dal trasduttore, viene posizionato, sempre sulla superficie dell'oggetto, un microfono a contatto, che registra le onde di deformazione meccanica prodotte dal <i>sound exciter</i> in quello stesso punto;
 
 </li><br>
 <li>
-i suoni generati nelle due fasi precedenti, diventano nuovo materiale, che eventualmente può essere reimmesso nella catena (fase 1.) attraverso un'operazione di retroazione (feedback).
+i suoni generati nelle due fasi precedenti, diventano così un nuovo materiale, che eventualmente può essere reimmesso nella catena (fase 1) attraverso un'operazione di retroazione (<i>feedback</i>);
+</li><br>
+<li>
+in ogni ciclo di diffusione-registrazione è inoltre possibile interagire direttamente con gli oggetti (con le mani, con bacchette da percussione, ecc.), sia per modificarne le caratteristiche di risonanza, che per aggiungere 'suoni esterni' al suono finale.
 </li>
-
 
 </ol>
 

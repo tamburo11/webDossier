@@ -1,16 +1,16 @@
 <br>
 
-Lo strumento qui presentato è principalmente un'interfaccia Uomo-Macchina, che permette di controllare un algoritmo in running in una patch di max/MSP. Lo strumento è costituito dai seguenti elementi: 
+Lo strumento qui presentato è essenzialmente un'interfaccia Uomo-Macchina, che permette di controllare un algoritmo <i>in running</i> in una patch di max/MSP. Lo strumento è costituito dai seguenti elementi: 
 <br><br>
 <ol>
-<li>Tre fader motorizzati capacitivi. Un sensore capacitivo è un sensore che permette di captare le variazioni di capacità elettrica che il 'condensatore', costituito dalla coppia corpo umano-sensore, subisce a seguito dell'interazione tra due oggetti (corpo umano e materiale conduttore del sensore). Più alta è la capacità di un corpo, più carica esso può immagazzinare. Maggiore è la porzione di corpo a contatto con il materiale del sensore, maggiore è la capacità risultante. 
+<li>Tre <i>fader</i> motorizzati capacitivi. Un sensore capacitivo è un sensore che permette di captare le variazioni di capacità elettrica che il 'condensatore', costituito dalla coppia corpo umano-sensore, subisce a seguito dell'interazione tra due oggetti (corpo umano e materiale conduttore del sensore). Più alta è la capacità di un corpo, più carica esso può immagazzinare. Maggiore è la porzione di corpo a contatto con il materiale del sensore, maggiore è la capacità risultante. 
 </li><br>
 <li>
-Un microprocessore con montata una motor shield (che serve per alimentare eventualmente i motori dei fader, non utilizzati invece in questo progetto). Per il progetto è stato utilizzato un microprocessore Arduino OMEGA, che si occupa del calcolo della capacità e della posizione relativa del fader lungo la sua corsa e della connessione seriale con il PC per la trasmissione dei dati. 
+Un microprocessore con montata una <i>motor shield</i> (che serve per alimentare eventualmente i motori dei <i>fader</i>, non utilizzati invece in questo progetto). Per il progetto è stato utilizzato un microprocessore Arduino OMEGA, che si occupa del calcolo della capacità e della posizione relativa del <i>fader</i> lungo la sua corsa, e della connessione seriale con il PC per la trasmissione dei dati. 
 </li><br>
 <li>
-Una patch di max/MSP che si occupa del rendering audio: legge a loop un determinato campione associato alla posizione del fader e ne modifica la velocità di lettura in base al valore di capacità rilevato dal sensore. Tutto questo per ognuno dei fader in questione. 
+Una patch di max/MSP che si occupa del <i>rendering</i> audio: essa legge a <i>loop</i> un determinato campione associato alla posizione del <i>fader</i> e ne modifica la velocità di lettura in base al valore di capacità rilevato dal sensore. Tutto questo per ognuno dei <i>fader</i> in questione. 
 </li><br>
 </ol>
 
-Di seguito viene presentato il codice per il microprocessore Arduino. Esso è composto da una classe fader (fader.h) e da un file main che sfrutta questa stessa classe per rilevare i dati di posizione e di capacità per ognuno dei tre fader che compongono lo strumento finale.  
+Di seguito viene presentato il codice per il microprocessore Arduino. Esso è composto da una classe <i>fader</i> (fader.h) e da un codice che sfrutta questa stessa classe per rilevare i dati di posizione e di capacità per ognuno dei tre <i>fader</i> che compongono lo strumento.  

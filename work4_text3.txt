@@ -1,6 +1,6 @@
 
 <br>
-Di seguito analizzerò sinteticamente quali sono le caratteristiche essenziali sia del sistema analogico-digitale di generazione ed elaborazione del suono da me sviluppato per il live ad Aosta degli Alberi, che del routing tra il mio sistema e quello di Alberto Ricca. 
+Di seguito analizzerò sinteticamente quali sono le caratteristiche essenziali sia del sistema analogico-digitale di generazione ed elaborazione del suono da me sviluppato per il live ad Aosta degli Alberi, che del <i>routing</i> audio tra il mio sistema e quello di Alberto Ricca. 
 
 <br><br>
 
@@ -8,19 +8,19 @@ Di seguito analizzerò sinteticamente quali sono le caratteristiche essenziali s
 
 <br><br>
 
-Al giorno d'oggi la creazione di un ambiente esecutivo per il live elettronics rientra in tutto e per tutto in un'operazione di moderno design (cioè un design che sfrutta anche le nuove tecnologie, quelle digitali). E nello specifico questa operazione è tanto di sound-design (composizione e trattamento del suono) che di interaction-design (progettazione di una interfaccia-utente). Nell'immagine che segue è possibile osservare come si presenta l'ambiente esecutivo, <i>alias</i> interfaccia-utente, <i>alias</i> strumento musicale digitalmente espanso, utilizzato per la performance in esame. Esso si compone dei seguenti elementi:
+Al giorno d'oggi la creazione di un ambiente esecutivo per il <i>live elettronics</i> rientra in tutto e per tutto in un'operazione di moderno design (cioè un design che sfrutta anche le nuove tecnologie, quelle digitali). E nello specifico questa operazione è tanto di sound-design (composizione e trattamento del suono) che di interaction-design (progettazione di una interfaccia-utente). Nell'immagine che segue è possibile osservare come si presenta l'ambiente esecutivo, <i>alias</i> interfaccia-utente, <i>alias</i> strumento musicale digitalmente espanso, utilizzato per la performance in esame. Esso si compone dei seguenti elementi:
 
 <br><br>
 
 <ol>
 <li>
-Un computer (MacBook Pro) che gestisce l'intero processamento per mezzo del software di visual programming max/MSP e il cui schermo funge da interfaccia visiva.
+Un computer che gestisce l'intero processamento per mezzo del software di <i>visual programming</i> max/MSP e il cui schermo funge da interfaccia visiva.
 </li><br>
 <li>
 Una chitarra classica posizionata orizzontalmente su un tavolo e preparata con: 4 microfoni a contatto, 4 trasduttori di dimensioni e caratteristiche differenti, vari oggetti (bacchette di legno, pezzi di metallo di diverse misure e forme, altro).
 </li><br>
 <li>
-Due controller MIDI (composti da pad, fader, bottoni e potenziometri) per il controllo dei parametri dei processi in running in max/MSP.
+Due controller MIDI (composti da <i>pad, fader,</i> bottoni e potenziometri) per il controllo dei parametri dei processi in <i>running</i> in max/MSP.
 </li><br>
 <li>
 Un microfono a condensatore per la registrazione di una chitarra classica (suonata in modo 'tradizionale').

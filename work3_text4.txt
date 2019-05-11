@@ -1,5 +1,6 @@
-Per mezzo della telecamera ad infrarossi viene tracciato il movimento del danzatore, che permette di attivare la riproduzione dei campioni associati ai vari parallelepipedi in cui vengono a trovarsi le mani e i piedi del performer (triggering spaziale). Nell’immagine seguente è possibile osservare parte dell’algoritmo che è stato implementato in Max/MSP per determinare il parallelepipedo selezionato dalla posizione della mano destra del performer tracciata dalla Kinect. 
+Per mezzo della telecamera ad infrarossi viene tracciato il movimento del danzatore, che permette di attivare la riproduzione dei campioni associati ai vari parallelepipedi in cui vengono a trovarsi le mani e i piedi del performer (<i>triggering</i> spaziale). Nell’immagine seguente è possibile osservare parte dell’algoritmo che è stato implementato in Max/MSP per determinare il parallelepipedo selezionato dalla posizione della mano destra del performer tracciata dalla Kinect. 
 <br><br>
+
 Ad ogni parallelepipedo (e dunque ad ogni buffer in memoria) è associato un indice di 3 numeri, corrispondenti alle coordinate x, y, z riferite al volume totale (con x = 1, …, 5; y = 1, …, 4; z = 1, 2, 3), come è possibile osservare dall'immagine precedente.  Gli angoli alfa e beta, presenti in entrambe le immagini, si riferiscono agli scostamenti rispetto all’origine degli assi, che dipendono dal posizionamento della telecamera e che devono essere inseriti nell'algoritmo per normalizzare il sistema di calcolo. 
 
 

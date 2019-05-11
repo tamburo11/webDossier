@@ -1,6 +1,6 @@
 <br>
 
-La partitura operativa mostrata nel video è stata creata con l'oggetto bach.roll della libreria, che permette di creare e gestire una notazione proporzionale. Ad ogni nota è associata un'altezza in MIDIcents (MIDI*100), una velocity e una durata in millisecondi. La suddivisione del tono è all'ottavo di tono. Segue una descrizione delle funzionalità dei vari righi presenti in partitura, dal basso verso l'alto. <br><br>
+La partitura operativa mostrata nel video è stata creata con l'oggetto bach.roll della libreria <i>bach</i>, che permette di creare e gestire una notazione proporzionale. Ad ogni nota è associata un'altezza in MIDIcents (MIDI*100), una velocity e una durata in millisecondi. Inoltre ad ognuna nota vengono associati diversi inviluppi di automazione (chiamati <i>slots</i> nella libreria) che permettono di controllare vari parametri musicali (le funzioni 2D colorate e sovrapposte visibili in partitura). La suddivisione del tono è all'ottavo di tono. Segue una descrizione delle funzionalità dei vari righi presenti in partitura, dal basso verso l'alto e dei vari parametri associati alle note presenti nei righi.  <br><br>
 
 <b>IL SAMPLER</b><br><br>
 
@@ -8,16 +8,16 @@ Il sampler viene utilizzato per suonare dei campioni audio. Ad ogni nota sul pen
 <ol>
 
 <li>
-Frequency Shifting: l'altezza della nota sul pentagramma definisce la frequenza di shifting. Il do centrale (C4) indica no-shifting. Il campione può essere letto sia con il frequency shifting attivo che disattivo, che entrambi contemporaneamente. 
+<i>Frequency Shifting</i>: l'altezza della nota sul pentagramma definisce la frequenza di <i>shifting</i>. Il do centrale (C4) indica <i>no-shifting</i>. Il campione può essere letto sia con il <i>frequency shifting</i> attivo che disattivo, che entrambi contemporaneamente. 
 </li><br>
 <li>
-Loop: ad ogni nota è associata una durata (notazione proporzionale). Il campione viene letto in loop per la durata indicata.
+<i>Loop</i>: ad ogni nota è associata una durata (notazione proporzionale). Il campione viene letto in <i>loop</i> per la durata indicata.
 </li><br>
 <li>
 Inviluppo di ampiezza: è possibile modificare dinamicamente l'ampiezza del segnale audio per mezzo di un inviluppo di automazione (funzione 2D).
 </li><br>
 <li>
-Velocità di lettura del file: è possibile leggere il campione a velocità diverse, in un range che va da -50 a 50 volte la velocità nominale. Il meno indica la lettura in reverse. 
+Velocità di lettura del file: è possibile leggere il campione a velocità diverse, in un range che va da -50 a 50 volte la velocità nominale. Il meno indica la lettura in <i>reverse</i>. 
 </li><br>
 <li>
 Assegnazione fissa alle lastre: è possibile definire attraverso quale lastra viene diffuso il campione. Questa assegnazione è fissa per l'intera durata della lettura del file e va eventualmente a sommarsi con una spazializzazione dinamica. 
@@ -26,7 +26,7 @@ Assegnazione fissa alle lastre: è possibile definire attraverso quale lastra vi
 Spazializzazione dianamica nelle lastre: è possibile definire un percorso di spazializzazione dinamico per mezzo di un inviluppo di automazione (funzione 2D). La funzione che definisce questo inviluppo permette di far spostare il suono tra una lastra e l'altra del sistema. 
 </li><br>
 <li>
-Envelope Follower per elaborazione video: ogni singolo campione può essere utilizzato per creare un segnale di controllo, ottenuto per mezzo di un envelope follower, da utilizzare per la generazione e l'elaborazione di particelle grafiche, oppure per la modifica di alcuni parametri di elaborazione real-time sull'immagine del violoncellista.
+<i>Envelope Follower</i> per l'elaborazione video: ogni singolo campione può essere utilizzato per creare un segnale di controllo, ottenuto per mezzo di un <i>envelope follower</i>, da utilizzare per la generazione e l'elaborazione di particelle grafiche, oppure per la modifica di alcuni parametri di elaborazione <i>real-time</i> sull'immagine del violoncellista.
 </li>
 </ol>
 <br>

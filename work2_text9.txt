@@ -1,5 +1,5 @@
 <br>
 
-L'immagine che segue mostra l'evoluzione spettrale dell'intera traccia associata all'asse z. In essa è possibile osservare le 5 diverse sezioni del minerale utilizzato per i filtraggi, che di esso ne esplorano l'intero volume. Le 5 sezioni 2D ricavate lungo ogni asse dal render 3D del minerale vengono infatti collegate in modo concatenato, in modo da coprire l'intera durata della traccia sorgente, modificano il contenuto spettrale, definendone la forma complessiva. 
+L'immagine successiva mostra invece, a titolo di esempio, l'evoluzione spettrale dell'intera traccia associata all'asse z. In essa è possibile osservare le 5 diverse sezioni (ottenute lungo l'asse z) del minerale utilizzato per i filtraggi, che di esso ne esplorano l'intero volume. Le 5 sezioni 2D ricavate lungo ogni asse dal render 3D del minerale vengono infatti collegate in modo concatenato, così da coprire l'intera durata della traccia sorgente, modificandone il contenuto spettrale, definendone la forma complessiva. 
 
 <br>

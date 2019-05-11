@@ -1,57 +1,60 @@
 <br>
 
-Lo studio si concentra principalmente sullo sfruttamento di un tipo di 'rumore' (una funzione randomica chiamata Perlin Noise) per il controllo dinamico di alcuni parametri di lettura di una traccia audio sorgente, e di alcuni parametri di controllo di alcune semplici elaborazioni di DSP ad essa applicate in tempo reale. La scelta è ricaduta su questo tipo di funzione randomica proprio per la peculiarità di avere un comportamento molto naturale, di avere una 'tensione biologica'.
+Lo studio si concentra principalmente sullo sfruttamento di un tipo di 'rumore' (una funzione randomica chiamata <i>perlin noise</i>) per il controllo dinamico di alcuni parametri di lettura di una traccia audio sorgente, e di alcuni parametri di controllo di alcune semplici elaborazioni di DSP ad essa applicate in tempo reale. La scelta è ricaduta su questo tipo di funzione randomica proprio per la peculiarità di avere un comportamento molto naturale, di avere una 'tensione biologica'.
 <br><br>
 <small><a>«Perlin noise is a random sequence generator producing a more natural ordered, harmonic succession of numbers compared to the standard random() function. It was invented by Ken Perlin in the 1980s and been used since in graphical applications to produce textures, natural motion, shapes, terrains, etc.»</a><br>
 [from the p5.js References of noise()]</small>
 <br><br>
 
-Il perlin noise viene applicato al calcolo del valore sull'asse y del punto che disegna, in ogni istante, ognuna delle 3 linee blu utilizzate nella composizione, cioè il punto della 'testa della linea'. Il perlin noise permette di disegnare profili randomici ma 'morbidi', 'sinuosi', lasciando anche la possibilità di definire il grado di variabilità del profilo. Come è possibile notare, le tre linee utilizzate hanno infatti un grado di variabilità del profilo differente.  
+Il <i>perlin noise</i> viene applicato al calcolo del valore sull'asse y del punto che disegna, in ogni istante, ognuna delle 3 linee blu utilizzate nella composizione, cioè il punto della 'testa della linea'. Questa funzione permette di disegnare profili randomici ma allo stesso tempo morbidi e 'sinuosi', lasciando anche la possibilità di definire il grado di variabilità del profilo. Come è possibile notare, le tre linee utilizzate hanno infatti un grado di variabilità del profilo differente.  
 <br><br>
-Il funzionamento della Web Audio API prevede un <i>audio context</i>, dentro il quale il routing del segnale audio viene trattato modularmente (cioè collegando tra loro blocchi di elaborazione, detti moduli, o nodi). Le operazioni di base sui segnali vengono effettuate da <i>audio nodes</i>, che vengono connessi insieme per formare un <i>audio routing graph</i>. Nel caso in esame, la traccia non viene letta così come è stata composta, ma alcuni 'nodi di elaborazione' vengono applicati ad essa in cascata per modificarla. Le elaborazioni utilizzate sono le seguenti:
+Il funzionamento della <i>Web Audio API</i> prevede un <i>audio context</i>, dentro il quale il <i>routing</i> del segnale audio viene trattato modularmente (cioè collegando tra loro blocchi di elaborazione, detti moduli, o nodi). Le operazioni di base sui segnali vengono effettuate da <i>audio nodes</i>, che vengono connessi insieme per formare un <i>audio routing graph</i>. Nel caso in esame, la traccia non viene letta così come è stata composta, ma alcuni 'nodi di elaborazione' vengono applicati ad essa in cascata per modificarla. Le elaborazioni utilizzate sono le seguenti:
 <br><br>
 <ol>
 <li>
 modifica dinamica del volume;
-</li>
+</li><br>
 <li>
 modifica dinamica della velocità di lettura della traccia;
-</li>
+</li><br>
 <li>
 filtro passa basso, con frequenza di taglio e fattore di risonanza modificati dinamicamente;
-</li>
+</li><br>
 <li>
 filtro passa banda, con frequenza di taglio e fattore di risonanza modificati dinamicamente;
 
-</li>
+</li><br>
 <li>
-delay, con tempo di delay e frequenza di taglio del filtro in ingresso modificati dinamicamente.
+<i>delay</i>, con tempo di <i>delay</i> e frequenza di taglio del filtro in ingresso modificati dinamicamente.
 </li>
 </ol>
 
 <br>
 
-Tutte le modifiche dinamiche di cui sopra definiscono il punto di contatto tra la lettura della traccia e le 3 linee blu che si muovono seguendo un percorso di tipo 'perlin noise'. In ogni istante discreto viene infatti recuperato il valore di posizione sull'asse y (della finestra del browser) della testa di ogni linea blu, con lo scopo di ri-utilizzarlo, opportunamente ri-mappato, per la modifica in tempo reale di alcuni parametri delle funzioni sopra elencate. Questa mappatura è la modalità con cui in questo studio, cercando di 'naturalizzare il codice' con il perlin noise, provo ad animare, ri-vitalizzandola, la  traccia di elettroacustica. Le mappature sono le seguenti: 
+Tutte le modifiche dinamiche di cui sopra definiscono il punto di contatto tra la lettura della traccia e le 3 linee blu che si muovono seguendo un percorso randomico di tipo <i>perlin noise</i>. In ogni istante discreto viene infatti recuperato il valore randomico di posizione sull'asse y (in relazione alla finestra del browser) della testa di ogni linea blu, con lo scopo di ri-utilizzarlo, opportunamente ri-mappato, per la modifica in tempo reale di alcuni parametri delle funzioni sopra elencate. Questa mappatura è la modalità con cui in questo studio, cercando di 'naturalizzare il codice' per mezzo del <i>perlin noise</i>, provo ad animare, ri-vitalizzandola, la  traccia elettroacustica. Le mappature utilizzate a questo scopo sono le seguenti: 
 <br><br>
 <ol>
 <li>
-Il volume viene modificato dalla linea blu che ha il profilo più variabile. Questa linea raggiungerà un certo punto sull'asse x per poi fermarsi.  
+Il volume viene modificato dalla linea blu che ha il profilo più variabile. Maggiore è il valore della coordinata y della 'testa' della linea blu, maggiore sarà il volume della traccia. Questa linea raggiunge un certo punto sull'asse x per poi variare solo lungo l'asse y.  
 </li><br>
 <li>
-La velocità di lettura della traccia viene invece modificata dalla linea dal profilo meno variabile di tutte, che sembra guidare le altre linee: a traccia viene letta ad una velocità che va dall'80% al 200% di quella nominale.
+La velocità di lettura della traccia viene invece modificata dalla linea dal profilo meno variabile di tutte, che sembra guidare le altre linee: la traccia viene letta ad una velocità che va dall'80% al 200% di quella nominale.
 </li><br>
 <li>
-La terza linea modifica invece i due filtri, che vengono concatenati in modo dinamico. La frequenza di taglio del filtro passa basso diventa la frequenza minima per la rimappatura del filtro passa banda. Anche questa linea rimane sempre indietro rispetto a quella dal profilo più stabile.
+La terza linea modifica invece i due filtri, che vengono concatenati in modo dinamico. La frequenza di taglio del filtro passa basso diventa la frequenza minima per la ri-mappatura del filtro passa banda. Anche questa linea rimane sempre indietro rispetto a quella dal profilo più stabile.
 </li><br>
 
 <li>
-I parametri del delay vengono invece controllati per mezzo dell'individuazione delle collisioni delle due linee 'inseguitrici' con la linea 'guida', quella che definisce la velocità di lettura del file sorgente. Ad ogni collisione vengono impostati dei dati di tempo di delay e frequenza di taglio in ingresso al delay, diversi dallo zero. 
+I parametri del <i>delay</i> vengono invece controllati per mezzo dell'individuazione delle collisioni delle due linee 'inseguitrici' con la linea 'guida', quella che definisce la velocità di lettura del file sorgente. Ad ogni collisione vengono impostati dei dati di tempo di <i>delay</i> e frequenza di taglio in ingresso al <i>delay</i>, diversi dallo zero. 
 </li>
 </ol>
 
 <br>
 
-Il risultato è un lento e inesorabile inseguimento - una parafrasi grafica del desiderio del triclinio, irraggiungibile: le linee più vivaci e ricche di variazioni interne, sembrano rimanere più indietro rispetto alla linea guida. Ma sorge spontanea una domanda: tra tutte le linee, quale avrà percorso un tragitto più lungo?
+Il risultato è un lento e inesorabile inseguimento - una parafrasi grafica-sonora del desiderio del triclinio, irraggiungibile: le linee più vivaci e ricche di variazioni interne, sembrano rimanere più indietro rispetto alla linea guida. Ma sorge spontanea una domanda: tra tutte le linee, quale avrà percorso un tragitto più lungo?
+
+<br><br>
+Di seguito è possibile accedere alla pagina web che ospiterà un altro studio, sul quale sto attualmente lavorando. Al momento ancora silente: t h e b l a c k l i l i u m.
 
 
 

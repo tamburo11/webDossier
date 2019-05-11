@@ -6,21 +6,19 @@ Durante questi anni ho avuto modo di approfondire alcune delle inclinazioni este
 
 <br>
 
-I lavori qui presentati sono alcune tappe del mio percorso, costantemente in evoluzione, tanto a livello estetico-espressivo, quanto a livello tecnico-scientifico. In questi anni, i miei studi ed approfondimenti si sono infatti sviluppati contemporaneamente su due piani interconnessi: un piano strettamente artistico-musicale e compositivo-performativo, stimolato dall'iscrizione al MAS (Master of Advanced Studies) presso il Conservatorio della Svizzera Italiana e animato da un'intensa attività artistica; e un piano più squisitamente teorico-scientifico e tecnico-ingegneristico, grazie anche al proseguimento dei miei studi in ingegneria presso il <a href="https://www.polito.it/" target="_blank">Politecnico di Torino</a>.
+I lavori qui presentati sono alcune tappe del mio percorso, costantemente in evoluzione, tanto a livello estetico-espressivo, quanto a livello tecnico-scientifico. In questi anni, i miei studi ed approfondimenti si sono infatti sviluppati contemporaneamente su due piani interconnessi: un piano strettamente artistico-musicale e compositivo-performativo, stimolato dall'iscrizione al MAS (Master of Advanced Studies) presso il Conservatorio della Svizzera Italiana e animato da un'intensa attività artistica; e un piano più squisitamente teorico-scientifico e tecnico-ingegneristico, grazie anche al proseguimento dei miei studi in Ingegneria del Cinema e dei Mezzi di Telecomunicazione presso il <a href="https://www.polito.it/" target="_blank">Politecnico di Torino</a>.
 
 <br>
 
 <br>
 
-Il titolo che raccoglie programmaticamente i lavori del presente dossier, <i> // per una tensione biologica del codice e della macchina</i>, vuole essere una suggestione al mio più profondo interesse estetico: la ricerca costante di modalità compositivo-sonico-espressive capaci di integrare in un sistema musicale, il più onnicomprensivo possibile, la modularità algoritmica offerta dalla programmazione informatica e dalla digitalizzazione (applicate alla sintesi e all'elaborazione del suono, così come al controllo dei processi creativo-performativi), con la specificità timbrica della costruzione di 'macchine sonore' acustico-elettroniche auto-costruite (a volte automi, altre strumenti per l'azione sonora dell'Uomo, altre ancora entrambi).
+Il titolo che raccoglie programmaticamente i lavori del presente web-dossier (<i>per una tensione biologica del codice e della macchina</i>), vuole essere una suggestione al mio più profondo interesse artistico-estetico: la ricerca costante di modalità compositivo-sonico-espressive capaci di integrare, in un sistema musicale il più onnicomprensivo possibile, la modularità algoritmica offerta dalla programmazione informatica e dalla digitalizzazione (applicata alla sintesi e all'elaborazione del suono, così come al controllo dei processi creativo-performativi) con la specificità timbrico-musicale della costruzione di 'macchine sonore' acustico-elettroniche auto-costruite (a volte automi, altre strumenti per l'azione sonora dell'Uomo, altre ancora, entrambi).
 
-Il tutto sostenuto da una costante 'tensione biologica', intesa come pulsione verso la creazione di 'organismi-tecnologici' diversamente-viventi, 'entità soniche' pseudo-naturali, in cui le dialettiche Uomo-Macchina e Uomo-Codice dell'era della quarta rivoluzione industriale non acquistino i contorni della dicotomia, ma piuttosto quelli di una fusione sinergica. Una sinergia, talvolta luminosa ed utopica, talaltra cupa e dispotica, che si concretizzi essenzialmente sul piano sonoro grazie a processi e tentativi diversi di 'naturalizzazione' dei codici e 'umanizzazione' delle macchine. 
+Il tutto sostenuto da una costante 'tensione biologica', intesa come pulsione verso la creazione di 'organismi tecnologici' diversamente-viventi, 'entità soniche' pseudo-naturali, in cui le dialettiche Uomo-Macchina e Uomo-Codice dell'era della quarta rivoluzione industriale non acquistino i contorni della dicotomia, ma piuttosto quelli di una fusione sinergica. Una sinergia, talvolta luminosa ed utopica, talaltra cupa e dispotica, che si concretizzi essenzialmente sul piano sonoro grazie a processi e tentativi diversi di 'naturalizzazione' dei codici e 'biologizzazione' delle Macchine. 
+<br><br>
 
-<br>
+Con i termini 'naturalizzazione' e 'biologizzazione' ci si riferisce qui a processi creativi che tentino di applicare, a volte metaforicamente, altre più scientificamente, alcune delle leggi naturali e dei comportamenti biologici - così come delle loro imperfezioni - alla scrittura di codici informatici per il sound design e alla costruzione di strumenti e ambienti esecutivi per la creazione musicale (sintesi elettronica, strutture formali, modalità performative, ecc.). Una personale indagine artistica dunque, che, attraverso lo sfruttamento stesso dell'inevitabile progresso tecnologico e dei suoi presumibili output sonori, provi ad eludere il disastro potenziale dell'epilogo inverso: la 'automazione' dell'Uomo, la sua de-umanizzazione.
 
-<br>
-
-Questo processo non è una dichiarazione di sottomissione al fascino del potere della tensione elettrica e del calcolo numerico, così come non è un tentativo artistico di stampo tecno-utopista di giustificare, sostenendola, la onnipresenza del digitale e la digitalizzazione della cultura, compresa la musica. E in esso il mio interesse non è quello di dimostrare quali modalità sonico-espressive inesplorate le nuove tecnologie possano offrire, o quali risultati musicali inauditi i codici e le macchine possano raggiungere, o ancora quale fascino ieratico-spirituale l'informatizzazione di massa possa suscitare sulle generazioni del post-postmodernismo, compresa la mia.   
 <br>
 
 <br>
@@ -30,42 +28,58 @@ Questo processo non è una dichiarazione di sottomissione al fascino del potere 
 <br>
 
 <br>
-Il percorso, che ho definito di 'naturalizzazione' dei codici e 'umanizzazione' delle macchine e che accomuna i lavori qui presentati, è dunque la mia personale modalità d'accesso al suono, o meglio ai 'residui' e alle 'periferie' del suono, cioè quei luoghi in cui mi sembra di riuscire a raccogliere più facilmente i brandelli di una narrativa musicale che racconti, distillata, la complessità delle aporìe umane del mondo contemporaneo. Il mondo dell'eccesso dei segnali e delle connessioni, delle vicinanze virtuali, dei possibilismi e delle auto-celebrazioni, dei totalitarismi digitali e dell'indifferenza di massa, delle nuove divisioni e dei nuovi dimenticati. Un mondo di rumori di fondo inascoltati dei fondi nostalgici delle nostre coscienze. 
+
+Questo mio interesse verso i Codici e le Macchine non è dunque una dichiarazione di sottomissione al fascino del potere della tensione elettrica e del calcolo numerico, così come non è un tentativo artistico di stampo tecno-utopista di giustificare, sostenendola, la onnipresenza del digitale e la digitalizzazione della cultura, compresa quella musicale. E in esso il mio interesse non è quello di dimostrare quali modalità sonico-espressive inesplorate le nuove tecnologie possano offrire, o quali risultati musicali inauditi i codici e le Macchine possano raggiungere, o ancora quale fascino ieratico-spirituale l'informatizzazione di massa possa suscitare sulle generazioni del post-postmodernismo, compresa la mia.   
+<br>
+
+<br>
+Il percorso sinergico qui presentato, che ho definito di 'naturalizzazione' dei Codici e 'biologizzazione' delle Macchine, è invece la mia personale modalità d'accesso al suono, tanto ai 'residui' e alle 'periferie' dei suoni acustici, quanto ai possibili panorami timbrici offerti dalle tecnologie elettriche (analogiche o digitali). Cioè quei luoghi in cui mi sembra di riuscire a raccogliere più facilmente i brandelli di una narrativa musicale che racconti, distillata e sublimata, la complessità delle aporìe umane del mondo contemporaneo. Il mondo dell'eccesso dei segnali e delle connessioni, delle vicinanze virtuali, dei possibilismi e delle auto-celebrazioni, dei totalitarismi digitali e dell'indifferenza di massa, delle nuove divisioni e dei nuovi dimenticati. Un mondo di rumori di fondo inascoltati dei fondi nostalgici delle nostre coscienze. 
 
 <br><br>
 <small><i>«Le tecnologie non sono semplici aiuti esterni, ma comportano trasformazioni delle strutture mentali [...]. Le tecnologie sono artificiali, ma [...] l'artificialità è naturale per gli esseri umani. La tecnologia, se propriamente interiorizzata, non degrada la vita umana, ma al contrario la migliora.»</i> <br>[Oralità e scrittura, la tecnologizzazione del mondo, Walter J. Ong, 1982] </small> 
 
 <br><br>
-Nelle pagine del presente sito web vengono presentati, in totale, otto lavori. E' possibile accedere alla sezione dedicata ad ognuno di essi dalla barra di navigazione. Una breve introduzione presenterà ogni lavoro contestualizzandolo esteticamente. Seguirà poi, per ogni brano, una sezione di analisi, in cui verrà posta l'attenzione su alcuni dettagli compositivi e/o tecnici specifici di ogni lavoro. L'accesso alla documentazione (audio/video) delle opere avviene direttamente dalle relative pagine web. 
+Nelle pagine di questo sito web vengono presentati, in totale, otto lavori. E' possibile accedere alla sezione dedicata ad ognuno di essi dalla barra di navigazione soprastante. Una breve introduzione presenterà ogni lavoro, contestualizzandolo esteticamente. Seguirà poi una sezione analitica, in cui verranno descritti sommariamente alcuni dettagli compositivi e tecnici specifici di ogni opera. L'accesso alla documentazione di ogni lavoro (audio, video, codici, algoritmi, partiture, immagini) avviene direttamente all'interno delle relative sezioni. 
 
 <br><br>
 
-Sebbene i lavori presentati siano assai diversi tra loro, in essi è possibile osservare molti tratti comuni; quei tratti che meglio rendono atto, praticamente e attivamente, degli intenti artisti sopra esposti. Questi elementi comuni possono essere sintetizzati nei seguenti:
+Sebbene i lavori presentati siano molto diversi tra loro, sia per quanto riguarda il risultato musicale, che per le tecniche e tecnologie compositive utilizzate, in essi è possibile osservare alcuni tratti comuni; quei tratti che meglio rendono atto, praticamente e attivamente, degli intenti artistici sopra citati. Queste analogie possono essere sintetizzate nelle seguenti caratteristiche:
 <br><br>
 <ul>
 <li>
-programmazione e composizione algoritmica
+un personale interesse, costante e crescente, nei confronti della musica elettronica e di tutte le sue sfaccettature, a cui è seguita inevitabilmente una minore dedizione all'approfondimento degli strumenti acustici puri e delle loro possibilità (attitudine che aveva caratterizzato con maggiore presenza le mie produzioni precedenti);
 </li><br>
 <li>
-il trattamento dei segnali come primo interesse
+la costante ricerca di modalità operative che automatizzino in modo 'simil-naturale' le procedure compositive e gli atti perforativi, accompagnata da un'indagine sulle possibili tecniche tese all'integrazione di automi, motori e Macchine negli atti creativi;</li><br>
+<li>
+lo sfruttamento della programmazione informatica e della composizione algoritmica come un elemento essenziale e sostanziale, sia tecnico che estetico, in tutte le fasi dell'iter compositivo;
 </li><br>
 <li>
-allontanamento dagli strumenti tradizionali
+la sintesi elettronica e/o il trattamento dei segnali audio come momento immancabile nella generazione dei timbri utilizzati nelle creazioni, con un attenzione particolare per il <i>real-time digital signal processing</i>;
 </li><br>
 <li>
-integrazione tra strumenti acustici ed elettronici
+la tendenza a sfruttare gli strumenti tradizionali come strumenti residuali, velandone la propria natura riconoscibile, il proprio stato di simbolo archetipico, insieme al desiderio di trovare forme sempre diverse di integrazione tra questi strumenti acustici e i più disparati device elettronici; 
 </li><br>
 <li>
-partiture
+l'allontanamento dalla notazione simbolica tradizionale, in favore di nuove forme di rappresentazione musicale, spesso forme automatiche, informatizzate e quasi sempre partiture operative;
 </li><br>
 <li>
-strumenti auto-costruiti
+una tensione verso l'ideazione di nuove forme di performance musicale e/o di fruizione sonora e una costante ricerca di percorsi di interattività tra sistemi appartenenti ad ambiti e contesti lontani;
 </li><br>
 <li>
-nuove forme di performance musicale
+un interesse nei confronti dell'aleatorietà, della randomicità e dell'improvvisazione, soprattutto nella creazione di ambienti esecutivi auto-evolventi, e di procedure non controllabili completamente; </li><br>
+<li>
+una attrazione per i suoni indefiniti, sporchi, inarmonici, velati, frutto di errori, incontrollabili, irripoducibili, casuali; e nello specifico una tendenza a cercare queste caratteristiche, tipiche piuttosto dei suoni naturali, nell'artificio della sintesi e dell'elaborazione elettronica;
+
 </li><br>
 <li>
-interesse nei confronti dell'aleatorietà e dell'improvvisazione
+l'esplorazione di strutture formali e architetture compositive che traggano ispirazione da alcune logiche tipiche dei nuovi media: la logica del <i>database</i>, della modularità, della selezione, dei <i>network</i> e del pensiero algoritmo-procedurale;
+</li><br>
+<li>
+una profonda riflessione sul significato degli atti performativi musicali, sul rito dell'ascolto e sul legame di questi con l'evoluzione ad iperbole della società moderna;
+</li><br>
+<li>
+la ricerca di una fisicità e di una emotività dirette: una brama di meraviglia.
 </li><br>
 </ul>
 

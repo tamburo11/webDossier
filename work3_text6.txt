@@ -1,46 +1,51 @@
 <br><br>
 
-Quello appena descritto è un processo continuo di allocazione di dati audio in una sorta di ‘memoria tridimensionale’ costituita da ‘parallelepipedi ideali’ situati nello spazio di azione del performer: un processo di raccolta strutturata di dati, cioè la creazione di un database in tempo reale. Così come <i>«nell’era dei computer, il database diventa il centro del processo creativo»</i> (Il linguaggio dei nuovi media, Lev Manovich), il Buffering 3D diventa il centro della performance. E il corpo del performer si comporta come un 'selettore' di materiali audio disposti nello spazio. Questa azione si discosta però dal modello di <i>«creatività selettiva»</i> (Ibid.) tipico dei nuovi media (valida anche in ambito strettamente musicale - si pensi alla logica onnipresente delle librerie audio, dei VST, del sequencing, ecc.), che vedono spesso l’artista come un tecnico che sceglie da qualche menù, da qualche catalogo o database. 
+Quello appena descritto è un processo continuo di allocazione di dati audio in una sorta di ‘memoria tridimensionale’ costituita da ‘parallelepipedi ideali’ situati nello spazio di azione del performer: un processo di raccolta strutturata di dati, cioè la creazione di un <i>database</i> in tempo reale. Così come <i>«nell’era dei computer, il database diventa il centro del processo creativo»</i> (Il linguaggio dei nuovi media, Lev Manovich), il <i>'buffering 3D'</i> diventa il centro della performance. E il corpo del performer si comporta come un 'selettore' di materiali audio disposti nello spazio. Questa azione si discosta però dal modello di <i>«creatività selettiva»</i> (Ibid.) tipico dei nuovi media (valida anche in ambito strettamente musicale - si pensi alla logica onnipresente delle librerie audio, dei VST, del <i>sequencing</i>, ecc.), che vedono spesso l’artista come un tecnico che sceglie da qualche menù, da qualche catalogo o <i>database</i>. 
 
 <br><br>
-La randomizzazione che caratterizza il processo di Buffering 3D rende infatti la selezione  del performer una selezione priva, almeno parzialmente, sia del livello di scelta consapevole tra una serie di possibilità (il ‘menù a tendina’), sia di quel livello di adattamento ad identità prestabilite, finite e determinate in modo univoco da un programmatore, che gioca un importante ruolo in quel processo di spersonalizzazione dell’utente dei nuovi media. 
+La randomizzazione che caratterizza il processo di <i>'buffering 3D'</i> rende infatti la selezione  del performer una selezione priva, almeno parzialmente, sia del livello di scelta consapevole tra una serie di possibilità (il ‘menù a tendina’), sia di quel livello di adattamento ad identità prestabilite, finite e determinate in modo univoco da un programmatore, che gioca un importante ruolo in quel processo di spersonalizzazione dell’utente dei nuovi media. 
 <br><br>
+
 Il primo livello (quello della scelta consapevole) non sussiste poiché il performer non può controllare appieno il processo di causa-effetto dei propri movimenti, trovandosi come in una gabbia in cui non ha la facoltà di decidere cosa scegliere ma non può non scegliere di continuo qualcosa (una delle possibili derive ‘pornografiche’ della nostra ‘società dell'informazione’...). E anche il caso, possibile, in cui alla seconda ripetizione di uno stesso movimento corrisponda il medesimo output sonoro della prima, si rivelerebbe comunque solo una fatua illusione di controllo; poiché, durante l’ipotetica terza identica azione, resterebbe immutata l’ombra dell’enigma: anche l’output sonoro si ripeterà, o il gesto sarà causa di un totale cambiamento degli equilibri e di un totale disorientamento del performer a cui egli sarà costretto in qualche modo a reagire? 
 <br><br>
-Il secondo livello invece (la mancanza di identità prestabilite) viene evitato grazie al fatto che i file audio contenuti nel database (e aggiornati di continuo) non sono definiti a priori, ma vengono registrati e allocati nei buffer in tempo reale. Inoltre essi dipendono esclusivamente dalle condizioni stesse del complesso sistema Uomo-Macchina, sempre cangiante e in evoluzione.  
+Il secondo livello invece (la mancanza di identità prestabilite) viene evitato grazie al fatto che i file audio contenuti nel <i>database</i> (e aggiornati di continuo) non sono definiti a priori, ma vengono registrati e allocati nei buffer in tempo reale. Inoltre essi dipendono esclusivamente dalle condizioni stesse del complesso sistema Uomo-Macchina, sempre cangiante e in evoluzione.  
 
 <br><br>
 
-<b>PIATTAFORMA SONORA</b>
+<b>PIATTAFORMA SONORA (2)</b>
 
 <br><br>
 
-Il sistema prevede l'utilizzo di uno 'strumento' auto-costruito che permette allo stesso tempo di captare  i suoni del movimento del danzatore e di restituire a quest'ultimo un feedback vibrotattile. Per la creazione di questo strumento è stata utilizzata una piattaforma in legno compensato di circa 2x2 metri, appoggiata direttamente sul palco, alla quale sono stati applicati 6 trasduttori (di dimensioni e caratteristiche diversi) per la diffusione di vibrazioni e un microfono a contatto per la registrazione. Al musicista-performer è lasciato il compito di definire quali materiali sonori diffondere nei trasduttori, così come quando registrare i micro-suoni. Le funzioni principali svolte dalla piattaforma sono dunque le seguenti:
+Il sistema prevede l'utilizzo di uno 'strumento' auto-costruito che permette allo stesso tempo di captare  i suoni del movimento del danzatore e di restituire a quest'ultimo un <i>feedback</i> vibrotattile. Per la creazione di questo strumento è stata utilizzata una piattaforma in legno compensato di circa 2x2m, appoggiata direttamente sul palco, alla quale sono stati applicati 6 trasduttori (di dimensioni e caratteristiche diversi) per la diffusione di vibrazioni e un microfono a contatto per la registrazione. Al musicista conduttore della performance è lasciato il compito di definire quali materiali sonori diffondere nei trasduttori, così come quello di scegliere quando registrare i micro-suoni. Le funzioni principali svolte dalla piattaforma sono dunque le seguenti:
 <br><br>
 <ol>
 <li>
 ampliare le possibilità timbriche a disposizione, sfruttando i micro-suoni creati dal movimento del danzatore a contatto con la piattaforma, registrati per mezzo del microfono a contatto; 
 </li><br>
 <li>
-creare un ambiente vibrante capace di trasmettere direttamente al corpo del performer le vibrazioni sonore, senza l’intermediazione del mezzo aria; l’esperienza sul campo ha dimostrato che il performer trae un’importante giovamento nell’interazione tra movimento e musica quando si trova nella condizione di percepire anche fisicamente le vibrazioni (questo fatto è d’altronde dimostrato da numerosi studi di psicoacustica
+creare un ambiente vibrante capace di trasmettere direttamente al corpo del performer le vibrazioni sonore, senza l’intermediazione del mezzo aria; l’esperienza sul campo ha dimostrato che il performer trae un’importante giovamento nell’interazione tra movimento e musica quando si trova nella condizione di percepire anche fisicamente le vibrazioni;
 </li><br>
 <li>
 
-permettere la creazione di feedback loop generati tra i diversi trasduttori vibrotattili e il microfono a contatto applicati alla piattaforma; in questo caso essa diventa uno strumento di per sé, a prescindere dalla presenza o meno del performer-danzatore. L’utilizzo di feedback del sistema, talvolta incontrollati, è una delle tecniche utilizzate che rientrano nelle tendenze post-digitali e low-fi che caratterizzano in parte la performance.
+permettere la creazione di <i>feedback loop</i> tra i diversi trasduttori vibrotattili e il microfono a contatto applicati alla piattaforma; in questo caso essa diventa uno strumento di per sé, a prescindere dalla presenza o meno del performer-danzatore. L’utilizzo di <i>feedback</i> del sistema, talvolta incontrollati, è una delle tecniche utilizzate che rientrano nelle tendenze post-digitali e <i>low-fi</i> che caratterizzano, in parte, la performance.
 </li>
 
 </ol>
 
 <br>
 
-<b>CHITARRE</b>
+<b>CHITARRE (3) (4)</b>
 
 <br><br>
 
-Durante la performence il musicista può creare materiali sonori per mezzo di due strumenti: una chitarra classica, suonata in modo tradizionale, e registrata per mezzo di un microfono a condensatore (3); una chitarra classica preparata (alla quale vengono applicati diversi oggetti) posizionata orizzontalmente e suonata con le dita o con altri oggetti (archetto da contrabbasso, bacchette di legno, bacchette di metallo, scotch, ecc.) e registrata per mezzo di un microfono a contatto (4).
+Durante la performence il musicista può creare materiali sonori per mezzo di due strumenti: <br><br>
+<ul>
+<li>una chitarra classica, suonata in modo tradizionale, e registrata per mezzo di un microfono a condensatore (3);
+</li><br>
+<li>una chitarra classica preparata (alla quale vengono applicati diversi oggetti) posizionata orizzontalmente e suonata con le dita o con altri oggetti (archetto da contrabbasso, bacchette di legno, bacchette di metallo, scotch, ecc.) e registrata per mezzo di un microfono a contatto (4).
+</li><br>
+</ul>
 
-
-<br> <br>
 
 I due strumenti ‘classici’ (almeno all’origine) vengono sfruttati per la possibilità di creare, da un lato, sonorità calde, familiari, in un certo senso nostalgiche perché attivatrici della memoria (chitarra classica); dall’altro, suoni poco definiti, inarmonici, talvolta anche violenti e indecifrabili (chitarra preparata). In entrambi i casi comunque, suoni decisamente materici, anti-digitali; in forte contrasto con il sistema in cui vengono quasi forzatamente inseriti.
 <br><br>
@@ -49,7 +54,7 @@ I due strumenti ‘classici’ (almeno all’origine) vengono sfruttati per la p
 
 <br><br>
 
-La tecnica di freezing, che permette di ‘congelare’ una porzione minima di audio (qualche millisecondo) continuando a riprodurla in loop, è stata qui gestita per mezzo di ri-sintesi spettrale basata su analisi FFT (Fast Fourier Transform), direttamente in Max/MSP (utilizzando pfft~ e la libreria Jitter). Nell'algoritmo qui sviluppato possono essere attivati fino a 6 freezer contemporanamente, che permettono dunque la creazione di complesse polifonie tessiturali. Il trigger di ognuno di questi freezer, che gestisce quale frame audio deve essere congelato e ripetuto, può essere affidato al movimento delle mani e dei piedi del danzatore-performer, oltre che essere attivato direttamente dal musicista-conduttore.
+La tecnica di <i>freezing</i>, che permette di ‘congelare’ una porzione minima di audio (qualche millisecondo) continuando a riprodurla in loop, è stata qui gestita per mezzo di ri-sintesi spettrale basata su analisi FFT (Fast Fourier Transform), direttamente in Max/MSP (utilizzando l'oggetto pfft~ e la libreria Jitter). Nell'algoritmo qui sviluppato possono essere attivate fino a 6 istanze di <i>freezing</i> contemporanamente, che permettono dunque la creazione di complesse polifonie tessiturali. Il <i>trigger</i> di ognuna di queste istanze, che gestisce quale <i>frame</i> audio deve essere congelato e ripetuto, può essere affidato al movimento delle mani e dei piedi del danzatore-performer, oltre che essere attivato direttamente dal musicista-conduttore.
 
 <br><br>
-Nella immagine seguente è possibile osservare l’algoritmo di uno dei freezer implementati, in cui sono stati utilizzati diversi oggetti appartenenti alla libreria Jitter, dedicata al trattamento e all’elaborazione in tempo reale di immagini e video. Per mezzo dell’analisi FFT è possibile trattare un segnale audio nel dominio delle frequenze, cioè come se fosse una immagine digitale composta di pixel. La discretizzazione nel tempo e nelle frequenze dipende dalla Sample Rate (SR; frequenza di campionamento), dalla Window Size (WS, finestratura della FFT) e dall’ Overlapping Factor (OF, fattore di sovrapposizione). Trattare il segnale audio come se fosse un’immagine permette dunque di effettuare elaborazioni sui dati dei pixel e poi di effettuare una ri-sintesi sonora a partire dalla nuova configurazione di pixel (ri-sintesi FFT); in questo caso l’elaborazione effettuata prima della ri-sintesi è il freezing di un frame dell’FFT (cioè la sostituzione di tutte le colonne dello spettrogramma del frammento audio con una sola colonna di pixel).
+Nell'immagine seguente è possibile osservare l’algoritmo di uno dei <i>freezer</i> spettrali implementati, in cui sono stati utilizzati diversi oggetti appartenenti alla libreria Jitter, dedicata al trattamento e all’elaborazione in tempo reale di immagini e video. Per mezzo dell’analisi FFT è possibile trattare un segnale audio nel dominio delle frequenze come se fosse un'immagine digitale composta di pixel. La discretizzazione nel tempo e nelle frequenze dipende dalla frequenza di campionamento (SR, <i>sample rate</i>), dalla finestratura dell'FFT (WS, <i>window size</i>) e dal 'fattore di sovrapposizione' (OF, overlapping factor). Trattare il segnale audio come se fosse un’immagine permette dunque di effettuare elaborazioni sui dati dei pixel e poi di effettuare una ri-sintesi sonora a partire dalla nuova configurazione di pixel (ri-sintesi FFT). In questo caso l’elaborazione effettuata prima della ri-sintesi è il <i>freezing</i> di un frame dell’FFT (cioè la sostituzione di tutte le colonne dello spettrogramma del frammento audio con una sola colonna di pixel).

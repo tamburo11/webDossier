@@ -1,5 +1,5 @@
 <br>
-Una lista dei possibili campi di azione del musicista durante la performance improvvisativa, è la seguente:
+Una lista dei possibili campi di azione per il musicista, durante la performance improvvisativa, è la seguente:
 <br><br>
 <ol>
 <li>
@@ -16,16 +16,16 @@ Agire sul distorsore applicato alla quarta forma d'onda parziale del sintetizzat
 
 </li> <br>
 <li>
-Definire per ogni entità presente la velocità del 'satellite' con funzione di sequencer/trigger delle note MIDI e del campione. 
+Definire per ogni entità presente la velocità del 'satellite' con funzione di <i>sequencer/trigger</i> delle note MIDI e del campione. 
 </li> <br>
 <li>
 Definire la quantità di grani da associare ad ogni entità. 
 </li> <br>
 <li>
-Controllare per ogni grano la size e la duration.
+Controllare per ogni grano la <i>size</i> e la <i>duration</i>.
 </li> <br>
 <li>
-Agire sul mixer per controllare in modo indipendente i guadagni del sub (che diffonde tutte le basse frequenze generate dal sistema), del sintetizzatore, del campionatore, del'campione di arpa e del granulatore.
+Agire sul mixer per controllare in modo indipendente i guadagni del sub (che diffonde tutte le basse frequenze generate dal sistema), del sintetizzatore, del campionatore, del campione di arpa e del granulatore.
 </li> <br>
 <li>
 Agire sulle tre forze del campo: attrazione verso il centro, repulsione, attrito. 

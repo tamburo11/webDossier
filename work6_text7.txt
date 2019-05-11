@@ -1,16 +1,16 @@
 <br>
-Come si accennava precedentemente sia il sintetizzatore che il campionatore sono strettamente connessi con i parametri che caratterizzano il sistema fisico virtuale, in ogni istante di tempo discreto. Di seguito, alcune di queste connessioni:<br><br>
+Come si accennava precedentemente, sia il sintetizzatore che il campionatore sono strettamente connessi con i parametri che caratterizzano il sistema fisico virtuale, in ogni istante di tempo discreto. Di seguito, alcune di queste connessioni:<br><br>
 
 <ol>
 <li>
 
-Definizione dell'altezza suonata dal sintetizzatore: ad ogni 'entità sonora' presente nel campo è associata un altezza MIDI. L'altezza MIDI viene definita randomicamente all'interno di un campo armonico. Quest'ultimo può essere modificato durante l'esecuzione dal performer, che sceglie tra un set di campi armonici precedentemente definiti. La nota MIDI associata ad una 'entità sonora' cambia ad ogni trigger di un sequencer ciclico: il 'satellite' (particella di colore rosso) che ruota ciclicamente attorno al nucleo. Avviene un trigger ad ogni ciclo percorso dal 'satellite', cioè quando l'angolo che la retta passante per la particella e il centro del nucleo forma con la retta perpendicolare all'asse x del sistema di riferimento è nullo.
+Definizione dell'altezza suonata dal sintetizzatore: ad ogni 'entità sonora' presente nel campo è associata un altezza MIDI. L'altezza MIDI viene definita randomicamente all'interno di un campo armonico. Quest'ultimo può essere modificato durante l'esecuzione dal performer, che sceglie tra un set di campi armonici precedentemente definiti. La nota MIDI associata ad una 'entità sonora' cambia ad ogni trigger di uno specifico <i>sequencer</i> ciclico: il 'satellite' (particella di colore rosso) che ruota ciclicamente attorno al nucleo. Esso è stato programmato in modo date da effettuare un <i>trigger</i> per la nota MIDI ad ogni ciclo percorso dal 'satellite', cioè quando l'angolo che la retta passante per la particella e il centro del nucleo forma con la retta perpendicolare all'asse x del sistema di riferimento è nullo.
 
 </li> <br>
 
 <li>
 
-Velocità e verso di lettura dei campioni: come anticipato precedentemente la velocità di lettura dei campioni viene definita in base alla velocità delle 'entità sonore'. A ogni entità è infatti associato un campione della libreria di suoni (selezionato con una funzione random gaussiana, della quale il performer può controllare media e varianza). Maggiore è la velocità di movimento della particella, maggiore sarà la velocità di lettura del campione (in un range che va dal 70% al 150% della velocità nominale). Se la somma delle magnitudini lungo le tre direzioni del vettore velocità della particella è negativa, il campione verrà letto in reverse. 
+Velocità e verso di lettura dei campioni: come anticipato precedentemente la velocità di lettura dei campioni viene definita in base alla velocità delle 'entità sonore'. Ad ogni entità è infatti associato un campione della libreria di suoni (selezionato con una funzione random gaussiana, della quale il performer può controllare media e varianza). Maggiore è la velocità di movimento della particella, maggiore sarà la velocità di lettura del campione (in un range che va dal 70% al 150% della velocità nominale). Se la somma delle magnitudini lungo le tre direzioni del vettore velocità della particella è negativa, il campione verrà letto in <i>reverse</i>. 
 
 </li> <br>
 
@@ -37,7 +37,7 @@ Gestione della spazializzazione multicanale: centrale per l'intero lavoro è la 
 
 <b>L'INTERAZIONE CON IL PERFORMER</b><br><br>
 
-Nonostante l'aspetto algoritmicoo e generativo sia molto presente per la creazione del paesaggio sonoro di <i>bestiary for a microcosm</i>, il musicista-performer ha un ruolo essenziale. Per mezzo di un'interfaccia visiva, che mostra al performer lo spazio virtuale e tutte le 'entità sonore' presenti, egli può studiare l'equilibrio di forze del sistema e agire su di esso. Inoltre egli può controllare le varie funzioni di sintesi ed elaborazione musicale. Il tutto per mezzo di due controller hardware (un Apple iPad Pro e un Akai APC40 MkII). Di seguito un'immagine della superficie di controllo dell'iPad.
+Nonostante l'aspetto algoritmico e generativo sia molto presente per la creazione del paesaggio sonoro di <i>Bestiary for a microcosm</i>, il musicista-performer ha un ruolo essenziale. Per mezzo di un'interfaccia visiva, che mostra al performer lo spazio virtuale e tutte le 'entità sonore' presenti, egli può studiare l'equilibrio di forze del sistema e agire su di esso. Inoltre egli può controllare le varie funzioni di sintesi ed elaborazione musicale. Il tutto per mezzo di due controller hardware (un Apple iPad Pro e un Akai APC40 MkII). Di seguito un'immagine della superficie di controllo dell'iPad.
 
 <br>
  

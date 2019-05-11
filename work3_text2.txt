@@ -1,2 +1,2 @@
-Nell'immagine sottostante è possibile osservare la pianta generale del sistema interattivo creato per la performance. Nella descrizione seguente degli elementi principali dell'algoritmo del sistema si farà riferimento ai numeri presenti in questa immagine.
+Nell'immagine sottostante è possibile osservare la pianta generale del sistema interattivo creato per la performance. Nella descrizione degli elementi principali del sistema si farà riferimento ai numeri presenti in questa immagine.
 <br><br>
