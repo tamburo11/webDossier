@@ -10,13 +10,13 @@ il passaggio nel dominio trasformato (dominio delle frequenze) dei segnali audio
 la modifica dei pixel dell'immagine del sonogramma (i bin della FFT); nel caso specifico applicando una 'maschera spettrale' (immagine 'modulante');
 </li> <br>
 <li>
-la ri-sintesi dello spettrogramma così ottenuto (immagine finale), passando nuovamente nel dominio del tempo (IFFT - Inverse Fast Fourier Transfomr). 
+la ri-sintesi dello spettrogramma così ottenuto (immagine finale), passando nuovamente nel dominio del tempo (IFFT - Inverse Fast Fourier Transform). 
 </li> 
 </ol>
 
 <br>
 
-I tre step dell'algoritmo sono stati effettuati tutti nell'ambiente di sviluppo di max/MSP, sfruttando la libreria Jitter. Nell'immagine che segue è possibile osservare la porzione dell'algoritmo che si occupa di scrivere (per mezzo dell'oggetto jit.poke) i dati del calcolo della Trasformata di Fourier in una matrice a due piani, chiamata <i>spectrum 1_2</i> (immagine 'portante'). Nel piano 0 vengono registrati i valori di ampiezza dei bin della FFT mentre nel piano 1 i valori degli scostamenti di fase. Il numero dei frame da registrare (dimensione dell'asse x) è stato calcolato con la seguente formula:
+Le tre fasi dell'algoritmo sono state effettuate tutte nell'ambiente di sviluppo di max/MSP, sfruttando la libreria Jitter. Nell'immagine che segue è possibile osservare la porzione dell'algoritmo che si occupa di scrivere (per mezzo dell'oggetto jit.poke) i dati del calcolo della Trasformata di Fourier in una matrice a due piani, chiamata <i>spectrum 1_2</i> (immagine 'portante'). Nel piano 0 vengono registrati i valori di ampiezza dei bin della FFT mentre nel piano 1 i valori degli scostamenti di fase. Il numero dei <i>frame</i> da registrare (dimensione dell'asse x) è stato calcolato con la seguente formula:
 <br><br>
 NF = ( D * OF * SR ) / ( WS * 1000 ) <br><br>
 Dove: <br>

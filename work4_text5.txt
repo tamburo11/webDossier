@@ -11,7 +11,7 @@ Segue un elenco delle interconnessioni di segnale usate per il live in Aosta. Il
 Un'uscita audio del sistema1 manda al sistema2 il mix di due microfoni a contatto (dalle caratteristiche differenti), posizionati sulla superficie della chitarra.
 </li><br>
 <li>
-Un'uscita del sistema1 manda al sistema2 un mix delle due elaborazioni di <i>freeze</i> spettrale.
+Un'uscita del sistema1 manda al sistema2 un mix delle due elaborazioni di <i>freezing</i> spettrale.
 </li><br>
 <li>
 Un'uscita del sistema1 manda al sistema2 il segnale registrato dal microfono a condensatore sulla chitarra classica.

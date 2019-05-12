@@ -1,10 +1,10 @@
 <br>
 
-La partitura operativa mostrata nel video è stata creata con l'oggetto bach.roll della libreria <i>bach</i>, che permette di creare e gestire una notazione proporzionale. Ad ogni nota è associata un'altezza in MIDIcents (MIDI*100), una velocity e una durata in millisecondi. Inoltre ad ognuna nota vengono associati diversi inviluppi di automazione (chiamati <i>slots</i> nella libreria) che permettono di controllare vari parametri musicali (le funzioni 2D colorate e sovrapposte visibili in partitura). La suddivisione del tono è all'ottavo di tono. Segue una descrizione delle funzionalità dei vari righi presenti in partitura, dal basso verso l'alto e dei vari parametri associati alle note presenti nei righi.  <br><br>
+La partitura operativa mostrata nel video è stata creata con l'oggetto bach.roll della libreria <i>bach</i>, che permette di creare e gestire una notazione proporzionale. Ad ogni nota è associata un'altezza in MIDIcents (MIDI*100), una <i>velocity</i> e una durata in millisecondi. Inoltre ad ognuna nota vengono associati diversi inviluppi di automazione (chiamati <i>slots</i> nella libreria) che permettono di controllare vari parametri musicali (le funzioni 2D colorate e sovrapposte visibili in partitura). La suddivisione del tono è all'ottavo di tono. Segue una descrizione delle funzionalità dei vari righi presenti in partitura, dal basso verso l'alto e dei vari parametri associati alle note presenti nei righi.  <br><br>
 
 <b>IL SAMPLER</b><br><br>
 
-Il sampler viene utilizzato per suonare dei campioni audio. Ad ogni nota sul pentagramma è associato uno di questi campioni. I processi che è possibile effettuare su ogni singolo campione sono i seguenti:<br><br>
+Il <i>sampler</i> viene utilizzato per suonare dei campioni audio. Ad ogni nota sul pentagramma è associato uno di questi campioni. I processi che è possibile effettuare su ogni singolo campione sono i seguenti:<br><br>
 <ol>
 
 <li>
@@ -17,7 +17,7 @@ Il sampler viene utilizzato per suonare dei campioni audio. Ad ogni nota sul pen
 Inviluppo di ampiezza: è possibile modificare dinamicamente l'ampiezza del segnale audio per mezzo di un inviluppo di automazione (funzione 2D).
 </li><br>
 <li>
-Velocità di lettura del file: è possibile leggere il campione a velocità diverse, in un range che va da -50 a 50 volte la velocità nominale. Il meno indica la lettura in <i>reverse</i>. 
+Velocità di lettura del file: è possibile leggere il campione a velocità diverse, in un range che va da -50 a 50 volte la velocità nominale. Il meno (-) indica la lettura in <i>reverse</i>. 
 </li><br>
 <li>
 Assegnazione fissa alle lastre: è possibile definire attraverso quale lastra viene diffuso il campione. Questa assegnazione è fissa per l'intera durata della lettura del file e va eventualmente a sommarsi con una spazializzazione dinamica. 

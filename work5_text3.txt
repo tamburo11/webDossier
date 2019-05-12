@@ -1,6 +1,6 @@
 <br>
 
-Lo studio si concentra principalmente sullo sfruttamento di un tipo di 'rumore' (una funzione randomica chiamata <i>perlin noise</i>) per il controllo dinamico di alcuni parametri di lettura di una traccia audio sorgente, e di alcuni parametri di controllo di alcune semplici elaborazioni di DSP ad essa applicate in tempo reale. La scelta è ricaduta su questo tipo di funzione randomica proprio per la peculiarità di avere un comportamento molto naturale, di avere una 'tensione biologica'.
+Lo studio si concentra principalmente sullo sfruttamento di un tipo di 'rumore' (una funzione randomica chiamata <i>perlin noise</i>) per il controllo dinamico di alcuni parametri di lettura di una traccia audio sorgente, e di determinati parametri di controllo di alcune semplici elaborazioni di DSP ad essa applicate in tempo reale. La scelta è ricaduta su questo tipo di funzione randomica proprio per la peculiarità di avere un comportamento molto naturale, di avere una 'tensione biologica'.
 <br><br>
 <small><a>«Perlin noise is a random sequence generator producing a more natural ordered, harmonic succession of numbers compared to the standard random() function. It was invented by Ken Perlin in the 1980s and been used since in graphical applications to produce textures, natural motion, shapes, terrains, etc.»</a><br>
 [from the p5.js References of noise()]</small>
@@ -51,7 +51,7 @@ I parametri del <i>delay</i> vengono invece controllati per mezzo dell'individua
 
 <br>
 
-Il risultato è un lento e inesorabile inseguimento - una parafrasi grafica-sonora del desiderio del triclinio, irraggiungibile: le linee più vivaci e ricche di variazioni interne, sembrano rimanere più indietro rispetto alla linea guida. Ma sorge spontanea una domanda: tra tutte le linee, quale avrà percorso un tragitto più lungo?
+Il risultato è un lento e inesorabile inseguimento - una parafrasi grafico-sonora del desiderio del triclinio, irraggiungibile: le linee più vivaci e ricche di variazioni interne, sembrano rimanere più indietro rispetto alla linea guida. Ma sorge spontanea una domanda: tra tutte le linee, quale avrà percorso un tragitto più lungo?
 
 <br><br>
 Di seguito è possibile accedere alla pagina web che ospiterà un altro studio, sul quale sto attualmente lavorando. Al momento ancora silente: t h e b l a c k l i l i u m.

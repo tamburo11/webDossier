@@ -23,7 +23,7 @@ Registratore che permette di registrare, fino a 8 buffer di memoria indipendenti
 </li><br>
 
 <li>
-Due <i>freeze</i> spettrali differenti. Il primo che permette di effettuare un <i>freeze</i> del segnale ricevuto da tutti i microfoni a contatto applicati alla chitarra e di elaborare i segnali così ottenuti con un filtro (definibile al volo) prima di mandarlo al sistema di Alberto Ricca. Il secondo che presenta, in più rispetto al primo, la possibilità di effettuare una modulazione di ampiezza sul segnale <i>'freezed'</i> per mezzo di 4 LFO definibili dal performer in tempo reale (funzione sinusoidale, a dente di sega, triangolare o rettangolare).
+Due <i>freezer</i> spettrali differenti. Il primo che permette di effettuare un <i>freeze</i> del segnale ricevuto da tutti i microfoni a contatto applicati alla chitarra e di elaborare i segnali così ottenuti con un filtro (definibile al volo) prima di mandarlo al sistema di Alberto Ricca. Il secondo che presenta, in più rispetto al primo, la possibilità di effettuare una modulazione di ampiezza sul segnale <i>'freezed'</i> per mezzo di 4 LFO definibili dal performer in tempo reale (funzione sinusoidale, a dente di sega, triangolare o rettangolare).
 </li><br>
 
 <li>

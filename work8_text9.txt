@@ -14,7 +14,7 @@ Il rigo associato a questa funzionalità è composto da 8 linee. Ad ognuna di es
 
 <ol>
 <li>
-Velocità di lettura del campione: essa è definita per mezzo di un <i>float number</i> nell'intervallo che va da -50 a 50 (il meno significa lettura in <i>reverse</i>).
+Velocità di lettura del campione: essa è definita per mezzo di un <i>float number</i> nell'intervallo che va da -50 a 50; il meno (-) significa lettura in <i>reverse</i>.
 </li><br>
 <li>
 La porzione di <i>loop</i>: essa è definita per mezzo di una funzione 2D; è dunque possibile modificare questo tempo in modo dinamico e per tutta la durata della nota di <i>playback</i>. 

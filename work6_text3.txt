@@ -2,7 +2,7 @@
 
 <br><br>
 
-Come è possibile osservare dalla gif animata soprastante, ogni 'entità sonora' che è possibile generare all'interno dello spazio virtuale tridimensionale è costituita da:<br><br>
+Come è possibile osservare dalla gif animata soprastante, ogni 'entità sonora' che viene generare all'interno dello spazio virtuale tridimensionale è costituita da:<br><br>
 
 <ol>
   <li>Un 'nucleo' (particella di colore bianco). La quantità di nuclei presenti può variare, a discrezione del performer, da 1 a 8. Ogni nucleo è caratterizzato da un vettore posizione (x, y, z), un vettore velocità (vx, vy, vz) e un vettore accelerazione (ax, ay, az).</li><br>
@@ -41,7 +41,7 @@ Una forza di repulsione tra le particelle: ogni singola 'entità sonora' viene r
 
 <b>IL CODICE JAVASCRIPT</b><br><br>
 
-L'intera gestione della generazione delle 'entità sonore' e del campo di forze che ne determina il movimento nello spazio virtuale 3D avviene per mezzo di un file javascript che interagisce con l'ambiente max/MSP, in cui vengono trattate invece la sintesi audio, l'elaborazione dei campioni, il <i>rendering</i> dell'immagine 3D e tutta l'interazione con il performer. <br><br>
+L'intera gestione della generazione delle 'entità sonore', e del campo di forze che ne determina il movimento nello spazio virtuale 3D, avviene per mezzo di un file javascript che interagisce con l'ambiente max/MSP, in cui vengono trattate invece la sintesi audio, l'elaborazione dei campioni, il <i>rendering</i> dell'immagine 3D e tutta l'interazione con il performer. <br><br>
 
 Il codice è composto da due classi principali, la classe Dot (visibile sotto, a titolo esemplificativo) e la classe Grain. La prima modella gli oggetti javascript che rappresentano le 'entità sonore' sopra descritte, mentre la seconda modella gli oggetti che rappresentano le particelle della 'nube' associata ad ogni singola 'entità sonora'. Come verrà spiegato in seguito ognuna di queste particelle rappresenta un grano di una sintesi granulare sui campioni suonati dalla 'entità sonora' a cui la 'nube' appartiene. 
 

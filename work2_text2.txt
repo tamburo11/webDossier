@@ -37,7 +37,7 @@ ri-sintetizzare l'immagine ottenuta dopo l'elaborazione, trasformandola nuovamen
 
 
 
-Questa scelta operativa delinea una prima analogia strutturale tra la dimensione plastica (i 7 pseudo-minerali) e quella sonora (le 3 tracce audio). Questa analogia si compie contemporaneamente su due livelli. Il primo è il livello della forma e del volume, ottenuto sfruttando come filtri spettrali le immagini bidimensionali di 5 sezioni - per ognuno degli assi - del volume di uno solo dei 7 pseudo-minerali prodotti. Il secondo è invece il livello del suono e dell'azione, ottenuto applicando questi filtri spettrali, in modo concatenato e continuo, all'intero spettrogramma del suono registrato durante il processo di produzione delle sculture. La creazione dello spettrogramma, e la successiva elaborazione con la tecnica di analisi e ri-sintesi, è stata effettuata nell'ambiente di visual programming max/MSP.
+Questa scelta operativa delinea una prima analogia strutturale tra la dimensione plastica (i 7 pseudo-minerali) e quella sonora (le 3 tracce audio). Questa analogia si compie contemporaneamente su due livelli. Il primo è il livello della forma e del volume, ottenuto sfruttando come filtri spettrali le immagini bidimensionali di 5 sezioni - per ognuno degli assi - del volume di uno solo dei 7 pseudo-minerali prodotti. Il secondo è invece il livello del suono e dell'azione, ottenuto applicando questi filtri spettrali, in modo concatenato e continuo, all'intero spettrogramma del suono registrato durante il processo di produzione delle sculture. La creazione dello spettrogramma, e la successiva elaborazione con la tecnica di analisi e ri-sintesi, è stata effettuata nell'ambiente di <i>visual programming</i> max/MSP.
 
 <br>
 <br>

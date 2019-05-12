@@ -5,7 +5,7 @@
 
 L'algoritmo che gestisce il campo di forze e gli oggetti al suo interno ha come scopo principale quello di dar vita a diversi processi di sintesi audio, elaborazione digitale del suono e spazializzazione multicanale. 
 
-L'intento dell'opera è infatti quello di creare un microcosmo di entità vitali in uno spazio virtuale 3D, che possa offrire il proprio dinamismo pseudo-naturale (ottenuto grazie alla simulazione delle forze fisiche che governano il mondo reale) ai processi di creazione e composizione elettronica, di gestione della forma musicale e di fruizione artistica (ascolto immersivo). Questo obiettivo è ottenuto per mezzo di una stretta interconnessione tra alcuni dei parametri che caratterizzano lo spazio 3D e alcuni parametri di sintesi ed elaborazione del suono: una mappatura tra i parametri spazio-dinamici del sistema e i parametri delle funzioni musicali. 
+L'intento dell'opera è infatti quello di creare un microcosmo di entità vitali in uno spazio virtuale 3D, che possa offrire il proprio dinamismo pseudo-naturale (ottenuto grazie alla simulazione delle forze fisiche che governano il mondo reale) ai processi di creazione e composizione elettronica, di gestione della forma musicale e di fruizione artistica (ascolto immersivo). Questo obiettivo è ottenuto per mezzo di una stretta interconnessione tra alcuni dei parametri che caratterizzano lo spazio 3D e alcuni parametri di sintesi ed elaborazione del suono: una mappatura tra le funzioni spazio-dinamiche del sistema e quelle di sintesi sonora ed elaborazione musicale. 
 
 <br><br>
 
