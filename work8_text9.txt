@@ -23,7 +23,7 @@ La porzione di <i>loop</i>: essa è definita per mezzo di una funzione 2D; è du
 Assegnazione fissa alle lastre: è possibile definire attraverso quale lastra viene diffuso il suono. Questa assegnazione è fissa per l'intera durata della lettura del file e va eventualmente a sommarsi con una spazializzazione dinamica. 
 </li><br>
 <li>
-Spazializzazione dianamica nelle lastre: è possibile definire un percorso di spazializzazione dinamico per mezzo di un inviluppo di automazione (funzione 2D). La funzione che definisce questo inviluppo permette di far spostare il suono tra una lastra e l'altra del sistema. 
+Spazializzazione dinamica nelle lastre: è possibile definire un percorso di spazializzazione dinamico per mezzo di un inviluppo di automazione (funzione 2D). La funzione che definisce questo inviluppo permette di far spostare il suono tra una lastra e l'altra del sistema. 
 </li><br>
 </ol>
 
@@ -45,7 +45,7 @@ Controllo di un <i>Frequency Shifter</i> dinamico sul violoncello: per mezzo di 
 Assegnazione fissa alle lastre: è possibile definire attraverso quale lastra viene diffuso il suono del violoncello (sia quello diretto che quello eventualmente elaborato dal <i>frequency shifter</i>). Questa assegnazione è fissa per l'intera durata della lettura del file e va eventualmente a sommarsi con una spazializzazione dinamica. 
 </li><br>
 <li>
-Spazializzazione dianamica nelle lastre: è possibile definire un percorso di spazializzazione dinamico per mezzo di un inviluppo di automazione (funzione 2D). La funzione che definisce questo inviluppo permette di far spostare il suono tra una lastra e l'altra del sistema. 
+Spazializzazione dinamica nelle lastre: è possibile definire un percorso di spazializzazione dinamico per mezzo di un inviluppo di automazione (funzione 2D). La funzione che definisce questo inviluppo permette di far spostare il suono tra una lastra e l'altra del sistema. 
 </li><br>
 </ol>
 
@@ -63,7 +63,7 @@ Inviluppo di ampiezza: è possibile modificare dinamicamente l'ampiezza del segn
 Assegnazione fissa alle lastre: è possibile definire attraverso quale lastra viene diffuso il suono. Questa assegnazione è fissa per l'intera durata della nota e va eventualmente a sommarsi con una spazializzazione dinamica. 
 </li><br>
 <li>
-Spazializzazione dianamica nelle lastre: è possibile definire un percorso di spazializzazione dinamico per mezzo di un inviluppo di automazione (funzione 2D). La funzione che definisce questo inviluppo permette di far spostare il suono tra una lastra e l'altra del sistema. 
+Spazializzazione dinamica nelle lastre: è possibile definire un percorso di spazializzazione dinamico per mezzo di un inviluppo di automazione (funzione 2D). La funzione che definisce questo inviluppo permette di far spostare il suono tra una lastra e l'altra del sistema. 
 </li>
 </ol>
 <br>

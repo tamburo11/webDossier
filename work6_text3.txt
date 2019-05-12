@@ -2,7 +2,7 @@
 
 <br><br>
 
-Come è possibile osservare dalla gif animata soprastante, ogni 'entità sonora' che viene generare all'interno dello spazio virtuale tridimensionale è costituita da:<br><br>
+Come è possibile osservare dalla gif animata soprastante, ogni 'entità sonora' che viene generata all'interno dello spazio virtuale tridimensionale è costituita da:<br><br>
 
 <ol>
   <li>Un 'nucleo' (particella di colore bianco). La quantità di nuclei presenti può variare, a discrezione del performer, da 1 a 8. Ogni nucleo è caratterizzato da un vettore posizione (x, y, z), un vettore velocità (vx, vy, vz) e un vettore accelerazione (ax, ay, az).</li><br>

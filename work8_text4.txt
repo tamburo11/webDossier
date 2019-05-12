@@ -23,7 +23,7 @@ Velocità di lettura del file: è possibile leggere il campione a velocità dive
 Assegnazione fissa alle lastre: è possibile definire attraverso quale lastra viene diffuso il campione. Questa assegnazione è fissa per l'intera durata della lettura del file e va eventualmente a sommarsi con una spazializzazione dinamica. 
 </li><br>
 <li>
-Spazializzazione dianamica nelle lastre: è possibile definire un percorso di spazializzazione dinamico per mezzo di un inviluppo di automazione (funzione 2D). La funzione che definisce questo inviluppo permette di far spostare il suono tra una lastra e l'altra del sistema. 
+Spazializzazione dinamica nelle lastre: è possibile definire un percorso di spazializzazione dinamico per mezzo di un inviluppo di automazione (funzione 2D). La funzione che definisce questo inviluppo permette di far spostare il suono tra una lastra e l'altra del sistema. 
 </li><br>
 <li>
 <i>Envelope Follower</i> per l'elaborazione video: ogni singolo campione può essere utilizzato per creare un segnale di controllo, ottenuto per mezzo di un <i>envelope follower</i>, da utilizzare per la generazione e l'elaborazione di particelle grafiche, oppure per la modifica di alcuni parametri di elaborazione <i>real-time</i> sull'immagine del violoncellista.
